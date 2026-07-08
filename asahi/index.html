@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Airtable × Asahi — One connected view for OneAsahi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#131a17; --paper:#f7f5ef; --card:#ffffff;
+    --accent:#c8102e;        /* Asahi red */
+    --accent-deep:#8f0b20;
+    --moss:#1f4d3f;          /* connected-data green */
+    --muted:#5f6b64; --line:#e4e0d5;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 7%}
+  .serif{font-family:'Fraunces',Georgia,serif}
+  .eyebrow{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--accent)}
+
+  /* Hero */
+  header{padding:4.5rem 0 3.5rem;background:
+     radial-gradient(120% 90% at 85% -10%, rgba(200,16,46,.10), transparent 60%),
+     radial-gradient(90% 80% at 0% 110%, rgba(31,77,63,.10), transparent 55%);}
+  .brandbar{display:flex;align-items:center;gap:.7rem;font-weight:600;letter-spacing:.02em;color:var(--muted);font-size:.95rem}
+  .brandbar b{color:var(--ink)}
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block}
+  h1.serif{font-size:clamp(2.4rem,5.4vw,4rem);line-height:1.04;font-weight:600;margin:1.6rem 0 1.1rem;letter-spacing:-.015em}
+  h1 .hl{color:var(--accent)}
+  .lede{font-size:1.24rem;color:#33403a;max-width:40ch}
+  .cta{display:inline-flex;align-items:center;gap:.55rem;background:var(--ink);color:#fff;padding:.95rem 1.6rem;border-radius:999px;text-decoration:none;font-weight:600;margin-top:2rem;transition:transform .15s ease,background .15s ease}
+  .cta:hover{transform:translateY(-2px);background:var(--accent-deep)}
+  .cta.secondary{background:transparent;color:var(--ink);border:1.5px solid var(--ink);margin-left:.6rem}
+  .cta.secondary:hover{background:var(--ink);color:#fff}
+
+  /* Stat band */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin:3.2rem 0 0;border-top:1px solid var(--line);padding-top:2rem}
+  .stat .n{font-family:'Fraunces',serif;font-size:2.05rem;font-weight:600;color:var(--moss);line-height:1}
+  .stat .l{font-size:.86rem;color:var(--muted);margin-top:.4rem}
+
+  section{padding:4rem 0}
+  .tag{color:var(--muted);font-size:.95rem;margin-top:.4rem}
+  h2.serif{font-size:clamp(1.7rem,3.2vw,2.35rem);font-weight:600;letter-spacing:-.01em;margin:.5rem 0 1.4rem;max-width:24ch}
+  p.body{font-size:1.08rem;color:#374139;max-width:62ch;margin-bottom:1rem}
+
+  .map{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:1rem}
+  .mcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.6rem 1.5rem}
+  .mcard .k{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  .mcard h3{font-family:'Fraunces',serif;font-size:1.22rem;font-weight:600;margin:.5rem 0 .5rem}
+  .mcard p{font-size:.98rem;color:#4a544d}
+
+  .band{background:var(--ink);color:#eef1ee;border-radius:22px;padding:3rem 2.6rem;margin-top:1rem}
+  .band .eyebrow{color:#ff8a9c}
+  .band h2{color:#fff;max-width:28ch}
+  .band p{color:#c3ccc6;max-width:60ch;font-size:1.06rem}
+
+  .people{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.3rem}
+  .chip{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:#e7ebe8;padding:.5rem .9rem;border-radius:999px;font-size:.9rem}
+
+  footer{padding:3.5rem 0 4.5rem;border-top:1px solid var(--line)}
+  .foot-cta{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem}
+  .foot-cta h2{max-width:20ch}
+  .fine{color:var(--muted);font-size:.82rem;margin-top:2.5rem}
+  a.link{color:var(--accent-deep);text-decoration:none;border-bottom:1px solid rgba(143,11,32,.3)}
+  @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.map{grid-template-columns:1fr}.cta.secondary{margin-left:0;margin-top:.6rem}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brandbar"><span>Airtable</span><span class="dot"></span><b>Prepared for Asahi Beverages</b></div>
+    <h1 class="serif">One connected view for <span class="hl">OneAsahi</span> — without ripping out 60+ systems.</h1>
+    <p class="lede">You're untangling a spaghetti of 60-plus CRM and ordering systems into a single customer view. Airtable is the connected-data layer that sits across them — so your teams act on one source of truth while the transformation is still in flight.</p>
+    <div>
+      <a class="cta" href="#book">Explore a tailored walkthrough →</a>
+      <a class="cta secondary" href="#fit">See where it fits</a>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="n">60+</div><div class="l">CRM & ordering systems being unified under OneAsahi</div></div>
+      <div class="stat"><div class="n">300+</div><div class="l">field reps moving to real-time, data-driven territory planning</div></div>
+      <div class="stat"><div class="n">30,000+</div><div class="l">trade customers to democratise analytics to</div></div>
+      <div class="stat"><div class="n">$150m</div><div class="l">Redbank automated DC — east-coast ops to coordinate</div></div>
+    </div>
+  </div>
+</header>
+
+<section id="why">
+  <div class="wrap">
+    <span class="eyebrow">Why now</span>
+    <h2 class="serif">OneAsahi is your biggest structural change since the CUB acquisition. The data can't wait for the re-platform.</h2>
+    <p class="body">The customer-transformation program is reorganising around channel-specific partnership and a single unified customer view. But consolidating 60+ CRM and ordering systems is a multi-year journey — and the field can't pause while it happens. Airtable gives Clara Kavanagh's team a connected workspace that reads across today's systems and turns them into shared, actionable apps now, then flexes as the target-state stack lands.</p>
+    <p class="body">It's the same pattern Asahi already favours: problem-led, selective enablement — analytics through to agentic — rather than another rip-and-replace.</p>
+  </div>
+</section>
+
+<section id="fit">
+  <div class="wrap">
+    <span class="eyebrow">Where Airtable fits</span>
+    <h2 class="serif">Mapped to the programs already on your roadmap.</h2>
+    <div class="map">
+      <div class="mcard">
+        <div class="k">Single customer view</div>
+        <h3>A connected layer over the 60+ systems</h3>
+        <p>Sync records from existing CRM/ordering platforms into one governed workspace — a working single view your teams use daily, without waiting for the full consolidation to finish.</p>
+      </div>
+      <div class="mcard">
+        <div class="k">Route-to-market</div>
+        <h3>Real-time territory planning for 300+ reps</h3>
+        <p>Move field reps from experience-led to data-driven: live account plans, visit priorities and outcomes in an app they actually update on the road — feeding straight back to the customer view.</p>
+      </div>
+      <div class="mcard">
+        <div class="k">Supply-chain ops</div>
+        <h3>Coordination across the 3-site DC program</h3>
+        <p>The Redbank, Deer Park and Sydney automation build-outs span teams and vendors. Airtable orchestrates the operational layer — milestones, dependencies and hand-offs — around the systems doing the automation.</p>
+      </div>
+      <div class="mcard">
+        <div class="k">Analytics democratisation</div>
+        <h3>Scalable interfaces for 30,000+ trade customers</h3>
+        <p>Package trusted data into role-specific interfaces and portals, so insight reaches trade partners and internal channel teams without standing up a bespoke build for each audience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="band">
+      <span class="eyebrow">Built around your buying center</span>
+      <h2 class="serif">A working session shaped for the Customer Transformation team.</h2>
+      <p>Not a generic demo. We'd frame it against OneAsahi's single-customer-view goal and the route-to-market shift — the specific workflows Clara Kavanagh's team is rebuilding across Marketing, Sales, Customer &amp; Field Service.</p>
+      <div class="people">
+        <span class="chip">Customer Transformation</span>
+        <span class="chip">Sales &amp; Route-to-Market</span>
+        <span class="chip">Field Service</span>
+        <span class="chip">Supply Chain &amp; DC modernisation</span>
+        <span class="chip">Data &amp; Analytics</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="book">
+  <div class="wrap">
+    <div class="foot-cta">
+      <h2 class="serif">Ready to see it against a OneAsahi workflow?</h2>
+      <a class="cta" href="mailto:harry.oconnor@airtable.com?subject=Airtable%20%C3%97%20Asahi%20%E2%80%94%20OneAsahi%20connected%20view">Book a tailored walkthrough →</a>
+    </div>
+    <p class="fine">Prepared for Asahi Beverages (Melbourne, AU) by Airtable. Grounded in publicly reported OneAsahi transformation, DC-automation and route-to-market initiatives. Figures reflect Asahi's own stated programs. This is a personalised outreach page, not an Asahi property.</p>
+  </div>
+</footer>
+
+</body>
+</html>
