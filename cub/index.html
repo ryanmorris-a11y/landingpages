@@ -86,6 +86,11 @@
   footer{padding:34px 0;color:var(--muted);font-size:13px}
   footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
 
+  .film-sec{padding-top:56px}
+  .film-wrap{max-width:900px;margin:0 auto}
+  .film-vid{width:100%;display:block;border-radius:16px;box-shadow:0 30px 70px -30px rgba(28,65,148,.55);border:1px solid var(--line);background:#000;aspect-ratio:16/9}
+  .film-cap{text-align:center;color:var(--muted);font-size:14px;margin-top:14px}
+
   .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
   .reveal.in{opacity:1;transform:none}
 
@@ -119,6 +124,22 @@
     <img class="hero-img" src="https://images.ctfassets.net/3uwpyy9byd3y/165sIqFFi2WW7Etvyc7PnS/3ac198cbad60a3c61418fa25167859a3/opengraph-image.jpg" alt="Carlton &amp; United Breweries" onerror="this.style.display='none'">
   </div>
 </div>
+
+<section class="film-sec reveal">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;margin:0 auto 28px">
+      <span class="eyebrow">Two-minute overview</span>
+      <h2>Airtable, built around CUB's year</h2>
+    </div>
+    <div class="film-wrap">
+      <video class="film-vid" controls preload="none" playsinline poster="https://ryanmorris-a11y.github.io/landingpages/cub/video-poster.jpg">
+        <source src="https://ryanmorris-a11y.github.io/landingpages/cub/cub-video.mp4" type="video/mp4">
+        Your browser doesn't support embedded video — <a href="https://ryanmorris-a11y.github.io/landingpages/cub/cub-video.mp4" target="_blank" rel="noopener noreferrer">watch it here</a>.
+      </video>
+      <p class="film-cap">1:48 · sound on</p>
+    </div>
+  </div>
+</section>
 
 <section class="reveal">
   <div class="wrap">
