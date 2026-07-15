@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SoftBank × Airtable — Built for SoftBank Investment Advisers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sb-primary:#1976D2;
+    --sb-secondary:#1565C0;
+    --sb-ink:#0F1B2D;
+    --at-coral:#F82B60;
+    --grey-700:#4A5568;
+    --grey-400:#8A94A6;
+    --grey-100:#F5F7FA;
+    --border:#E5E9F0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Inter',system-ui,sans-serif;
+    background:#FFFFFF;
+    color:var(--sb-ink);
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+
+  /* Header */
+  .bk-header{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding:22px 6%;
+    border-bottom:4px solid var(--sb-primary);
+  }
+  .bk-logo{max-height:34px;width:auto;}
+  .bk-x{font-size:20px;color:var(--grey-400);font-weight:300;}
+  .bk-at{font-weight:700;font-size:20px;color:var(--at-coral);letter-spacing:-.5px;}
+  .bk-tag{margin-left:auto;font-size:13px;color:var(--sb-primary);font-weight:600;text-align:right;}
+
+  /* Hero */
+  .hero{
+    padding:72px 6% 56px;
+    background:linear-gradient(180deg,#FBFCFE 0%, #FFFFFF 100%);
+    border-bottom:1px solid var(--border);
+  }
+  .hero-inner{max-width:920px;margin:0 auto;text-align:left;}
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--sb-primary);
+    background:rgba(25,118,210,0.08);
+    padding:6px 14px;
+    border-radius:20px;
+    margin-bottom:20px;
+  }
+  .eyebrow .dot{color:var(--at-coral);}
+  h1{
+    font-size:44px;
+    line-height:1.12;
+    font-weight:800;
+    margin:0 0 20px;
+    letter-spacing:-0.5px;
+  }
+  h1 .accent{color:var(--sb-primary);}
+  .subhead{
+    font-size:19px;
+    line-height:1.55;
+    color:var(--grey-700);
+    max-width:760px;
+    margin:0 0 8px;
+  }
+
+  /* Why now */
+  .why-now{
+    padding:52px 6%;
+    background:var(--grey-100);
+    border-bottom:1px solid var(--border);
+  }
+  .section-inner{max-width:920px;margin:0 auto;}
+  .section-label{
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--at-coral);
+    margin:0 0 14px;
+  }
+  .why-now h2{font-size:26px;margin:0 0 24px;font-weight:800;}
+  .signals{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:20px;
+  }
+  .signal-card{
+    background:#FFFFFF;
+    border:1px solid var(--border);
+    border-left:4px solid var(--sb-primary);
+    border-radius:10px;
+    padding:20px 22px;
+  }
+  .signal-date{
+    font-size:12px;
+    font-weight:700;
+    color:var(--sb-secondary);
+    text-transform:uppercase;
+    letter-spacing:.04em;
+    margin-bottom:8px;
+  }
+  .signal-card p{font-size:14.5px;line-height:1.55;color:var(--grey-700);margin:0;}
+
+  /* Value props */
+  .value-props{padding:64px 6%;}
+  .value-props h2{font-size:26px;margin:0 0 10px;font-weight:800;}
+  .value-props .lede{font-size:16px;color:var(--grey-700);max-width:760px;margin:0 0 36px;}
+  .cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:24px;
+  }
+  .card{
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:28px 26px;
+    background:#FFFFFF;
+    transition:box-shadow .15s ease;
+  }
+  .card:hover{box-shadow:0 8px 24px rgba(15,27,45,0.06);}
+  .card-icon{
+    width:40px;height:40px;
+    border-radius:10px;
+    display:flex;align-items:center;justify-content:center;
+    background:rgba(248,43,96,0.1);
+    color:var(--at-coral);
+    font-weight:800;
+    font-size:18px;
+    margin-bottom:18px;
+  }
+  .card h3{font-size:18px;margin:0 0 10px;font-weight:700;}
+  .card p{font-size:14.5px;line-height:1.6;color:var(--grey-700);margin:0;}
+
+  /* Customer proof */
+  .proof{
+    padding:60px 6%;
+    background:var(--grey-100);
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+  }
+  .proof h2{font-size:26px;margin:0 0 24px;font-weight:800;}
+  .proof-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:22px;
+  }
+  .customer-proof{
+    background:#FFFFFF;
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:26px 28px;
+  }
+  .cs-name{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--sb-primary);margin-bottom:8px;}
+  .cs-metric{font-size:22px;font-weight:800;color:var(--sb-ink);margin-bottom:12px;}
+  .cs-quote{font-size:15px;line-height:1.55;color:var(--grey-700);margin:0 0 12px;font-style:italic;border:none;padding:0;}
+  .cs-quote cite{display:block;margin-top:8px;font-style:normal;font-size:13px;color:var(--grey-400);}
+  .cs-link{
+    display:inline-block;
+    font-size:14px;
+    font-weight:700;
+    color:var(--at-coral);
+    text-decoration:none;
+  }
+  .cs-link:hover{text-decoration:underline;}
+
+  /* CTA */
+  .cta{
+    padding:72px 6%;
+    text-align:center;
+  }
+  .cta-inner{max-width:640px;margin:0 auto;}
+  .cta h2{font-size:30px;font-weight:800;margin:0 0 14px;}
+  .cta p{font-size:16px;color:var(--grey-700);margin:0 0 32px;line-height:1.6;}
+  .cta-button{
+    display:inline-block;
+    background:var(--at-coral);
+    color:#FFFFFF;
+    font-weight:700;
+    font-size:16px;
+    padding:16px 36px;
+    border-radius:8px;
+    text-decoration:none;
+    box-shadow:0 6px 18px rgba(248,43,96,0.28);
+  }
+  .cta-button:hover{background:#DE1F51;}
+  .cta-sub{margin-top:16px;font-size:13px;color:var(--grey-400);}
+
+  footer{
+    padding:28px 6%;
+    border-top:1px solid var(--border);
+    font-size:12.5px;
+    color:var(--grey-400);
+    text-align:center;
+  }
+
+  @media (max-width:640px){
+    h1{font-size:32px;}
+    .hero{padding:48px 6% 40px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="bk-header">
+  <img class="bk-logo" src="https://group.softbank/en/themes/custom/sbg/favicon.ico" alt="SoftBank logo" height="34">
+  <span class="bk-x">&times;</span>
+  <span class="bk-at">Airtable</span>
+  <span class="bk-tag">Built for SoftBank</span>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow"><span class="dot">&#9679;</span> For SoftBank Investment Advisers &middot; Operations</span>
+    <h1>Scale the Airtable workflows already running across <span class="accent">SoftBank Investment Advisers</span></h1>
+    <p class="subhead">As Vision Fund's AI-driven deal pace accelerates — larger rounds, faster diligence cycles, a rapidly growing portfolio — the operations teams coordinating deal tracking, portfolio monitoring, and LP reporting need workflows that scale with it. You're already on Airtable. Here's how expansion use cases fit where the pressure is building next.</p>
+  </div>
+</section>
+
+<section class="why-now">
+  <div class="section-inner">
+    <p class="section-label">Why Now</p>
+    <h2>The signals behind the pace change</h2>
+    <div class="signals">
+      <div class="signal-card">
+        <div class="signal-date">July 2025 &ndash; SoftBank Group Report</div>
+        <p>Vision Fund's total fair value climbed to $157.3B by fiscal year-end (up from $145.7B), with $11.4B distributed to LPs — including $4.9B in a single quarter. More capital in motion means more deals, more reporting cadence, more operational load.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-date">FY2025 Investor Briefing</div>
+        <p>27 new AI investments in fiscal 2024 alone (OpenAI, Databricks, Wiz, Perplexity, Glean, AlphaSense, and more), with SoftBank's OpenAI commitment now tracking toward $64B+ by 2026 year-end — a step-change in deal volume for the deal and portfolio ops teams tracking it all.</p>
+      </div>
+      <div class="signal-card">
+        <div class="signal-date">April 2026 &ndash; S&#333;z&#333; AI Summit</div>
+        <p>SoftBank convened 100+ portfolio company founders and CEOs in San Francisco to coordinate AI strategy across the ecosystem — a cross-portfolio operating motion that depends on clean, shared, up-to-date data across every fund and company.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="value-props">
+  <div class="section-inner">
+    <p class="section-label">Where Airtable Fits Next</p>
+    <h2>Built for how deal and portfolio ops actually runs</h2>
+    <p class="lede">As the Vision Fund portfolio grows past 400+ companies and deal velocity keeps climbing, three expansion patterns matter most for Investment Advisers' operations teams.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">C</div>
+        <h3>Consolidate deal pipeline tracking</h3>
+        <p>Replace scattered spreadsheets and one-off trackers across deal teams with a single source of truth for sourcing, diligence stage, and deal terms — visible across SVF1, SVF2, and LatAm fund teams without re-keying data.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">B</div>
+        <h3>Bridge portfolio and fund data</h3>
+        <p>Connect portfolio company KPIs, valuation marks, and fund-level positions so operations and finance aren't reconciling numbers by hand across 400+ portfolio companies and multiple fund vehicles.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">U</div>
+        <h3>Unify LP and board reporting</h3>
+        <p>Turn recurring LP updates and board reporting packages into repeatable, automated workflows — cutting the manual assembly time that scales linearly with fund count and portfolio size today.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="proof">
+  <div class="section-inner">
+    <p class="section-label">Proof From Financial Services</p>
+    <h2>How investment and asset management teams use Airtable today</h2>
+    <div class="proof-grid">
+      <div class="customer-proof"><div class="cs-name">BlackRock</div><div class="cs-metric">2X faster deployment of new features</div><blockquote class="cs-quote">"Airtable frees up 80 hours a week of our product marketing team's time." </blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/blackrock" target="_blank" rel="noopener noreferrer">Read the BlackRock story &rarr;</a></div>
+      <div class="customer-proof"><div class="cs-name">Voltalia</div><div class="cs-metric">4.7 TWh of green energy generated</div><blockquote class="cs-quote">"Airtable has transformed how we manage projects globally, improving collaboration, data accuracy, and efficiency across our teams." <cite>&mdash; Emilie De Neef, Business Process Lead, Voltalia</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/voltalia" target="_blank" rel="noopener noreferrer">Read the Voltalia story &rarr;</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="cta-inner">
+    <h2>Let's map the next use case together</h2>
+    <p>Ryan Morris works with SoftBank's operations teams to find where Airtable can take on the next deal-ops or reporting workflow. Happy to walk through what's working today and what's next.</p>
+    <a class="cta-button" href="mailto:ryan.morris@airtable.com?subject=SoftBank%20%26%20Airtable%20%E2%80%94%20Expansion%20conversation">Talk to Ryan Morris</a>
+    <p class="cta-sub">ryan.morris@airtable.com</p>
+  </div>
+</section>
+
+<footer>
+  Built for SoftBank Investment Advisers &middot; SoftBank and Airtable trademarks belong to their respective owners.
+</footer>
+
+</body>
+</html>
