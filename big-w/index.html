@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Big W × Airtable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bigw-blue:#243BE1;
+    --bigw-blue-light:#9DA7F1;
+    --airtable-coral:#F82B60;
+    --ink:#14142B;
+    --sub:#54566B;
+    --line:#E7E8F3;
+    --bg-soft:#F7F8FD;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Inter',system-ui,sans-serif;
+    background:#FFFFFF;
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+
+  /* Co-branded header */
+  .bk-header{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:22px 5%;
+    border-bottom:4px solid var(--bigw-blue);
+  }
+  .bk-logo{max-height:40px;width:auto;}
+  .bk-x{font-size:22px;color:#9aa0a6;font-weight:300;}
+  .bk-at{font-weight:700;font-size:22px;color:var(--airtable-coral);letter-spacing:-.5px;}
+  .bk-tag{margin-left:auto;font-size:14px;color:var(--bigw-blue);font-weight:600;}
+
+  /* Hero */
+  .hero{
+    padding:72px 5% 56px;
+    background:linear-gradient(180deg, var(--bg-soft) 0%, #FFFFFF 100%);
+    border-bottom:1px solid var(--line);
+  }
+  .hero-inner{max-width:920px;margin:0 auto;text-align:center;}
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--airtable-coral);
+    background:rgba(248,43,96,0.08);
+    padding:6px 14px;
+    border-radius:999px;
+    margin-bottom:24px;
+  }
+  h1{
+    font-size:44px;
+    line-height:1.15;
+    font-weight:800;
+    margin:0 0 20px;
+    color:var(--ink);
+  }
+  h1 .accent{color:var(--bigw-blue);}
+  .subhead{
+    font-size:19px;
+    line-height:1.55;
+    color:var(--sub);
+    max-width:720px;
+    margin:0 auto 36px;
+  }
+  .cta-row{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;}
+  .btn-primary{
+    display:inline-block;
+    background:var(--airtable-coral);
+    color:#fff;
+    font-weight:700;
+    font-size:16px;
+    padding:14px 30px;
+    border-radius:8px;
+    text-decoration:none;
+    box-shadow:0 8px 20px rgba(248,43,96,0.25);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(248,43,96,0.32);}
+  .btn-secondary{
+    display:inline-block;
+    background:#fff;
+    color:var(--bigw-blue);
+    font-weight:700;
+    font-size:16px;
+    padding:14px 30px;
+    border-radius:8px;
+    text-decoration:none;
+    border:2px solid var(--bigw-blue-light);
+  }
+
+  /* Why now */
+  .section{padding:64px 5%;max-width:1080px;margin:0 auto;}
+  .section-title{
+    font-size:28px;
+    font-weight:800;
+    margin:0 0 8px;
+    text-align:center;
+  }
+  .section-sub{
+    font-size:16px;
+    color:var(--sub);
+    text-align:center;
+    max-width:640px;
+    margin:0 auto 40px;
+  }
+  .why-now{background:var(--bg-soft);border-radius:24px;}
+  .signals{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:8px;
+  }
+  .signal-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:24px;
+  }
+  .signal-date{
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    color:var(--airtable-coral);
+    margin-bottom:10px;
+  }
+  .signal-card p{font-size:15px;line-height:1.55;color:var(--ink);margin:0;}
+
+  /* Value props */
+  .cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+    margin-top:8px;
+  }
+  .card{
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:28px;
+    background:#fff;
+  }
+  .card-icon{
+    width:44px;height:44px;
+    border-radius:10px;
+    background:var(--bigw-blue);
+    color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:18px;
+    margin-bottom:18px;
+  }
+  .card h3{font-size:19px;margin:0 0 10px;font-weight:700;}
+  .card p{font-size:15px;line-height:1.55;color:var(--sub);margin:0;}
+  .card .tag{
+    display:inline-block;
+    margin-top:14px;
+    font-size:12px;
+    font-weight:700;
+    color:var(--bigw-blue);
+    background:rgba(36,59,225,0.08);
+    padding:4px 10px;
+    border-radius:999px;
+  }
+
+  /* Woolworths note */
+  .expansion-note{
+    margin-top:28px;
+    padding:20px 24px;
+    border-left:4px solid var(--airtable-coral);
+    background:var(--bg-soft);
+    border-radius:0 12px 12px 0;
+    font-size:15px;
+    line-height:1.6;
+    color:var(--ink);
+  }
+  .expansion-note strong{color:var(--bigw-blue);}
+
+  /* Customer proof */
+  .proof-section{background:#fff;}
+  .proof-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+    margin-top:8px;
+  }
+  .customer-proof{
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:28px;
+    background:var(--bg-soft);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+  .cs-name{font-size:14px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--bigw-blue);}
+  .cs-metric{font-size:26px;font-weight:800;color:var(--ink);}
+  .cs-quote{margin:0;font-size:15px;line-height:1.55;color:var(--sub);font-style:italic;border:none;padding:0;}
+  .cs-quote cite{display:block;margin-top:10px;font-size:13px;font-style:normal;font-weight:600;color:var(--ink);}
+  .cs-link{
+    font-size:14px;font-weight:700;color:var(--airtable-coral);
+    text-decoration:none;
+    margin-top:4px;
+  }
+  .cs-link:hover{text-decoration:underline;}
+
+  /* CTA */
+  .cta-section{
+    padding:72px 5%;
+    text-align:center;
+    background:linear-gradient(135deg, var(--bigw-blue) 0%, #1B2CB0 100%);
+    color:#fff;
+  }
+  .cta-section h2{font-size:32px;margin:0 0 14px;font-weight:800;}
+  .cta-section p{font-size:17px;color:#DDE1FB;max-width:600px;margin:0 auto 32px;line-height:1.55;}
+  .cta-section .btn-primary{box-shadow:0 8px 24px rgba(0,0,0,0.25);}
+
+  footer{
+    padding:28px 5%;
+    text-align:center;
+    font-size:13px;
+    color:var(--sub);
+    border-top:1px solid var(--line);
+  }
+
+  @media (max-width:860px){
+    h1{font-size:32px;}
+    .signals,.cards,.proof-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header class="bk-header">
+  <img class="bk-logo" src="https://www.google.com/s2/favicons?domain=bigw.com.au&sz=256" alt="Big W logo" height="40">
+  <span class="bk-x">&times;</span>
+  <span class="bk-at">Airtable</span>
+  <span class="bk-tag">Built for Big W</span>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Big W × Airtable</span>
+    <h1>Give Big W's marketing team <span class="accent">one system</span> to run every campaign, every range reset, every season.</h1>
+    <p class="subhead">As Big W stands up its own standalone technology platform and pushes harder on value, own brand, and eCommerce growth, marketing needs a connective layer that moves as fast as the business is changing — without waiting on a multi-year systems migration.</p>
+    <div class="cta-row">
+      <a class="btn-primary" href="mailto:ryan.morris@airtable.com">Talk to Airtable about Big W</a>
+      <a class="btn-secondary" href="https://www.airtable.com/customer-stories/jamjoom" target="_blank" rel="noopener noreferrer">See retail customer stories</a>
+    </div>
+  </div>
+</section>
+
+<section class="section why-now">
+  <h2 class="section-title">Why now</h2>
+  <p class="section-sub">Big W is mid-transformation — the timing lines up with what marketing ops needs next.</p>
+  <div class="signals">
+    <div class="signal-card">
+      <div class="signal-date">Feb 25, 2026</div>
+      <p>Big W posted a 122.5% lift in H1 FY26 EBIT to $70M on sales of $2.64B, with own brand growth of 8% and the "Big Price Drops" campaign launched to protect Everyday category traffic — marketing is now central to the turnaround story.</p>
+    </div>
+    <div class="signal-card">
+      <div class="signal-date">Aug 27, 2025</div>
+      <p>Woolworths Group confirmed it is decoupling Big W from its shared technology stack onto a standalone, fit-for-purpose platform — creating a live window for marketing and campaign systems to be rebuilt around Big W's own workflows rather than inherited Group infrastructure.</p>
+    </div>
+    <div class="signal-card">
+      <div class="signal-date">Feb 25, 2026</div>
+      <p>Woolworths Group's H1 FY26 results highlighted an accelerating AI and automation push (agentic shopping assistants, Gemini for Workspace, wiqLABS) alongside BIG W's IT separation — the Group is actively investing in modern, connected ways of working that BIG W marketing can plug into.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Built for a discount department-store marketing team</h2>
+  <p class="section-sub">Consolidate the scattered spreadsheets and decks behind Clothing, Home, Play, and Everyday campaigns into one shared operating system.</p>
+  <div class="cards">
+    <div class="card">
+      <div class="card-icon">C</div>
+      <h3>Consolidate</h3>
+      <p>Bring campaign calendars, seasonal range launches (Clothing, Home, Play, Everyday), and own-brand product marketing — like the growing Openook and Somersault ranges — into one shared base instead of siloed spreadsheets across category teams.</p>
+      <span class="tag">Campaign management</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">B</div>
+      <h3>Bridge</h3>
+      <p>As Big W's systems separate from Woolworths Group infrastructure, Airtable bridges creative, merchandising, and eCommerce teams during the transition — no need to wait on the new platform to get marketing operations connected today.</p>
+      <span class="tag">Ecommerce & merchandising</span>
+    </div>
+    <div class="card">
+      <div class="card-icon">U</div>
+      <h3>Unify</h3>
+      <p>Unify in-store execution (RFID rollout, store renewals) with digital campaign performance and eCommerce GTV tracking, giving marketing one live view across Big W's fastest-growing channel — eCommerce, up 12.5% in H1 FY26.</p>
+      <span class="tag">Store operations</span>
+    </div>
+  </div>
+  <div class="expansion-note">
+    <strong>Extending the Woolworths Group relationship:</strong> Airtable's existing footprint across Woolworths Group gives Big W's marketing team a proven, Group-trusted starting point — extending an established partnership rather than starting a net-new vendor evaluation, and aligning with Big W's push to stand on its own fit-for-purpose systems.
+  </div>
+</section>
+
+<section class="section proof-section">
+  <h2 class="section-title">Proof from retail teams like Big W's</h2>
+  <p class="section-sub">Retailers running merchandising, campaign, and product workflows on Airtable see measurable time and delivery gains.</p>
+  <div class="proof-grid">
+    <div class="customer-proof"><div class="cs-name">Jamjoom Fashion</div><div class="cs-metric">99.9% on-time delivery rate</div><blockquote class="cs-quote">"Airtable connects our entire value chain, from product development to inventory tracking, enabling faster, smarter decisions that drive impact." <cite>— Osman Jamjoom, Transformation Director, Jamjoom Fashion</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/jamjoom" target="_blank" rel="noopener noreferrer">Read the Jamjoom Fashion story →</a></div>
+    <div class="customer-proof"><div class="cs-name">West Elm</div><div class="cs-metric">85 hours saved each week</div><blockquote class="cs-quote">"Airtable is really up to the user, you can do anything you dream with it." <cite>— Korin Thorig, VP Creative Operations, West Elm</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/west-elm" target="_blank" rel="noopener noreferrer">Read the West Elm story →</a></div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <h2>Let's build the case for Big W</h2>
+  <p>We'll bring a tailored plan for marketing operations across Clothing, Home, Play, and Everyday — timed to Big W's systems separation and value-led turnaround.</p>
+  <a class="btn-primary" href="mailto:ryan.morris@airtable.com">Email ryan.morris@airtable.com</a>
+</section>
+
+<footer>
+  Prepared for Big W · Sourced from Woolworths Group public disclosures (2025–2026) · Airtable
+</footer>
+
+</body>
+</html>
