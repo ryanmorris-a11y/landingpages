@@ -1,60 +1,262 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Airtable × Cartology — a connected view for your priorities</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartology × Airtable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#14181f;--paper:#f6f5f1;--card:#fff;--accent:#2f5fdf;--accent-deep:#1f3fa8;--moss:#1f4d3f;--muted:#5c6672;--line:#e5e2d9}
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1080px;margin:0 auto;padding:0 7%}.serif{font-family:'Fraunces',Georgia,serif}
-.eyebrow{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--accent)}
-header{padding:4.5rem 0 3.5rem;background:radial-gradient(120% 90% at 85% -10%,rgba(47,95,223,.10),transparent 60%),radial-gradient(90% 80% at 0% 110%,rgba(31,77,63,.10),transparent 55%)}
-.brandbar{display:flex;align-items:center;gap:.7rem;font-weight:600;color:var(--muted);font-size:.95rem}.brandbar b{color:var(--ink)}
-.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block}
-h1.serif{font-size:clamp(2.3rem,5.2vw,3.8rem);line-height:1.05;font-weight:600;margin:1.5rem 0 1.1rem;letter-spacing:-.015em}
-.lede{font-size:1.2rem;color:#323a44;max-width:44ch}
-.cta{display:inline-flex;align-items:center;gap:.55rem;background:var(--ink);color:#fff;padding:.95rem 1.6rem;border-radius:999px;text-decoration:none;font-weight:600;margin-top:2rem;transition:transform .15s,background .15s}
-.cta:hover{transform:translateY(-2px);background:var(--accent-deep)}
-.firmo{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin:3.2rem 0 0;border-top:1px solid var(--line);padding-top:2rem}
-.firmo .n{font-family:'Fraunces',serif;font-size:1.5rem;font-weight:600;color:var(--moss);line-height:1.1}
-.firmo .l{font-size:.82rem;color:var(--muted);margin-top:.4rem;text-transform:uppercase;letter-spacing:.08em}
-section{padding:3.6rem 0}
-h2.serif{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:600;letter-spacing:-.01em;margin:.4rem 0 1.3rem;max-width:26ch}
-p.body{font-size:1.06rem;color:#37414c;max-width:64ch;margin-bottom:1rem}
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:1rem}
-.mcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.5rem 1.4rem}
-.mcard .k{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
-.mcard p{font-size:.98rem;color:#48525d;margin-top:.5rem}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:2.2rem;margin-top:1rem}
-.two h3{font-family:'Fraunces',serif;font-size:1.15rem;margin-bottom:.7rem}
-.two ul{list-style:none} .two li{padding:.5rem 0;border-bottom:1px solid var(--line);font-size:.96rem;color:#48525d}
-.band{background:var(--ink);color:#eef1ee;border-radius:22px;padding:2.8rem 2.4rem;margin-top:1rem}
-.band h2{color:#fff;max-width:30ch}.band p{color:#c3ccc6;max-width:60ch;font-size:1.04rem}
-footer{padding:3.2rem 0 4.5rem;border-top:1px solid var(--line)}
-.foot-cta{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.4rem}.foot-cta h2{max-width:22ch}
-.fine{color:var(--muted);font-size:.8rem;margin-top:2.4rem}
-@media(max-width:760px){.firmo{grid-template-columns:repeat(2,1fr)}.cards,.two{grid-template-columns:1fr}}
-</style></head><body>
-<header><div class="wrap">
-<div class="brandbar"><span>Airtable</span><span class="dot"></span><b>Prepared for Cartology</b></div>
-<h1 class="serif">A connected view for Cartology's next chapter — without ripping out what runs today.</h1>
-<p class="lede">- New Unified Planning Strategy (launched April 2026) is a fresh, named strategic initiative to reference directly</p>
-<a class="cta" href="mailto:ryan.morris@airtable.com?subject=Airtable%20%C3%97%20Cartology">Explore a tailored walkthrough →</a>
-<div class="firmo"><div><div class="n">Advertising</div><div class="l">Industry</div></div><div><div class="n">$50M-$250M</div><div class="l">Revenue</div></div><div><div class="n">350</div><div class="l">Employees</div></div><div><div class="n">Sydney Australia</div><div class="l">Headquarters</div></div></div>
-</div></header>
-<section><div class="wrap"><span class="eyebrow">Why now</span><h2 class="serif">The priorities are set. The data can't wait for the re-platform.</h2><p class="body">Cartology, Woolworths Group&#x27;s in-house retail media arm, is pushing a &#x27;Unified Planning&#x27; strategy that merges brand-building and performance marketing across the full customer journey, backed by its Insights and Effectiveness Playbook (3,000+ campaigns analysed). It is also expanding in-store digital screen inventory and hiring senior FMCG marketing talent to mature beyond ad-tech into brand storytelling as competition from Coles 360 intensifies.</p></div></section>
-<section id="fit"><div class="wrap"><span class="eyebrow">Where Airtable fits</span><h2 class="serif">Mapped to what your teams are already tackling.</h2><div class="cards"><div class="mcard"><div class="k">Opportunity 1</div><p>- New Unified Planning Strategy (launched April 2026) is a fresh, named strategic initiative to reference directly</p></div><div class="mcard"><div class="k">Opportunity 2</div><p>- Recently expanded in-store screen network (2,700 screens in NZ) is a concrete, current infrastructure hook</p></div><div class="mcard"><div class="k">Opportunity 3</div><p>- New GM Marketing hire (Brett Grebert, FMCG veteran) signals a leadership/relationship-mapping opportunity</p></div><div class="mcard"><div class="k">Opportunity 4</div><p>- Competitive pressure from Coles 360&#x27;s AI-driven targeting is a timely industry-context hook</p></div><div class="mcard"><div class="k">Opportunity 5</div><p>- New self-serve Ads Manager platform is a specific product/tech hook for adtech conversations</p></div></div></div></section>
-<section><div class="wrap"><div class="two"><div><h3>Named initiatives</h3><ul><li>- Unified Planning Strategy (launched March/April 2026)</li><li>- Insights and Effectiveness Playbook (based on 3,000+ campaign analysis)</li><li>- In-store screen network expansion: 1,500+ assisted checkout screens, 700+ Fresh Scale screens (NZ)</li><li>- New self-serve Ads Manager reporting platform</li></ul></div><div><h3>Recent signals</h3><ul><li>- April 2026: Cartology launched Unified Planning Strategy at roadshow events with ~300 brand/agency partners</li><li>- May 2026: Cartology NZ expanded in-store screen network to 2,700 total screens</li><li>- Jan 2026: Cartology hired Brett Grebert (ex-George Weston Foods) as GM Marketing ANZ, signalling a brand-storytelling pivot</li><li>- March 2026: Cartology lost GM of Revenue Operations, Nancy Veart, after 6 years</li></ul></div></div></div></section>
-<section><div class="wrap"><div class="band">
-<span class="eyebrow" style="color:#8fb0ff">A working session, not a generic demo</span>
-<h2 class="serif">Shaped around the initiatives already on your roadmap.</h2>
-<p>We'd frame it against your live priorities — the specific workflows your teams are building — and show how Airtable acts as the connected data-and-app layer across the systems you already run.</p>
-</div></div></section>
-<footer><div class="wrap"><div class="foot-cta">
-<h2 class="serif">Ready to see it against one of your workflows?</h2>
-<a class="cta" href="mailto:ryan.morris@airtable.com?subject=Airtable%20%C3%97%20Cartology">Book a tailored walkthrough →</a>
-</div>
-<p class="fine">Prepared for Cartology (Sydney Australia) by Airtable. Grounded in publicly reported company initiatives and priorities. This is a personalised outreach page, not a Cartology property.</p>
-</div></footer></body></html>
+  :root{
+    --brand-primary:#A6C845;
+    --brand-secondary:#C5DC87;
+    --brand-dark:#4C6B22;
+    --on-primary:#0B0B0C;
+    --airtable:#F82B60;
+    --ink:#1A1A1D;
+    --muted:#5B5F66;
+    --line:#E7E9E2;
+    --bg-soft:#F7F9F3;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    color:var(--ink);
+    background:#FFFFFF;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+  img{max-width:100%;display:block;}
+
+  /* Co-branded header */
+  .bk-header{
+    display:flex;align-items:center;gap:18px;
+    padding:22px 6%;
+    border-bottom:4px solid var(--brand-primary);
+  }
+  .bk-logo{max-height:38px;width:auto;}
+  .bk-x{font-size:22px;color:#9aa0a6;font-weight:300;}
+  .bk-at{font-weight:800;font-size:22px;color:var(--airtable);letter-spacing:-.5px;}
+  .bk-tag{margin-left:auto;font-size:14px;color:var(--brand-dark);font-weight:600;}
+
+  /* Hero */
+  .hero{
+    padding:72px 6% 56px;
+    background:linear-gradient(180deg,var(--bg-soft) 0%,#FFFFFF 100%);
+    border-bottom:1px solid var(--line);
+  }
+  .hero-inner{max-width:900px;margin:0 auto;text-align:center;}
+  .eyebrow{
+    display:inline-block;
+    font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--brand-dark);
+    background:rgba(166,200,69,0.15);
+    padding:6px 14px;border-radius:20px;
+    margin-bottom:22px;
+  }
+  h1{
+    font-size:44px;font-weight:800;line-height:1.15;letter-spacing:-.02em;
+    color:var(--ink);margin-bottom:18px;
+  }
+  h1 .accent{color:var(--airtable);}
+  .subhead{
+    font-size:19px;color:var(--muted);max-width:680px;margin:0 auto 34px;
+  }
+  .cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
+  .btn{
+    display:inline-block;padding:14px 28px;border-radius:8px;
+    font-weight:700;font-size:16px;text-decoration:none;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn-primary{
+    background:var(--airtable);color:#fff;
+    box-shadow:0 6px 18px rgba(248,43,96,0.28);
+  }
+  .btn-primary:hover{transform:translateY(-1px);box-shadow:0 10px 24px rgba(248,43,96,0.35);}
+  .btn-secondary{
+    background:#fff;color:var(--ink);border:1.5px solid var(--line);
+  }
+  .btn-secondary:hover{border-color:var(--brand-primary);}
+
+  section{padding:56px 6%;}
+  .section-inner{max-width:1080px;margin:0 auto;}
+  .section-title{
+    font-size:28px;font-weight:800;letter-spacing:-.01em;margin-bottom:8px;text-align:center;
+  }
+  .section-sub{
+    text-align:center;color:var(--muted);font-size:16px;max-width:640px;margin:0 auto 36px;
+  }
+
+  /* Why now */
+  .why-now{background:var(--bg-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .signals{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;margin-top:8px;
+  }
+  .signal-card{
+    background:#fff;border:1px solid var(--line);border-radius:12px;
+    padding:22px 22px 20px;border-top:3px solid var(--brand-primary);
+  }
+  .signal-date{
+    font-size:12px;font-weight:700;color:var(--airtable);letter-spacing:.04em;text-transform:uppercase;margin-bottom:10px;display:block;
+  }
+  .signal-card p{font-size:15px;color:var(--ink);}
+
+  /* Value props */
+  .cards{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:24px;
+  }
+  .card{
+    border:1px solid var(--line);border-radius:14px;padding:28px 26px;
+    background:#fff;
+  }
+  .card-icon{
+    width:44px;height:44px;border-radius:10px;
+    background:var(--brand-primary);color:var(--on-primary);
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:18px;margin-bottom:16px;
+  }
+  .card h3{font-size:19px;font-weight:700;margin-bottom:10px;}
+  .card p{font-size:15px;color:var(--muted);}
+
+  /* Customer proof */
+  .proof{background:var(--bg-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .proof-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:22px;
+  }
+  .customer-proof{
+    background:#fff;border:1px solid var(--line);border-radius:14px;
+    padding:26px 26px 22px;border-left:4px solid var(--airtable);
+  }
+  .cs-name{font-weight:800;font-size:16px;color:var(--ink);margin-bottom:6px;}
+  .cs-metric{
+    display:inline-block;font-weight:700;color:var(--airtable);
+    background:rgba(248,43,96,0.08);border-radius:6px;padding:4px 10px;
+    font-size:13px;margin-bottom:14px;
+  }
+  .cs-quote{
+    font-size:15px;color:var(--ink);font-style:italic;border:none;padding:0;margin:0 0 12px;
+  }
+  .cs-quote cite{
+    display:block;margin-top:8px;font-style:normal;font-size:13px;color:var(--muted);
+  }
+  .cs-link{
+    font-size:14px;font-weight:700;color:var(--brand-dark);text-decoration:none;
+  }
+  .cs-link:hover{text-decoration:underline;}
+
+  /* Final CTA */
+  .final-cta{
+    text-align:center;padding:64px 6% 80px;
+  }
+  .final-cta h2{font-size:30px;font-weight:800;margin-bottom:14px;}
+  .final-cta p{color:var(--muted);font-size:16px;max-width:560px;margin:0 auto 28px;}
+
+  footer{
+    padding:26px 6%;border-top:1px solid var(--line);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
+    font-size:13px;color:var(--muted);
+  }
+  footer a{color:var(--brand-dark);text-decoration:none;font-weight:600;}
+
+  @media (max-width:640px){
+    h1{font-size:32px;}
+    .section-title{font-size:24px;}
+    .hero{padding:52px 6% 40px;}
+  }
+</style>
+</head>
+<body>
+
+  <header class="bk-header">
+    <img class="bk-logo" src="https://www.cartology.com.au/etc.clientlibs/cartology/clientlibs/clientlib-site/resources/images/favicon.ico" alt="Cartology logo" height="38" onerror="this.style.display='none'">
+    <span class="bk-x">&times;</span>
+    <span class="bk-at">Airtable</span>
+    <span class="bk-tag">Built for Cartology</span>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">Retail Media × Operations</span>
+      <h1>Scale Cartology's <span class="accent">Unified Media Strategy</span> without scaling the spreadsheet chaos</h1>
+      <p class="subhead">As Cartology expands its screen network, self-serve platform, and unified brand-and-performance planning across almost 300 agency and advertiser partners, the operational backbone behind campaign booking, creative traffic, and measurement needs to move just as fast as the media innovation does.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:ryan.morris@airtable.com">Talk to Airtable</a>
+        <a class="btn btn-secondary" href="https://www.airtable.com/customer-stories/code-and-theory" target="_blank" rel="noopener noreferrer">See a customer story</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-now">
+    <div class="section-inner">
+      <h2 class="section-title">Why now</h2>
+      <p class="section-sub">Cartology's growth and roadmap are creating exactly the kind of cross-team coordination pressure Airtable is built to absorb.</p>
+      <div class="signals">
+        <div class="signal-card">
+          <span class="signal-date">April 2026</span>
+          <p>Cartology unveiled a new Unified Planning Strategy at a roadshow with almost 300 brand and agency partners, combining brand-building and performance media across the full customer journey — plus an innovation roadmap covering off-network partnerships, an expanded self-serve platform, and new incrementality measurement.</p>
+        </div>
+        <div class="signal-card">
+          <span class="signal-date">May 2026</span>
+          <p>Cartology New Zealand expanded its in-store screen network to 2,700 screens, adding 1,500+ assisted checkout screens and 700+ Fresh Scale screens — more inventory, more creative variants, and more advertiser bookings to manage across the trans-Tasman business.</p>
+        </div>
+        <div class="signal-card">
+          <span class="signal-date">August 2025</span>
+          <p>Cartology posted ~19.5% normalised revenue growth in Woolworths Group's FY25 results, with Managing Director Mike Tyquin's remit expanded to insights, media, and loyalty commercialisation — a signal of scaling scope across teams and workflows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-inner">
+      <h2 class="section-title">Built for a retail media network's day-to-day</h2>
+      <p class="section-sub">Three ways Airtable supports the operational layer behind Cartology's advertiser, agency, and creative workflows.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">C</div>
+          <h3>Consolidate campaign ops</h3>
+          <p>Bring campaign booking, screen and inventory allocation, and advertiser briefs across banners, channels, and screen formats into one connected system — instead of scattered trackers per team or region.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">B</div>
+          <h3>Bridge advertiser onboarding</h3>
+          <p>Give client advisory, value-creation, and agency partnership teams a shared view of onboarding status, approvals, and account context — so nearly 300 brand and agency relationships don't rely on inbox threads.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">U</div>
+          <h3>Unify creative &amp; reporting workflows</h3>
+          <p>Connect creative production, in-store screen content, and effectiveness reporting so insights from 3,000+ campaigns feed directly into what gets built and measured next — without manual hand-offs between teams.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="proof">
+    <div class="section-inner">
+      <h2 class="section-title">Proof from teams like yours</h2>
+      <p class="section-sub">How other marketing and media organizations use Airtable to run campaign and creative operations.</p>
+      <div class="proof-grid">
+<div class="customer-proof"><div class="cs-name">Code and Theory &amp; Rudd Consulting</div><div class="cs-metric">UX audit time reduced from 2 weeks to 2 hours</div><blockquote class="cs-quote">“I bring Airtable and Airtable AI into every inefficient process I can find. It's become essential to how we drive smarter, faster production.” <cite>— Josh Curry, Senior Director, Code and Theory</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/code-and-theory" target="_blank" rel="noopener noreferrer">Read the Code and Theory &amp; Rudd Consulting story →</a></div>
+<div class="customer-proof"><div class="cs-name">Thesis</div><div class="cs-metric">12% cost reduction</div><blockquote class="cs-quote">“The reduction in operating costs has given us the freedom to focus on projects that truly move the needle for our clients.” <cite>— Adam Peaker, Chief Financial Officer, Thesis</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/thesis" target="_blank" rel="noopener noreferrer">Read the Thesis story →</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <h2>Let's map Airtable to Cartology's roadmap</h2>
+    <p>A short conversation on where campaign ops, advertiser onboarding, and creative-to-reporting hand-offs could tighten up as the network scales.</p>
+    <a class="btn btn-primary" href="mailto:ryan.morris@airtable.com">Email ryan.morris@airtable.com</a>
+  </section>
+
+  <footer>
+    <span>Built for Cartology (Woolworths Group) — retail media, ANZ</span>
+    <a href="mailto:ryan.morris@airtable.com">ryan.morris@airtable.com</a>
+  </footer>
+
+</body>
+</html>
