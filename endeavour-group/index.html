@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Endeavour Group × Airtable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --primary:#274659;
+    --secondary:#365365;
+    --coral:#F82B60;
+    --ink:#1a1f24;
+    --muted:#5b6670;
+    --line:#e7ebee;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    background:#ffffff;
+    color:var(--ink);
+    line-height:1.55;
+  }
+  a{color:var(--coral);}
+
+  /* Co-branded header */
+  .bk-header{
+    display:flex;align-items:center;gap:18px;
+    padding:22px 6%;
+    border-bottom:4px solid var(--primary);
+    background:#ffffff;
+  }
+  .bk-logo{max-height:38px;width:auto;}
+  .bk-x{font-size:22px;color:#9aa0a6;font-weight:300;}
+  .bk-at{font-weight:700;font-size:20px;color:var(--coral);letter-spacing:-.5px;}
+  .bk-tag{margin-left:auto;font-size:14px;color:var(--primary);font-weight:600;}
+
+  /* Header band */
+  .top-band{
+    background:linear-gradient(90deg,var(--primary),var(--secondary));
+    color:#fff;
+    padding:10px 6%;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:.02em;
+  }
+
+  /* Hero */
+  .hero{
+    padding:72px 6% 56px;
+    max-width:1100px;
+    margin:0 auto;
+  }
+  .hero h1{
+    font-size:44px;
+    font-weight:800;
+    line-height:1.12;
+    margin:0 0 18px;
+    color:var(--ink);
+    letter-spacing:-0.5px;
+  }
+  .hero h1 .accent{color:var(--coral);}
+  .hero .subhead{
+    font-size:19px;
+    color:var(--muted);
+    max-width:720px;
+    margin:0 0 30px;
+  }
+  .cta-row{display:flex;gap:16px;align-items:center;flex-wrap:wrap;}
+  .btn-primary{
+    display:inline-block;
+    background:var(--coral);
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+    font-size:16px;
+    padding:14px 30px;
+    border-radius:8px;
+    transition:opacity .15s ease;
+  }
+  .btn-primary:hover{opacity:.88;}
+  .cta-note{font-size:13px;color:var(--muted);}
+
+  /* Why now */
+  .section{padding:44px 6%;max-width:1100px;margin:0 auto;}
+  .section-title{
+    font-size:26px;
+    font-weight:800;
+    margin:0 0 8px;
+    color:var(--ink);
+  }
+  .section-rule{
+    height:3px;
+    width:64px;
+    background:var(--primary);
+    margin:0 0 26px;
+    border-radius:2px;
+  }
+  .why-now{
+    background:#f7f9fa;
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:32px 34px;
+  }
+  .why-now ul{margin:0;padding:0;list-style:none;}
+  .why-now li{
+    display:flex;gap:14px;
+    padding:14px 0;
+    border-bottom:1px solid var(--line);
+    font-size:15.5px;
+    color:var(--ink);
+  }
+  .why-now li:last-child{border-bottom:none;}
+  .why-date{
+    flex:0 0 auto;
+    font-weight:700;
+    color:var(--primary);
+    white-space:nowrap;
+    font-size:13.5px;
+    padding-top:2px;
+  }
+
+  /* Value props */
+  .cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+    margin-top:8px;
+  }
+  .card{
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:28px 26px;
+    background:#fff;
+    border-top:4px solid var(--secondary);
+  }
+  .card h3{
+    font-size:19px;
+    margin:0 0 10px;
+    color:var(--primary);
+    font-weight:800;
+  }
+  .card p{
+    font-size:14.5px;
+    color:var(--muted);
+    margin:0;
+  }
+
+  /* Customer proof */
+  .proof-wrap{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+    margin-top:8px;
+  }
+  .customer-proof{
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:26px 26px 22px;
+    background:#fbfbfc;
+  }
+  .cs-name{
+    font-weight:800;
+    font-size:17px;
+    color:var(--ink);
+    margin-bottom:6px;
+  }
+  .cs-metric{
+    display:inline-block;
+    background:rgba(248,43,96,0.08);
+    color:var(--coral);
+    font-weight:700;
+    font-size:13.5px;
+    padding:4px 10px;
+    border-radius:999px;
+    margin-bottom:14px;
+  }
+  .cs-quote{
+    font-size:14.5px;
+    color:var(--muted);
+    margin:0 0 14px;
+    padding-left:14px;
+    border-left:3px solid var(--line);
+    font-style:italic;
+  }
+  .cs-quote cite{
+    display:block;
+    margin-top:8px;
+    font-style:normal;
+    font-size:12.5px;
+    color:#8a95a0;
+  }
+  .cs-link{
+    font-size:13.5px;
+    font-weight:700;
+    text-decoration:none;
+  }
+  .cs-link:hover{text-decoration:underline;}
+
+  /* Final CTA */
+  .final-cta{
+    text-align:center;
+    padding:56px 6% 72px;
+    max-width:800px;
+    margin:0 auto;
+  }
+  .final-cta h2{
+    font-size:28px;
+    font-weight:800;
+    margin:0 0 14px;
+  }
+  .final-cta p{
+    color:var(--muted);
+    font-size:15.5px;
+    margin:0 0 26px;
+  }
+
+  footer{
+    border-top:1px solid var(--line);
+    padding:26px 6%;
+    font-size:12.5px;
+    color:#9aa5ad;
+    text-align:center;
+  }
+
+  @media (max-width:800px){
+    .hero h1{font-size:32px;}
+    .cards{grid-template-columns:1fr;}
+    .proof-wrap{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<div class="top-band">BUILT FOR ENDEAVOUR GROUP — OPERATIONS</div>
+
+<header class="bk-header">
+  <img class="bk-logo" src="https://cdn.prod.website-files.com/69411b50da307126bedceb2b/69411b50da307126bedcebac_Frame%201521%20(2).png" alt="Endeavour Group logo" height="38">
+  <span class="bk-x">&times;</span>
+  <span class="bk-at">Airtable</span>
+  <span class="bk-tag">Endeavour Group × Airtable — built for Endeavour Group</span>
+</header>
+
+<section class="hero">
+  <h1>One operating layer for BWS, Dan Murphy's, and ALH — <span class="accent">while the team resets the strategy.</span></h1>
+  <p class="subhead">Endeavour Group is mid-transformation: a new CEO, a new Chair, and a strategy refresh landing at the upcoming Investor Day. As Retail and Hotels teams rebuild shared foundations for customer data, supply chain, and store execution, Airtable gives Operations a single connected system to move fast without waiting on IT.</p>
+  <div class="cta-row">
+    <a class="btn-primary" href="mailto:ryan.morris@airtable.com">Talk to Airtable about Endeavour Group</a>
+    <span class="cta-note">No deck required — just a 20-minute conversation.</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">Why now</div>
+  <div class="section-rule"></div>
+  <div class="why-now">
+    <ul>
+      <li><span class="why-date">Mar 4, 2026</span><span>H1 F26 results showed Retail underlying EBIT down 11.6% to $327M even as online sales grew 35.1% to $608M — a clear signal that store/supply chain cost efficiency and omnichannel execution are under direct board scrutiny.</span></li>
+      <li><span class="why-date">Jan 2026</span><span>Jayne Hrdlicka officially started as Managing Director & CEO, following a leadership reset (Ari Mervis's August 2025 exit, Kate Beattie's interim CEO stint) — new leadership typically re-opens the door on tooling and process decisions across Retail, Hotels, and Pinnacle.</span></li>
+      <li><span class="why-date">Feb 18, 2026</span><span>Tim Poole was named incoming Chair, completing the governance reset; management has flagged a strategy refresh and upcoming Investor Day covering "the significant change agenda" across the Group's portfolio.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">Built for a multi-brand retail + hospitality group</div>
+  <div class="section-rule"></div>
+  <div class="cards">
+    <div class="card">
+      <h3>Consolidate</h3>
+      <p>Bring BWS, Dan Murphy's, and ALH venue/store data, supply chain trackers, and promo calendars out of scattered spreadsheets and into one shared base — so Retail and Hotels stop reconciling numbers twice.</p>
+    </div>
+    <div class="card">
+      <h3>Bridge</h3>
+      <p>Connect merchandising, loyalty/marketing campaigns, and store operations workflows to the systems Endeavour already runs (POS, ERP, supplier feeds) without new engineering tickets for every change.</p>
+    </div>
+    <div class="card">
+      <h3>Unify</h3>
+      <p>Give Operations leaders one live view across Retail's 1,600+ stores and ALH's hotel network — so cost-of-doing-business initiatives and value-led promotions are executed consistently, brand by brand.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">Proof from retail operations teams like yours</div>
+  <div class="section-rule"></div>
+  <div class="proof-wrap">
+    <div class="customer-proof"><div class="cs-name">Jamjoom Fashion</div><div class="cs-metric">99.9% on-time delivery rate</div><blockquote class="cs-quote">"Airtable connects our entire value chain, from product development to inventory tracking, enabling faster, smarter decisions that drive impact." <cite>— Osman Jamjoom, Transformation Director, Jamjoom Fashion</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/jamjoom" target="_blank" rel="noopener noreferrer">Read the Jamjoom Fashion story →</a></div>
+    <div class="customer-proof"><div class="cs-name">West Elm</div><div class="cs-metric">85 hours saved each week</div><blockquote class="cs-quote">"Airtable is really up to the user, you can do anything you dream with it." <cite>— Korin Thorig, VP Creative Operations, West Elm</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/west-elm" target="_blank" rel="noopener noreferrer">Read the West Elm story →</a></div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <h2>Let's map this to Endeavour's F26 change agenda.</h2>
+  <p>We'll bring examples from retail operations and multi-brand hospitality groups tackling the same consolidation problem — tailored to Retail, Hotels, and Pinnacle.</p>
+  <a class="btn-primary" href="mailto:ryan.morris@airtable.com">Email Ryan Morris at Airtable</a>
+</section>
+
+<footer>
+  Prepared for Endeavour Group. Sourced from Endeavour Group ASX announcements (Aug 2025 – Mar 2026) and public news coverage. Not affiliated with or endorsed by Endeavour Group.
+</footer>
+
+</body>
+</html>
