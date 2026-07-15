@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Airtable × Accent Group</title>
+<meta name="description" content="One connected layer for Vision 2030 — grounded in Accent Group's own growth strategy.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{--brand-primary:#373E45;--brand-secondary:#4E5359;--brand-on-primary:#FFFFFF;--airtable-accent:#F82B60;--ink:#0B0B0C;--muted:#5b6069;--line:#ececef;--bg:#ffffff;--bg-soft:#fafafa;--maxw:1080px;}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 6%}
+  h1,h2,h3{letter-spacing:-.02em;line-height:1.08;margin:0}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--brand-secondary)}
+  .bk-header{display:flex;align-items:center;gap:16px;padding:20px 6%;border-bottom:4px solid var(--brand-primary)}
+  .bk-logo{height:34px;width:34px;border-radius:7px;object-fit:cover;box-shadow:0 0 0 1px var(--line)}
+  .bk-name{font-weight:800;font-size:16px}.bk-x{color:#b7bcc4;font-weight:300;font-size:20px;margin:0 2px}
+  .bk-at{font-weight:900;font-size:18px;color:var(--airtable-accent);letter-spacing:-.02em}
+  .bk-tag{margin-left:auto;font-size:13px;font-weight:600;color:var(--brand-secondary)}
+  .hero{position:relative;overflow:hidden}
+  .hero-band{position:absolute;inset:0;background:linear-gradient(115deg,rgba(55,62,69,.14),rgba(11,11,12,.04) 60%,transparent);z-index:0}
+  .hero .wrap{position:relative;z-index:1;padding-top:76px;padding-bottom:64px;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+  .hero h1{font-size:clamp(34px,5vw,58px);font-weight:900}
+  .hero h1 .grad{background:linear-gradient(90deg,var(--brand-primary),var(--airtable-accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero p.lede{font-size:clamp(17px,2vw,20px);color:var(--muted);margin:22px 0 30px;max-width:34ch}
+  .hero-img{width:100%;aspect-ratio:16/11;object-fit:cover;border-radius:16px;box-shadow:0 24px 60px -24px rgba(55,62,69,.4);border:1px solid var(--line)}
+  .cta{display:inline-flex;align-items:center;gap:10px;background:var(--airtable-accent);color:#fff;font-weight:700;font-size:16px;padding:15px 26px;border-radius:10px;text-decoration:none;box-shadow:0 10px 24px -10px rgba(248,43,96,.6);transition:transform .15s ease}
+  .cta:hover{transform:translateY(-2px)}.cta-sub{display:block;margin-top:12px;font-size:13px;color:var(--muted)}
+  section{padding:64px 0;border-top:1px solid var(--line)}
+  .sec-head{max-width:60ch;margin-bottom:36px}.sec-head h2{font-size:clamp(26px,3.4vw,38px);font-weight:800;margin-top:10px}
+  .sec-head p{color:var(--muted);font-size:17px;margin:14px 0 0}
+  .film-sec{padding-top:56px}.film-wrap{max-width:900px;margin:0 auto}
+  .film-vid{width:100%;display:block;border-radius:16px;box-shadow:0 30px 70px -30px rgba(55,62,69,.5);border:1px solid var(--line);background:#000;aspect-ratio:16/9}
+  .film-cap{text-align:center;color:var(--muted);font-size:14px;margin-top:14px}
+  .signals{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .signal{border:1px solid var(--line);border-left:4px solid var(--brand-primary);border-radius:12px;padding:22px 24px;background:var(--bg-soft)}
+  .signal .date{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--brand-secondary)}
+  .signal h3{font-size:18px;font-weight:700;margin:8px 0 8px}.signal p{margin:0;color:var(--muted);font-size:15px}
+  .signal .angle{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);color:var(--ink);font-size:14.5px}
+  .signal .angle b{color:var(--airtable-accent)}.signal .src{display:inline-block;margin-top:10px;font-size:12px;color:#9aa0a6}
+  .props{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .prop{padding:28px 26px;border-radius:14px;border:1px solid var(--line);background:#fff}
+  .prop .n{font-size:13px;font-weight:800;color:var(--brand-primary)}.prop h3{font-size:21px;font-weight:800;margin:6px 0 10px}.prop p{margin:0;color:var(--muted);font-size:15px}
+  .proof-wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+  .customer-proof{border:1px solid var(--line);border-radius:14px;padding:26px;background:linear-gradient(180deg,#fff,var(--bg-soft))}
+  .cs-name{font-weight:800;font-size:15px;letter-spacing:.02em;color:var(--brand-secondary);text-transform:uppercase}
+  .cs-metric{font-size:30px;font-weight:900;letter-spacing:-.02em;margin:8px 0 14px}
+  .cs-quote{margin:0;font-size:15.5px;line-height:1.5;color:#3a3f47;border:0;padding:0}
+  .cs-quote cite{display:block;margin-top:10px;font-style:normal;font-size:13px;color:var(--muted)}
+  .cs-link{display:inline-block;margin-top:16px;font-weight:700;font-size:14px;color:var(--airtable-accent);text-decoration:none}.cs-link:hover{text-decoration:underline}
+  .final{background:linear-gradient(120deg,#2b3137,#15181b);color:#fff;border:0}
+  .final h2{color:#fff;font-size:clamp(26px,3.4vw,38px);font-weight:800}.final p{color:#c7ccd1;font-size:17px;margin:14px 0 28px;max-width:52ch}
+  footer{padding:34px 0;color:var(--muted);font-size:13px}footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+  .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}.reveal.in{opacity:1;transform:none}
+  @media(max-width:820px){.hero .wrap{grid-template-columns:1fr;padding-top:48px}.hero-img{order:-1}.signals,.props,.proof-wrap{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="bk-header">
+  <img class="bk-logo" src="https://www.google.com/s2/favicons?domain=accentgr.com.au&sz=256" alt="Accent Group" onerror="this.style.display='none'">
+  <span class="bk-name">Accent Group</span><span class="bk-x">&times;</span><span class="bk-at">Airtable</span>
+  <span class="bk-tag">Prepared for Accent Group · July 2026</span>
+</header>
+<div class="hero">
+  <div class="hero-band"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">A connected layer for Vision 2030</span>
+      <h1>Vision 2030 means scaling fast. <span class="grad">Airtable runs the work behind it.</span></h1>
+      <p class="lede">$1.9B in sales, ~950 stores, new brands and formats — growth this ambitious runs on getting a lot of moving parts right, together. Airtable is the connected layer above the systems you already run.</p>
+      <a class="cta" href="mailto:ryan.morris@airtable.com?subject=Airtable%20%C3%97%20Accent%20Group%20%E2%80%94%20Vision%202030">Book 20 minutes with Ryan &rarr;</a>
+      <span class="cta-sub">Ryan Morris · Account Executive, Airtable ANZ</span>
+    </div>
+    <img class="hero-img" src="https://cdn.prod.website-files.com/5eacd66c85c94f6ae4a551aa/5f98b85317c20c1f25a58804_Brand%20Asset%20Bulk%20Export%201b24.jpg" alt="Accent Group" onerror="this.closest('.wrap').style.gridTemplateColumns='1fr';this.style.display='none'">
+  </div>
+</div>
+<section class="film-sec reveal">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;margin:0 auto 28px"><span class="eyebrow">Two-minute overview</span><h2>Airtable, built around Vision 2030</h2></div>
+    <div class="film-wrap">
+      <video class="film-vid" controls preload="none" playsinline poster="https://ryanmorris-a11y.github.io/landingpages/accent-group/video-poster.jpg">
+        <source src="https://ryanmorris-a11y.github.io/landingpages/accent-group/accent-video.mp4" type="video/mp4">
+        <a href="https://ryanmorris-a11y.github.io/landingpages/accent-group/accent-video.mp4" target="_blank" rel="noopener noreferrer">Watch the overview</a>.
+      </video>
+      <p class="film-cap">1:58 · sound on</p>
+    </div>
+  </div>
+</section>
+<section class="reveal">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Why now</span><h2>Vision 2030 is a growth program that runs on connected information</h2>
+      <p>Scaling to ~950 stores while launching new brands and formats means hundreds of store openings, ranges and campaigns in flight — the work that fragments across spreadsheets.</p></div>
+    <div class="signals">
+      <div class="signal"><span class="date">13 May 2026</span><h3>Vision 2030 unveiled</h3><p>Investor Strategy Day targets $1.9B sales (from $1.5B FY25), ~950 stores and 9%+ EBIT, on three pillars: Efficiency, Evolution, Expansion.</p><div class="angle"><b>Airtable angle:</b> track the whole plan — targets, initiatives, owners — in one live source of truth.</div><span class="src">Source: Accent Group Investor Strategy Day, May 2026</span></div>
+      <div class="signal"><span class="date">2026</span><h3>Sports Direct rollout (Frasers)</h3><p>8 stores by Dec 2026, targeting 30 within three years via the Frasers Group partnership.</p><div class="angle"><b>Airtable angle:</b> run the store-opening pipeline — sites, fit-outs, ranging, go-live — from one connected view.</div><span class="src">Source: Accent Group, 2026</span></div>
+      <div class="signal"><span class="date">FY26</span><h3>Athlete's Foot reacquisition</h3><p>~$50M franchise reacquisition program targeting ~$14M incremental EBIT by FY30 — significant operational integration.</p><div class="angle"><b>Airtable angle:</b> manage integration workstreams and dependencies without losing the thread.</div><span class="src">Source: Accent Group, FY26</span></div>
+      <div class="signal"><span class="date">2026</span><h3>Portfolio rationalisation</h3><p>Exiting loss-making brands (Glue Store, Superga) while investing in growth formats and new distribution deals (Lacoste, Dickies).</p><div class="angle"><b>Airtable angle:</b> a single view of the brand portfolio and the decisions moving it.</div><span class="src">Source: Accent Group, 2026</span></div>
+    </div>
+  </div>
+</section>
+<section class="reveal">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">What Airtable does</span><h2>Consolidate, bridge, and unify the Vision 2030 work</h2></div>
+    <div class="props">
+      <div class="prop"><div class="n">01 · CONSOLIDATE</div><h3>Consolidate</h3><p>Replace the spreadsheets behind store openings, ranges and campaigns with one source of truth.</p></div>
+      <div class="prop"><div class="n">02 · BRIDGE</div><h3>Bridge</h3><p>Connect merchandising, property, marketing and supply systems so data flows instead of being re-keyed.</p></div>
+      <div class="prop"><div class="n">03 · UNIFY</div><h3>Unify</h3><p>Give every team one connected way to run the growth plan — from new brands to new stores.</p></div>
+    </div>
+  </div>
+</section>
+<section class="reveal">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Proof</span><h2>Retailers running connected operations on Airtable</h2></div>
+    <div class="proof-wrap">
+      <div class="customer-proof"><div class="cs-name">Jamjoom Fashion</div><div class="cs-metric">99.9% on-time delivery rate</div><blockquote class="cs-quote">&ldquo;Airtable connects our entire value chain, from product development to inventory tracking, enabling faster, smarter decisions that drive impact.&rdquo; <cite>&mdash; Osman Jamjoom, Transformation Director, Jamjoom Fashion</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/jamjoom" target="_blank" rel="noopener noreferrer">Read the Jamjoom Fashion story &rarr;</a></div>
+      <div class="customer-proof"><div class="cs-name">West Elm</div><div class="cs-metric">85 hours saved each week</div><blockquote class="cs-quote">&ldquo;Airtable is really up to the user, you can do anything you dream with it.&rdquo; <cite>&mdash; Korin Thorig, VP Creative Operations, West Elm</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/west-elm" target="_blank" rel="noopener noreferrer">Read the West Elm story &rarr;</a></div>
+    </div>
+  </div>
+</section>
+<section class="final reveal">
+  <div class="wrap"><span class="eyebrow" style="color:#fff">Let's talk</span><h2>Fifteen minutes on Vision 2030</h2>
+    <p>No pitch — just a look at where a connected layer could take friction out of the growth you're already driving.</p>
+    <a class="cta" href="mailto:ryan.morris@airtable.com?subject=Airtable%20%C3%97%20Accent%20Group%20%E2%80%94%20Vision%202030">Book 20 minutes with Ryan &rarr;</a>
+  </div>
+</section>
+<footer><div class="wrap"><span>Prepared for Accent Group by Ryan Morris, Airtable ANZ.</span><span>Airtable &times; Accent Group</span></div></footer>
+<script>const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));</script>
+</body>
+</html>
