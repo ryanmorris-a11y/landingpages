@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Woolworths Group × Airtable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --wow-blue:#1A78FF;
+    --wow-blue-2:#3789FF;
+    --wow-tint:#D7E7FF;
+    --at-coral:#F82B60;
+    --ink:#0F1626;
+    --sub:#4B5563;
+    --line:#E7ECF3;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:#ffffff;
+    color:var(--ink);
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--wow-blue);}
+
+  /* Co-branded header */
+  .bk-header{
+    display:flex;align-items:center;gap:18px;
+    padding:22px 6%;
+    border-bottom:4px solid var(--wow-blue);
+  }
+  .bk-logo{max-height:36px;width:auto;}
+  .bk-x{font-size:22px;color:#9aa0a6;font-weight:300;}
+  .bk-at{font-weight:800;font-size:20px;color:var(--at-coral);letter-spacing:-.5px;}
+  .bk-tag{margin-left:auto;font-size:13px;color:var(--wow-blue);font-weight:600;text-align:right;}
+
+  /* Hero */
+  .hero{
+    padding:64px 6% 48px;
+    background:linear-gradient(180deg, var(--wow-tint) 0%, #ffffff 100%);
+    border-bottom:1px solid var(--line);
+  }
+  .hero-inner{max-width:920px;margin:0 auto;text-align:center;}
+  .eyebrow{
+    display:inline-block;
+    font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--at-coral);
+    background:rgba(248,43,96,0.08);
+    border:1px solid rgba(248,43,96,0.25);
+    border-radius:999px;
+    padding:6px 14px;
+    margin-bottom:20px;
+  }
+  h1{
+    font-size:40px;line-height:1.15;font-weight:800;margin:0 0 16px;letter-spacing:-.02em;
+  }
+  h1 .accent{color:var(--wow-blue);}
+  .subhead{
+    font-size:18px;line-height:1.55;color:var(--sub);max-width:720px;margin:0 auto;
+  }
+
+  /* Why now */
+  .section{padding:52px 6%;max-width:1080px;margin:0 auto;}
+  .section-title{
+    font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--wow-blue);margin:0 0 18px;
+  }
+  .why-now{
+    display:grid;grid-template-columns:repeat(3, 1fr);gap:20px;
+  }
+  .signal-card{
+    background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px;
+    border-top:3px solid var(--wow-blue-2);
+  }
+  .signal-date{
+    font-size:12px;font-weight:700;color:var(--at-coral);text-transform:uppercase;letter-spacing:.04em;margin-bottom:8px;
+  }
+  .signal-card p{font-size:14.5px;line-height:1.55;color:var(--ink);margin:0;}
+
+  /* Value props */
+  .value-section{background:#F7F9FC;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .value-grid{
+    display:grid;grid-template-columns:repeat(3, 1fr);gap:22px;margin-top:8px;
+  }
+  .value-card{
+    background:#fff;border:1px solid var(--line);border-radius:14px;padding:28px 24px;
+  }
+  .value-icon{
+    width:40px;height:40px;border-radius:10px;
+    background:var(--wow-blue);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:16px;margin-bottom:16px;
+  }
+  .value-card h3{font-size:17px;margin:0 0 10px;font-weight:700;}
+  .value-card p{font-size:14.5px;line-height:1.6;color:var(--sub);margin:0;}
+
+  /* Customer proof */
+  .proof-section{padding:56px 6%;max-width:900px;margin:0 auto;}
+  .customer-proof{
+    background:#fff;
+    border:1px solid var(--line);
+    border-left:4px solid var(--at-coral);
+    border-radius:12px;
+    padding:26px 28px;
+    margin-bottom:20px;
+  }
+  .cs-name{
+    font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--wow-blue);margin-bottom:6px;
+  }
+  .cs-metric{
+    font-size:26px;font-weight:800;color:var(--ink);margin-bottom:12px;letter-spacing:-.01em;
+  }
+  .cs-quote{
+    font-size:15.5px;line-height:1.6;color:var(--sub);margin:0 0 12px;font-style:italic;border:none;padding:0;
+  }
+  .cs-quote cite{
+    display:block;margin-top:8px;font-style:normal;font-size:13px;color:var(--ink);font-weight:600;
+  }
+  .cs-link{
+    font-size:14px;font-weight:700;color:var(--at-coral);text-decoration:none;
+  }
+  .cs-link:hover{text-decoration:underline;}
+
+  /* CTA */
+  .cta-section{
+    text-align:center;padding:56px 6% 72px;
+  }
+  .cta-box{
+    max-width:640px;margin:0 auto;
+    background:linear-gradient(135deg, var(--wow-blue) 0%, var(--wow-blue-2) 100%);
+    border-radius:18px;padding:44px 36px;color:#fff;
+  }
+  .cta-box h2{font-size:26px;margin:0 0 12px;font-weight:800;}
+  .cta-box p{font-size:15px;line-height:1.6;margin:0 0 26px;opacity:.92;}
+  .cta-btn{
+    display:inline-block;
+    background:var(--at-coral);
+    color:#fff;
+    font-weight:700;
+    font-size:15.5px;
+    padding:14px 32px;
+    border-radius:999px;
+    text-decoration:none;
+    box-shadow:0 8px 20px rgba(248,43,96,0.35);
+  }
+  .cta-btn:hover{background:#e01f52;}
+
+  footer{
+    text-align:center;padding:28px 6%;color:#9aa0a6;font-size:12.5px;border-top:1px solid var(--line);
+  }
+
+  @media (max-width:820px){
+    h1{font-size:30px;}
+    .why-now,.value-grid{grid-template-columns:1fr;}
+    .bk-tag{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<header class="bk-header">
+  <img class="bk-logo" src="https://www.woolworthsgroup.com.au/etc.clientlibs/wwg/clientlibs/clientlib-site/resources/images/icons/apple-touch-icon.png" alt="Woolworths Group logo" height="36">
+  <span class="bk-x">&times;</span>
+  <span class="bk-at">Airtable</span>
+  <span class="bk-tag">Woolworths Group &times; Airtable — built for Woolworths Group</span>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Built for Woolworths Group Operations</span>
+    <h1>One connected system for a <span class="accent">$69B multi-banner retail group</span> in transformation</h1>
+    <p class="subhead">As Woolworths Group consolidates its leadership structure, rebuilds its NSW supply chain network, and pushes AI deeper into stores and eCommerce, the teams driving that change are still running critical workflows across spreadsheets, PDFs, and disconnected tools. Airtable gives Operations one connected layer to plan, track, and scale execution — across Australian Food, BIG W, Cartology, and every service business in between.</p>
+  </div>
+</section>
+
+<section class="section">
+  <p class="section-title">Why Now</p>
+  <div class="why-now">
+    <div class="signal-card">
+      <div class="signal-date">Dec 4, 2025 — Moorebank Site Visit</div>
+      <p>Woolworths Group confirmed Moorebank as the largest single capital investment in its history ($1.3B including leases), consolidating its NSW ambient network under a new Regional Distribution Centre — a major operating-model shift for supply chain teams to coordinate.</p>
+    </div>
+    <div class="signal-card">
+      <div class="signal-date">Feb 2026 — H1 FY26 Results</div>
+      <p>CEO Amanda Bardwell reported Group EBIT up 14.4% and highlighted a new DoorDash On Demand partnership, an Adelaide CFC opening, and an expanded Google partnership evolving "Olive" into an agentic AI shopping assistant — all requiring cross-functional operational coordination.</p>
+    </div>
+    <div class="signal-card">
+      <div class="signal-date">May 2026 — Q3 FY26 Trading Update</div>
+      <p>Group sales rose 4.5% to $18.1B with eCommerce up 23.8%, even as Bardwell flagged new cost and supply pressures from geopolitical disruption — underscoring the need for faster, more resilient planning across the Group's operating model.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section value-section">
+  <p class="section-title">Built For How Woolworths Group Operates</p>
+  <div class="value-grid">
+    <div class="value-card">
+      <div class="value-icon">C</div>
+      <h3>Consolidate</h3>
+      <p>Bring planning for Australian Food, New Zealand Food, BIG W, PFD, Petstock, and Cartology into one shared workspace — replacing the scattered trackers that multiply every time a new leadership structure or business unit is realigned.</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">B</div>
+      <h3>Bridge</h3>
+      <p>Connect store operations, supply chain milestones (Moorebank, Auburn, the new Sydney Chilled & Fresh DC), and merchandising timelines so teams aren't reconciling status updates across email threads and static reports.</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">U</div>
+      <h3>Unify</h3>
+      <p>Give Operations, eCommerce/AI teams, and retail media (Cartology, Everyday Rewards) a single source of truth for initiative tracking — so productivity programs and AI rollouts move at the pace the Group's growth demands.</p>
+    </div>
+  </div>
+</section>
+
+<section class="proof-section">
+  <p class="section-title">Proof From Retail Operations Teams</p>
+
+  <div class="customer-proof"><div class="cs-name">Jamjoom Fashion</div><div class="cs-metric">99.9% on-time delivery rate</div><blockquote class="cs-quote">"Airtable connects our entire value chain, from product development to inventory tracking, enabling faster, smarter decisions that drive impact." <cite>— Osman Jamjoom, Transformation Director, Jamjoom Fashion</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/jamjoom" target="_blank" rel="noopener noreferrer">Read the Jamjoom Fashion story →</a></div>
+
+  <div class="customer-proof"><div class="cs-name">West Elm</div><div class="cs-metric">85 hours saved each week</div><blockquote class="cs-quote">"Airtable is really up to the user, you can do anything you dream with it." <cite>— Korin Thorig, VP Creative Operations, West Elm</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/west-elm" target="_blank" rel="noopener noreferrer">Read the West Elm story →</a></div>
+
+  <div class="cta-section" style="padding:16px 0 0;">
+    <div class="cta-box">
+      <h2>Let's talk about Operations at Woolworths Group</h2>
+      <p>See how Airtable can support your supply chain transformation, store execution, and AI-driven productivity agenda — built around the way your teams actually work.</p>
+      <a class="cta-btn" href="mailto:ryan.morris@airtable.com">Contact Ryan Morris →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Airtable for Woolworths Group — informational outreach material. Not affiliated with or endorsed by Woolworths Group.
+</footer>
+
+</body>
+</html>
