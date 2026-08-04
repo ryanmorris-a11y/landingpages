@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Airtable × University of Auckland</title>
+<meta name="description" content="A connected layer for University of Auckland — grounded in its own strategy.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{--brand-primary:#353567;--brand-secondary:#474774;--airtable-accent:#F82B60;--ink:#0B0B0C;--muted:#5b6069;--line:#ececef;--bg:#ffffff;--bg-soft:#fafafa;--maxw:1080px;}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 6%}
+  h1,h2,h3{letter-spacing:-.02em;line-height:1.08;margin:0}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--brand-secondary)}
+  .bk-header{display:flex;align-items:center;gap:16px;padding:20px 6%;border-bottom:4px solid var(--brand-primary)}
+  .bk-logo{height:34px;width:34px;border-radius:7px;object-fit:cover;box-shadow:0 0 0 1px var(--line)}
+  .bk-name{font-weight:800;font-size:16px}.bk-x{color:#b7bcc4;font-weight:300;font-size:20px;margin:0 2px}
+  .bk-at{font-weight:900;font-size:18px;color:var(--airtable-accent);letter-spacing:-.02em}
+  .bk-tag{margin-left:auto;font-size:13px;font-weight:600;color:var(--brand-secondary)}
+  .hero{position:relative;overflow:hidden}
+  .hero-band{position:absolute;inset:0;background:linear-gradient(115deg,#35356722,rgba(11,11,12,.04) 60%,transparent);z-index:0}
+  .hero .wrap{position:relative;z-index:1;padding-top:76px;padding-bottom:64px;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+  .hero h1{font-size:clamp(34px,5vw,58px);font-weight:900}
+  .hero h1 .grad{background:linear-gradient(90deg,var(--brand-primary),var(--airtable-accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero p.lede{font-size:clamp(17px,2vw,20px);color:var(--muted);margin:22px 0 30px;max-width:34ch}
+  .hero-img{width:100%;aspect-ratio:16/11;object-fit:cover;border-radius:16px;box-shadow:0 24px 60px -24px #35356766;border:1px solid var(--line)}
+  .cta{display:inline-flex;align-items:center;gap:10px;background:var(--airtable-accent);color:#fff;font-weight:700;font-size:16px;padding:15px 26px;border-radius:10px;text-decoration:none;box-shadow:0 10px 24px -10px rgba(248,43,96,.6);transition:transform .15s ease}
+  .cta:hover{transform:translateY(-2px)}.cta-sub{display:block;margin-top:12px;font-size:13px;color:var(--muted)}
+  section{padding:64px 0;border-top:1px solid var(--line)}
+  .sec-head{max-width:60ch;margin-bottom:36px}.sec-head h2{font-size:clamp(26px,3.4vw,38px);font-weight:800;margin-top:10px}
+  .sec-head p{color:var(--muted);font-size:17px;margin:14px 0 0}
+  .film-sec{padding-top:56px}.film-wrap{max-width:900px;margin:0 auto}
+  .film-vid{width:100%;display:block;border-radius:16px;box-shadow:0 30px 70px -30px #35356788;border:1px solid var(--line);background:#000;aspect-ratio:16/9}
+  .film-cap{text-align:center;color:var(--muted);font-size:14px;margin-top:14px}
+  .signals{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .signal{border:1px solid var(--line);border-left:4px solid var(--brand-primary);border-radius:12px;padding:22px 24px;background:var(--bg-soft)}
+  .signal .date{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--brand-secondary)}
+  .signal h3{font-size:18px;font-weight:700;margin:8px 0 8px}.signal p{margin:0;color:var(--muted);font-size:15px}
+  .signal .angle{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);color:var(--ink);font-size:14.5px}
+  .signal .angle b{color:var(--airtable-accent)}.signal .src{display:inline-block;margin-top:10px;font-size:12px;color:#9aa0a6}
+  .props{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:stretch}
+  .prop{padding:28px 26px;border-radius:14px;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;height:100%}
+  .prop .n{font-size:13px;font-weight:800;color:var(--brand-primary)}.prop h3{font-size:21px;font-weight:800;margin:6px 0 10px}.prop p{margin:0;color:var(--muted);font-size:15px}
+  .proof-wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+  .customer-proof{border:1px solid var(--line);border-radius:14px;padding:26px;background:linear-gradient(180deg,#fff,var(--bg-soft))}
+  .cs-name{font-weight:800;font-size:15px;letter-spacing:.02em;color:var(--brand-secondary);text-transform:uppercase}
+  .cs-metric{font-size:30px;font-weight:900;letter-spacing:-.02em;margin:8px 0 14px}
+  .cs-quote{margin:0;font-size:15.5px;line-height:1.5;color:#3a3f47;border:0;padding:0}
+  .cs-quote cite{display:block;margin-top:10px;font-style:normal;font-size:13px;color:var(--muted)}
+  .cs-link{display:inline-block;margin-top:16px;font-weight:700;font-size:14px;color:var(--airtable-accent);text-decoration:none}.cs-link:hover{text-decoration:underline}
+  .final{background:linear-gradient(120deg,#1D1D38,#141427);color:#fff;border:0}
+  .final h2{color:#fff;font-size:clamp(26px,3.4vw,38px);font-weight:800}.final p{color:#e8e0ea;font-size:17px;margin:14px 0 28px;max-width:52ch}
+  footer{padding:34px 0;color:var(--muted);font-size:13px}footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+  .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}.reveal.in{opacity:1;transform:none}
+  @media(max-width:820px){.hero .wrap{grid-template-columns:1fr;padding-top:48px}.hero-img{order:-1}.signals,.props,.proof-wrap{grid-template-columns:1fr}}
+</style>
+<!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "1801083d0aad420c8b06164c2dc46273"}'></script><!-- End Cloudflare Web Analytics -->
+</head><body>
+<header class="bk-header">
+  <img class="bk-logo" src="https://www.google.com/s2/favicons?domain=auckland.ac.nz&sz=256" alt="University of Auckland" onerror="this.style.display='none'">
+  <span class="bk-name">University of Auckland</span><span class="bk-x">&times;</span><span class="bk-at">Airtable</span>
+  <span class="bk-tag">Prepared for University of Auckland · July 2026</span>
+</header>
+<div class="hero"><div class="hero-band"></div><div class="wrap">
+  <div>
+    <span class="eyebrow">A connected layer for Auckland's transformation</span>
+    <h1>Six functions. One incoming COO. <span class="grad">Airtable connects the work between them.</span></h1>
+    <p class="lede">Two faculty mergers. A new COO consolidating six professional-service functions. A four-university Applied Doctorate programme. Auckland is in the middle of its largest structural transformation in years — Airtable is the connected layer above the systems you already run.</p>
+    <a class="cta" href="mailto:harry.oconnor@airtable.com?subject=Airtable%20%C3%97%20Auckland%20%E2%80%94%20transformation">Book 20 minutes with Harry &rarr;</a>
+    <span class="cta-sub">Harry O'Connor · Account Executive, Airtable ANZ</span>
+  </div>
+  <img class="hero-img" src="" alt="University of Auckland" onerror="this.closest('.wrap').style.gridTemplateColumns='1fr';this.style.display='none'">
+</div></div>
+<section class="film-sec reveal"><div class="wrap">
+  <div class="sec-head" style="text-align:center;margin:0 auto 28px"><span class="eyebrow">Two-minute overview</span><h2>Airtable, built around your strategy</h2></div>
+  <div class="film-wrap">
+    <video class="film-vid" controls preload="none" playsinline poster="https://ryanmorris-a11y.github.io/landingpages/auckland/video-poster.jpg">
+      <source src="https://ryanmorris-a11y.github.io/landingpages/auckland/auckland_video.mp4" type="video/mp4">
+      <a href="https://ryanmorris-a11y.github.io/landingpages/auckland/auckland_video.mp4" target="_blank" rel="noopener noreferrer">Watch the overview</a>.
+    </video>
+    <p class="film-cap">~2 min · sound on</p>
+  </div>
+</div></section>
+<section class="reveal"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">Why now</span><h2>Auckland's transformation is a programme that runs on connected information</h2><p>Two faculty mergers, a new COO structure and a multi-institution research programme — each with its own tracking, its own budget, its own stakeholders. None of them connected.</p></div>
+  <div class="signals"><div class="signal"><span class="date">2025–2026</span><h3>New COO consolidating 6 functions</h3><p>Actively recruiting a COO whose direct reports span Strategic Planning, Governance, Student Services, Staff Services, a Chief Digital Officer and a Chief Property Officer — six previously distinct functions under one leader.</p><div class="angle"><b>Airtable angle:</b> give the new COO one connected operating workspace for all six functions from day one.</div><span class="src">Source: University of Auckland, 2025</span></div><div class="signal"><span class="date">2025</span><h3>Faculty of Arts and Education merger</h3><p>Five units merged into a new Faculty of Arts and Education — combining previously separate admin systems, budgets and project pipelines.</p><div class="angle"><b>Airtable angle:</b> coordinate the merged faculty's programmes, budgets and workstreams in one source of truth.</div><span class="src">Source: University of Auckland, 2025</span></div><div class="signal"><span class="date">Feb 2025</span><h3>Applied Doctorate Scheme — 4 universities</h3><p>NZ$20M, 5-year, 4-university collaboration (Auckland, Victoria Wellington, Otago, Massey), hosted centrally by Auckland — coordinating a shared multi-institution programme from one secretariat.</p><div class="angle"><b>Airtable angle:</b> run the four-university programme coordination from a single connected workspace at Auckland.</div><span class="src">Source: University of Auckland, Feb 2025</span></div><div class="signal"><span class="date">Jun 2025</span><h3>Vice-Chancellor transition mid-transformation</h3><p>Dawn Freshwater announced intention to step down in first half of 2026 — a leadership transition right as the University executes its administrative-efficiency transformation.</p><div class="angle"><b>Airtable angle:</b> ensure transformation programmes survive leadership change with documented, connected programme tracking.</div><span class="src">Source: University of Auckland, Jun 2025</span></div></div>
+</div></section>
+<section class="reveal"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">What Airtable does</span><h2>Consolidate, bridge, and unify the work</h2></div>
+  <div class="props">
+    <div class="prop"><div class="n">01 · CONSOLIDATE</div><h3>Consolidate</h3><p>Consolidate the Faculty mergers, the COO's administrative efficiency programme and the Applied Doctorate coordination into one source of truth — visible to every team steering the transformation.</p></div>
+    <div class="prop"><div class="n">02 · BRIDGE</div><h3>Bridge</h3><p>Bridge the gap between the four Applied Doctorate institutions — Auckland, Victoria Wellington, Otago and Massey — so the Auckland secretariat can coordinate the shared programme in real time.</p></div>
+    <div class="prop"><div class="n">03 · UNIFY</div><h3>Unify</h3><p>Give the incoming COO's six functions — planning, governance, student services, digital, property and people — one connected operating model from day one.</p></div>
+  </div>
+</div></section>
+<section class="reveal"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">Proof</span><h2>Education institutions running connected programmes on Airtable</h2></div>
+  <div class="proof-wrap"><div class="customer-proof"><div class="cs-name">Teachers College Columbia &amp; Ascend WV</div><div class="cs-metric">185% membership growth for Ascend WV within one year</div><blockquote class="cs-quote">“Airtable gave us central data visibility while integrating seamlessly with our existing systems.” <cite>— Blessing Nuga, Senior Manager of Department Admin, Teachers College Columbia</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/teachers-college" target="_blank" rel="noopener noreferrer">Read the Teachers College Columbia &amp; Ascend WV story →</a></div><div class="customer-proof"><div class="cs-name">Yale Tsai Center for Innovative Thinking</div><div class="cs-metric">2 — weeks back/year</div><blockquote class="cs-quote">“We've been able to increase our fall events by 23% in large part due to the streamlined processes we've developed with Airtable.” </blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/yale-tsai-city" target="_blank" rel="noopener noreferrer">Read the Yale Tsai Center for Innovative Thinking story →</a></div></div>
+</div></section>
+<section class="final reveal"><div class="wrap">
+  <span class="eyebrow" style="color:#fff">Let's talk</span><h2>Twenty minutes on Auckland's transformation</h2>
+  <p>No pitch — just a look at where a connected layer could take friction out of the work you're already driving.</p>
+  <a class="cta" href="mailto:harry.oconnor@airtable.com?subject=Airtable%20%C3%97%20Auckland%20%E2%80%94%20transformation">Book 20 minutes with Harry &rarr;</a>
+</div></section>
+<footer><div class="wrap"><span>Prepared for University of Auckland by Harry O'Connor, Airtable ANZ.</span><span>Airtable &times; University of Auckland</span></div></footer>
+<script>const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));</script>
+</body></html>
