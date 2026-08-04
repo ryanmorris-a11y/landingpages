@@ -1,62 +1,107 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Airtable × Genting Berhad — a connected view for your priorities</title>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Airtable × Genting Berhad</title>
+<meta name="description" content="A connected layer for Genting Berhad — grounded in its own strategy.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#14181f;--paper:#f6f5f1;--card:#fff;--accent:#2f5fdf;--accent-deep:#1f3fa8;--moss:#1f4d3f;--muted:#5c6672;--line:#e5e2d9}
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1080px;margin:0 auto;padding:0 7%}.serif{font-family:'Fraunces',Georgia,serif}
-.eyebrow{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--accent)}
-header{padding:4.5rem 0 3.5rem;background:radial-gradient(120% 90% at 85% -10%,rgba(47,95,223,.10),transparent 60%),radial-gradient(90% 80% at 0% 110%,rgba(31,77,63,.10),transparent 55%)}
-.brandbar{display:flex;align-items:center;gap:.7rem;font-weight:600;color:var(--muted);font-size:.95rem}.brandbar b{color:var(--ink)}
-.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block}
-h1.serif{font-size:clamp(2.3rem,5.2vw,3.8rem);line-height:1.05;font-weight:600;margin:1.5rem 0 1.1rem;letter-spacing:-.015em}
-.lede{font-size:1.2rem;color:#323a44;max-width:44ch}
-.cta{display:inline-flex;align-items:center;gap:.55rem;background:var(--ink);color:#fff;padding:.95rem 1.6rem;border-radius:999px;text-decoration:none;font-weight:600;margin-top:2rem;transition:transform .15s,background .15s}
-.cta:hover{transform:translateY(-2px);background:var(--accent-deep)}
-.firmo{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin:3.2rem 0 0;border-top:1px solid var(--line);padding-top:2rem}
-.firmo .n{font-family:'Fraunces',serif;font-size:1.5rem;font-weight:600;color:var(--moss);line-height:1.1}
-.firmo .l{font-size:.82rem;color:var(--muted);margin-top:.4rem;text-transform:uppercase;letter-spacing:.08em}
-section{padding:3.6rem 0}
-h2.serif{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:600;letter-spacing:-.01em;margin:.4rem 0 1.3rem;max-width:26ch}
-p.body{font-size:1.06rem;color:#37414c;max-width:64ch;margin-bottom:1rem}
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;margin-top:1rem}
-.mcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.5rem 1.4rem}
-.mcard .k{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
-.mcard p{font-size:.98rem;color:#48525d;margin-top:.5rem}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:2.2rem;margin-top:1rem}
-.two h3{font-family:'Fraunces',serif;font-size:1.15rem;margin-bottom:.7rem}
-.two ul{list-style:none} .two li{padding:.5rem 0;border-bottom:1px solid var(--line);font-size:.96rem;color:#48525d}
-.band{background:var(--ink);color:#eef1ee;border-radius:22px;padding:2.8rem 2.4rem;margin-top:1rem}
-.band h2{color:#fff;max-width:30ch}.band p{color:#c3ccc6;max-width:60ch;font-size:1.04rem}
-footer{padding:3.2rem 0 4.5rem;border-top:1px solid var(--line)}
-.foot-cta{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.4rem}.foot-cta h2{max-width:22ch}
-.fine{color:var(--muted);font-size:.8rem;margin-top:2.4rem}
-@media(max-width:760px){.firmo{grid-template-columns:repeat(2,1fr)}.cards,.two{grid-template-columns:1fr}}
+  :root{--brand-primary:#E51A23;--brand-secondary:#E4121C;--airtable-accent:#F82B60;--ink:#0B0B0C;--muted:#5b6069;--line:#ececef;--bg:#ffffff;--bg-soft:#fafafa;--maxw:1080px;}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 6%}
+  h1,h2,h3{letter-spacing:-.02em;line-height:1.08;margin:0}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--brand-secondary)}
+  .bk-header{display:flex;align-items:center;gap:16px;padding:20px 6%;border-bottom:4px solid var(--brand-primary)}
+  .bk-logo{height:34px;width:34px;border-radius:7px;object-fit:cover;box-shadow:0 0 0 1px var(--line)}
+  .bk-name{font-weight:800;font-size:16px}.bk-x{color:#b7bcc4;font-weight:300;font-size:20px;margin:0 2px}
+  .bk-at{font-weight:900;font-size:18px;color:var(--airtable-accent);letter-spacing:-.02em}
+  .bk-tag{margin-left:auto;font-size:13px;font-weight:600;color:var(--brand-secondary)}
+  .hero{position:relative;overflow:hidden}
+  .hero-band{position:absolute;inset:0;background:linear-gradient(115deg,#E51A2322,rgba(11,11,12,.04) 60%,transparent);z-index:0}
+  .hero .wrap{position:relative;z-index:1;padding-top:76px;padding-bottom:64px;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+  .hero h1{font-size:clamp(34px,5vw,58px);font-weight:900}
+  .hero h1 .grad{background:linear-gradient(90deg,var(--brand-primary),var(--airtable-accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero p.lede{font-size:clamp(17px,2vw,20px);color:var(--muted);margin:22px 0 30px;max-width:34ch}
+  .hero-img{width:100%;aspect-ratio:16/11;object-fit:cover;border-radius:16px;box-shadow:0 24px 60px -24px #E51A2366;border:1px solid var(--line)}
+  .cta{display:inline-flex;align-items:center;gap:10px;background:var(--airtable-accent);color:#fff;font-weight:700;font-size:16px;padding:15px 26px;border-radius:10px;text-decoration:none;box-shadow:0 10px 24px -10px rgba(248,43,96,.6);transition:transform .15s ease}
+  .cta:hover{transform:translateY(-2px)}.cta-sub{display:block;margin-top:12px;font-size:13px;color:var(--muted)}
+  section{padding:64px 0;border-top:1px solid var(--line)}
+  .sec-head{max-width:60ch;margin-bottom:36px}.sec-head h2{font-size:clamp(26px,3.4vw,38px);font-weight:800;margin-top:10px}
+  .sec-head p{color:var(--muted);font-size:17px;margin:14px 0 0}
+  .film-sec{padding-top:56px}.film-wrap{max-width:900px;margin:0 auto}
+  .film-vid{width:100%;display:block;border-radius:16px;box-shadow:0 30px 70px -30px #E51A2388;border:1px solid var(--line);background:#000;aspect-ratio:16/9}
+  .film-cap{text-align:center;color:var(--muted);font-size:14px;margin-top:14px}
+  .signals{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .signal{border:1px solid var(--line);border-left:4px solid var(--brand-primary);border-radius:12px;padding:22px 24px;background:var(--bg-soft)}
+  .signal .date{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--brand-secondary)}
+  .signal h3{font-size:18px;font-weight:700;margin:8px 0 8px}.signal p{margin:0;color:var(--muted);font-size:15px}
+  .signal .angle{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);color:var(--ink);font-size:14.5px}
+  .signal .angle b{color:var(--airtable-accent)}.signal .src{display:inline-block;margin-top:10px;font-size:12px;color:#9aa0a6}
+  .props{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:stretch}
+  .prop{padding:28px 26px;border-radius:14px;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;height:100%}
+  .prop .n{font-size:13px;font-weight:800;color:var(--brand-primary)}.prop h3{font-size:21px;font-weight:800;margin:6px 0 10px}.prop p{margin:0;color:var(--muted);font-size:15px}
+  .proof-wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+  .customer-proof{border:1px solid var(--line);border-radius:14px;padding:26px;background:linear-gradient(180deg,#fff,var(--bg-soft))}
+  .cs-name{font-weight:800;font-size:15px;letter-spacing:.02em;color:var(--brand-secondary);text-transform:uppercase}
+  .cs-metric{font-size:30px;font-weight:900;letter-spacing:-.02em;margin:8px 0 14px}
+  .cs-quote{margin:0;font-size:15.5px;line-height:1.5;color:#3a3f47;border:0;padding:0}
+  .cs-quote cite{display:block;margin-top:10px;font-style:normal;font-size:13px;color:var(--muted)}
+  .cs-link{display:inline-block;margin-top:16px;font-weight:700;font-size:14px;color:var(--airtable-accent);text-decoration:none}.cs-link:hover{text-decoration:underline}
+  .final{background:linear-gradient(120deg,#7D0E13,#57090D);color:#fff;border:0}
+  .final h2{color:#fff;font-size:clamp(26px,3.4vw,38px);font-weight:800}.final p{color:#e8e0ea;font-size:17px;margin:14px 0 28px;max-width:52ch}
+  footer{padding:34px 0;color:var(--muted);font-size:13px}footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+  .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}.reveal.in{opacity:1;transform:none}
+  @media(max-width:820px){.hero .wrap{grid-template-columns:1fr;padding-top:48px}.hero-img{order:-1}.signals,.props,.proof-wrap{grid-template-columns:1fr}}
 </style>
 <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "1801083d0aad420c8b06164c2dc46273"}'></script><!-- End Cloudflare Web Analytics -->
 </head><body>
-<header><div class="wrap">
-<div class="brandbar"><span>Airtable</span><span class="dot"></span><b>Prepared for Genting Berhad</b></div>
-<h1 class="serif">A connected view for Genting Berhad's next chapter — without ripping out what runs today.</h1>
-<p class="lede">- Active corporate restructuring (Genting Malaysia consolidation push) signals near-term M&amp;A/finance system integration needs</p>
-<a class="cta" href="mailto:ryan.morris@airtable.com?subject=Airtable%20%C3%97%20Genting%20Berhad">Explore a tailored walkthrough →</a>
-<div class="firmo"><div><div class="n">Investment Holding / Leisure &amp; Hospitality</div><div class="l">Industry</div></div><div><div class="n">&gt;$10B</div><div class="l">Revenue</div></div><div><div class="n">4,300</div><div class="l">Employees</div></div><div><div class="n">Kuala Lumpur Malaysia</div><div class="l">Headquarters</div></div></div>
-</div></header>
-<section><div class="wrap"><span class="eyebrow">Why now</span><h2 class="serif">The priorities are set. The data can't wait for the re-platform.</h2><p class="body">Genting Berhad, the investment holding parent of the Genting Group, is consolidating control over subsidiary Genting Malaysia (raised stake from 49.36% to 73.838%) primarily to manage balance-sheet consolidation risk as Resorts World New York City&#x27;s earnings begin to surpass Genting Highlands. The Group continues to expand its global integrated resorts and gaming footprint across Malaysia, Singapore, the US, UK and Bahamas, while evaluating next steps on the Genting Malaysia ownership structure, including potential moves toward statutory control (75%) or delisting. Leadership under executive chairman Tan Sri Lim Kok Thay spans Genting Berhad, Genting Singapore and Genting Malaysia, reflecting a tightly held family-controlled governance structure across the group&#x27;s listed entities.</p></div></section>
-<section id="fit"><div class="wrap"><span class="eyebrow">Where Airtable fits</span><h2 class="serif">Mapped to what your teams are already tackling.</h2><div class="cards"><div class="mcard"><div class="k">Opportunity 1</div><p>- Active corporate restructuring (Genting Malaysia consolidation push) signals near-term M&amp;A/finance system integration needs</p></div><div class="mcard"><div class="k">Opportunity 2</div><p>- Multiple recent board/committee redesignations (Audit, Risk) point to heightened governance and compliance focus - relevant for GRC-related outreach</p></div><div class="mcard"><div class="k">Opportunity 3</div><p>- Resorts World New York City&#x27;s rapid earnings growth is reshaping group financial reporting - an opening for finance/consolidation tooling conversations</p></div><div class="mcard"><div class="k">Opportunity 4</div><p>- Group&#x27;s sprawling multi-entity structure (Genting Malaysia, Singapore, Plantations, Energy) creates natural cross-entity data/reporting pain points to reference</p></div><div class="mcard"><div class="k">Opportunity 5</div><p>- CEO Tan Kong Han&#x27;s public clarifications on capital strategy suggest investor-relations and reporting transparency is a current priority</p></div></div></div></section>
-<section><div class="wrap"><div class="two"><div><h3>Named initiatives</h3><ul><li>- Voluntary takeover offer for Genting Malaysia (stake raised to 73.838%, evaluating path to 75%+ control/delisting)</li><li>- Resorts World New York City scale-up as a future primary earnings driver</li><li>- Resorts World Sentosa leadership transition and strategic direction refresh</li><li>- Ongoing global integrated resort/casino expansion (Genting UK/Resorts World Birmingham, Bahamas, Egypt operations)</li></ul></div><div><h3>Recent signals</h3><ul><li>- Jan 30, 2026: Lim Kok Thay appointed chairman and director of Resorts World Sentosa, effective Feb 1, 2026</li><li>- Feb 26, 2026: Genting Berhad reports Q4/FY2025 results - net loss widens on higher impairments and depreciation; quarterly revenue RM6.94B</li><li>- Jun 10, 2026: Genting Malaysia director Teo Eng Siong retires after 16-year board tenure</li><li>- Jun 14, 2026: CEO Tan Kong Han clarifies Genting Malaysia takeover bid was driven by balance-sheet/consolidation needs, not privatization intent</li></ul></div></div></div></section>
-<section><div class="wrap"><div class="band">
-<span class="eyebrow" style="color:#8fb0ff">A working session, not a generic demo</span>
-<h2 class="serif">Shaped around the initiatives already on your roadmap.</h2>
-<p>We'd frame it against your live priorities — the specific workflows your teams are building — and show how Airtable acts as the connected data-and-app layer across the systems you already run.</p>
-</div></div></section>
-<footer><div class="wrap"><div class="foot-cta">
-<h2 class="serif">Ready to see it against one of your workflows?</h2>
-<a class="cta" href="mailto:ryan.morris@airtable.com?subject=Airtable%20%C3%97%20Genting%20Berhad">Book a tailored walkthrough →</a>
-</div>
-<p class="fine">Prepared for Genting Berhad (Kuala Lumpur Malaysia) by Airtable. Grounded in publicly reported company initiatives and priorities. This is a personalised outreach page, not a Genting Berhad property.</p>
-</div></footer></body></html>
+<header class="bk-header">
+  <img class="bk-logo" src="https://www.genting.com/ico/rwg-mobile-app.png" alt="Genting Berhad" onerror="this.style.display='none'">
+  <span class="bk-name">Genting Berhad</span><span class="bk-x">&times;</span><span class="bk-at">Airtable</span>
+  <span class="bk-tag">Prepared for Genting Berhad · July 2026</span>
+</header>
+<div class="hero"><div class="hero-band"></div><div class="wrap">
+  <div>
+    <span class="eyebrow">A connected layer for Genting's group strategy</span>
+    <h1>Five entities. One group view. <span class="grad">Airtable connects the work between them.</span></h1>
+    <p class="lede">Genting Malaysia consolidation. Resorts World New York City reshaping group reporting. A board refresh and capital strategy under investor scrutiny. Genting is a multi-entity conglomerate in motion — Airtable is the connected layer above the systems you already run.</p>
+    <a class="cta" href="mailto:ryan.morris@airtable.com?subject=Airtable%20%C3%97%20Genting%20%E2%80%94%20group%20strategy">Book 20 minutes with Ryan &rarr;</a>
+    <span class="cta-sub">Ryan Morris · Account Executive, Airtable ANZ</span>
+  </div>
+  <img class="hero-img" src="" alt="Genting Berhad" onerror="this.closest('.wrap').style.gridTemplateColumns='1fr';this.style.display='none'">
+</div></div>
+<section class="film-sec reveal"><div class="wrap">
+  <div class="sec-head" style="text-align:center;margin:0 auto 28px"><span class="eyebrow">Two-minute overview</span><h2>Airtable, built around your strategy</h2></div>
+  <div class="film-wrap">
+    <video class="film-vid" controls preload="none" playsinline poster="https://ryanmorris-a11y.github.io/landingpages/genting/video-poster.jpg">
+      <source src="https://ryanmorris-a11y.github.io/landingpages/genting/genting_video.mp4" type="video/mp4">
+      <a href="https://ryanmorris-a11y.github.io/landingpages/genting/genting_video.mp4" target="_blank" rel="noopener noreferrer">Watch the overview</a>.
+    </video>
+    <p class="film-cap">~2 min · sound on</p>
+  </div>
+</div></section>
+<section class="reveal"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">Why now</span><h2>Genting's group consolidation is a programme that runs on connected information</h2><p>Five business units across five countries — Malaysia, Singapore, Americas, UK and the Bahamas — each with its own reporting lines. The work that fragments isn't in the ERP. It's between the entities.</p></div>
+  <div class="signals"><div class="signal"><span class="date">Jun 2026</span><h3>Genting Malaysia stake raised to 73.8%</h3><p>CEO Tan Kong Han clarified consolidation is driven by balance-sheet and capital-strategy rationale — evaluating path to 75%+ or delisting.</p><div class="angle"><b>Airtable angle:</b> track every workstream, milestone and dependency of the consolidation in one live view.</div><span class="src">Source: Genting Malaysia, Jun 2026</span></div><div class="signal"><span class="date">Jan 2026</span><h3>Resorts World New York City growth</h3><p>RWNYC rapid earnings growth is reshaping group financial reporting — an opening for group-level finance and consolidation tooling across the portfolio.</p><div class="angle"><b>Airtable angle:</b> consolidate cross-entity financial reporting into one real-time view for group finance and the board.</div><span class="src">Source: Genting Group, Jan 2026</span></div><div class="signal"><span class="date">Jun 2026</span><h3>Board refresh: Teo Eng Siong retires</h3><p>Director Teo Eng Siong retires after 16 years — part of a broader board and governance committee redesignation pattern signalling heightened governance focus.</p><div class="angle"><b>Airtable angle:</b> give governance, board and investor-relations teams one connected, audit-ready view.</div><span class="src">Source: Genting, Jun 2026</span></div><div class="signal"><span class="date">Feb 2026</span><h3>FY2025 group results</h3><p>FY2025 results showed revenue of RM6.94B quarterly. Five business units, one group result — the cross-entity data coordination challenge in every reporting cycle.</p><div class="angle"><b>Airtable angle:</b> replace the spreadsheets re-assembling group results each quarter with a single connected source of truth.</div><span class="src">Source: Genting Group, Feb 2026</span></div></div>
+</div></section>
+<section class="reveal"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">What Airtable does</span><h2>Consolidate, bridge, and unify the work</h2></div>
+  <div class="props">
+    <div class="prop"><div class="n">01 · CONSOLIDATE</div><h3>Consolidate</h3><p>Replace the spreadsheets re-assembling group results across Genting Malaysia, Singapore, Americas and the UK with one real-time source of truth for group finance and the board.</p></div>
+    <div class="prop"><div class="n">02 · BRIDGE</div><h3>Bridge</h3><p>Connect investor-relations communications, governance committees and operating entities — so data flows instead of being re-assembled every reporting cycle.</p></div>
+    <div class="prop"><div class="n">03 · UNIFY</div><h3>Unify</h3><p>Give corporate development, group finance and operations one connected view of the consolidation and expansion agenda.</p></div>
+  </div>
+</div></section>
+<section class="reveal"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">Proof</span><h2>Hospitality and finance teams running on Airtable</h2></div>
+  <div class="proof-wrap"><div class="customer-proof"><div class="cs-name">Virgin Voyages</div><div class="cs-metric">90% time savings on weekly reporting with automation</div><blockquote class="cs-quote">“Airtable AI is helping us move faster and make smarter creative decisions.” <cite>— Billy Bohan Chinique, Senior Director of Global Brand Marketing, Virgin Voyages</cite></blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/virgin" target="_blank" rel="noopener noreferrer">Read the Virgin Voyages story →</a></div><div class="customer-proof"><div class="cs-name">JetBlue</div><blockquote class="cs-quote">“There wasn't a single source of truth, This limited us from delivering different reporting and hindered us from making decisions quickly. We were unable to define timelines, and we were creating a bottleneck within the enterprise. — Tracy Bink, Director of IT and Strategic Programs” </blockquote><a class="cs-link" href="https://www.airtable.com/customer-stories/JetBlue" target="_blank" rel="noopener noreferrer">Read the JetBlue story →</a></div></div>
+</div></section>
+<section class="final reveal"><div class="wrap">
+  <span class="eyebrow" style="color:#fff">Let's talk</span><h2>Twenty minutes on Genting's group strategy</h2>
+  <p>No pitch — just a look at where a connected layer could take friction out of the work you're already driving.</p>
+  <a class="cta" href="mailto:ryan.morris@airtable.com?subject=Airtable%20%C3%97%20Genting%20%E2%80%94%20group%20strategy">Book 20 minutes with Ryan &rarr;</a>
+</div></section>
+<footer><div class="wrap"><span>Prepared for Genting Berhad by Ryan Morris, Airtable ANZ.</span><span>Airtable &times; Genting Berhad</span></div></footer>
+<script>const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));</script>
+</body></html>
