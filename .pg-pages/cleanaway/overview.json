@@ -1,0 +1,41 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Cleanaway",
+ "slug": "cleanaway",
+ "eyebrow": "Airtable for Cleanaway",
+ "h1": "Blueprint 2030 2.0, run on <span class=\"grad\">one connected layer</span>",
+ "lede": "Cleanaway is lifting margins through pricing, productivity and technology enablement while modernising IT. Airtable gives the teams delivering that plan one shared view of the work.",
+ "why_h2": "Why now for Cleanaway",
+ "why_p": "A transitional FY27 with heavier IT investment, a pending change of ownership and a refreshed strategy all put pressure on how programs are tracked and reported.",
+ "signals": [
+  {
+   "date": "Oct 2026",
+   "title": "EQT signs binding deal to acquire Cleanaway",
+   "body": "EQT Infrastructure VI entered a Scheme Implementation Deed at A$3.095 per share, an implied enterprise value of about A$9.3bn, subject to shareholder and court approval.",
+   "angle": "Ownership transitions demand clear, auditable visibility of every operational program and its status.",
+   "src": "EQT press release, 19 Oct 2026"
+  },
+  {
+   "date": "Aug 2026",
+   "title": "FY26 results and a transitional FY27",
+   "body": "Underlying EBIT rose 14.2% to $470.2m. FY27 guidance of $500m to $530m absorbs higher IT and Blueprint 2030 spend.",
+   "angle": "Track IT modernisation and Blueprint workstreams in one place so spend maps clearly to outcomes.",
+   "src": "Cleanaway ASX announcement, 20 Aug 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "New CFO as FY26 guidance is reaffirmed",
+   "body": "Cleanaway appointed Nigel Simonsz as CFO, succeeding Paul Binfield, and reaffirmed FY26 earnings guidance.",
+   "angle": "A new finance lead benefits from a single source of truth for program costs, benefits and milestones.",
+   "src": "The Motley Fool Australia, 22 Jul 2026"
+  },
+  {
+   "date": "Apr 2026",
+   "title": "Strategy refresh targets margin growth",
+   "body": "Blueprint 2030 2.0 focuses on getting more from the existing platform through pricing, productivity and technology, converting earnings into stronger free cash flow.",
+   "angle": "Give productivity and pricing initiatives a shared operating rhythm across regions and divisions.",
+   "src": "The Motley Fool Australia, 21 Apr 2026"
+  }
+ ]
+}

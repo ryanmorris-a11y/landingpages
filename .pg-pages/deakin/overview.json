@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Deakin University",
+ "slug": "deakin",
+ "eyebrow": "Airtable for Deakin University",
+ "h1": "Connected services, <span class=\"grad\">without another re-org</span>",
+ "lede": "Deakin is working to make its physical and digital services more sustainable with clearer accountability, under its Education and Employability Guiding Plan 2026 to 2030. Airtable helps teams coordinate that work in one shared system.",
+ "why_h2": "Why now for Deakin",
+ "why_p": "New interim leadership, a withdrawn restructure and enterprise bargaining mean change at Deakin now has to happen through better coordination and genuine consultation.",
+ "signals": [
+  {
+   "date": "Oct 2026",
+   "title": "Acting Vice-Chancellor appointed",
+   "body": "Professor Susan Elliott AM was appointed Acting Vice-Chancellor from 7 October 2026, while Council continues the search for a permanent Vice-Chancellor.",
+   "angle": "New leadership needs a clear, current view of the university's priority initiatives from day one.",
+   "src": "Australian Technology Network of Universities, Oct 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "Proposed restructure called off",
+   "body": "Deakin withdrew a proposed restructure affecting around 150 roles, including in Infrastructure and Digital, and apologised to staff for the process.",
+   "angle": "Improve how services are delivered by connecting existing teams and systems rather than reorganising them.",
+   "src": "Times Higher Education, Jun 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "Vice-Chancellor resigns",
+   "body": "Iain Martin resigned with immediate effect on 9 June, days after the restructure was announced. Deputy Vice-Chancellor Matthew Clarke stepped in as caretaker.",
+   "angle": "Transparent, shared tracking of workplace change supports the consultation commitments Deakin has made.",
+   "src": "Deakin University, Statement from the Chancellor, 9 Jun 2026"
+  }
+ ]
+}

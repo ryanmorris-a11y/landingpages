@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "PERSOL",
+ "slug": "persol",
+ "eyebrow": "Airtable for PERSOL",
+ "h1": "A mid-term plan built on AI, <span class=\"grad\">tracked in one place</span>",
+ "lede": "PERSOL's Mid-term Management Plan to FY2028 puts AI at the centre of business model change across its SBUs. Airtable gives each initiative, owner and return target one connected view.",
+ "why_h2": "Plans, investment and results moving together",
+ "why_p": "A multi-SBU plan with a sized AI investment and quarterly results by SBU needs operating data that is already connected.",
+ "signals": [
+  {
+   "date": "May 2026",
+   "title": "JPY 19 billion AI investment",
+   "body": "At its mid-term plan briefing PERSOL sized AI investment at JPY 19.0 billion over FY2026 to FY2028, against expected returns of JPY 33.0 to 43.0 billion.",
+   "angle": "Track AI initiatives against their return targets in a connected base, not a deck.",
+   "src": "PERSOL Holdings mid-term plan briefing, 14 May 2026"
+  },
+  {
+   "date": "July 2026",
+   "title": "IR Day 2026: SBU and technology strategies",
+   "body": "PERSOL briefed investors on SBU and technology strategies under the FY2028 plan, including a solution-driven Technology SBU targeting 10 percent revenue CAGR.",
+   "angle": "Give multi-SBU plans one view of initiatives, owners and progress.",
+   "src": "PERSOL Holdings IR Day 2026 materials, 6 Jul 2026"
+  },
+  {
+   "date": "August 2026",
+   "title": "FY2026 Q1 results by SBU",
+   "body": "PERSOL reported first quarter results by SBU and reinforced its AI strategy.",
+   "angle": "Quarterly SBU reporting is faster when operating data is already connected.",
+   "src": "TipRanks, Aug 2026"
+  }
+ ]
+}

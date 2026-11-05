@@ -1,0 +1,41 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Delta Electronics",
+ "slug": "delta-electronics",
+ "eyebrow": "Airtable for Delta Electronics",
+ "h1": "Scaling for AI data centres, <span class=\"grad\">with every program connected</span>",
+ "lede": "Delta is scaling power and liquid cooling capacity through a roughly NT$70 billion capex year and new modular AI data centre offerings. Airtable links the project, procurement and launch work behind that growth.",
+ "why_h2": "An AI investment cycle that moves fast",
+ "why_p": "Record capex, new product launches and a busy event calendar all add work that crosses engineering, operations, finance and marketing.",
+ "signals": [
+  {
+   "date": "Apr 2026",
+   "title": "Rapid expansion on AI infrastructure demand",
+   "body": "Delta Electronics set out plans for rapid expansion as AI infrastructure demand fuels growth.",
+   "angle": "Fast capacity expansion needs one live view of sites, suppliers and milestones.",
+   "src": "Bloomberg, 30 Apr 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "Prefabricated AI modular data centre launched",
+   "body": "At COMPUTEX 2026 Delta launched a prefabricated AI modular data centre with 800 VDC in-row power and liquid cooling for NVIDIA Vera Rubin systems, cutting IT build time by about 60 percent.",
+   "angle": "Cross-line launches spanning power and cooling run better on a shared NPI tracker.",
+   "src": "DigiTimes, 3 Jun 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "Capex guided to about NT$70 billion",
+   "body": "First-half capex was NT$27.5 billion with full-year guidance of about NT$70 billion, up from NT$46.6 billion last year. Liquid cooling is expected to reach at least 12 percent of revenue.",
+   "angle": "Capex reviews go faster when project, procurement and finance data are linked.",
+   "src": "Taipei Times, 31 Jul 2026"
+  },
+  {
+   "date": "Sep 2026",
+   "title": "AI data centre and microgrid showcase",
+   "body": "Delta showed its AI modular data centre with 800 VDC in-row power and microgrid solutions at Data Center World Asia 2026.",
+   "angle": "Event leads, follow-ups and pipeline can live in one workflow marketing and sales share.",
+   "src": "PR Newswire via Manila Times, 29 Sep 2026"
+  }
+ ]
+}

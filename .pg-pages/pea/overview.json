@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "PEA",
+ "slug": "pea",
+ "eyebrow": "Airtable for PEA",
+ "h1": "Grid visibility and market change, <span class=\"grad\">connected</span>",
+ "lede": "PEA is accelerating smart metering and sensors nationwide while preparing for Direct PPAs and new rules for large power users. Airtable sits beside your low-code practice as the connected layer for that work.",
+ "why_h2": "A grid and a market changing at the same time",
+ "why_p": "Rooftop solar, EV charging and market liberalisation are all landing on PEA's network at once, and each adds programmes that cross teams.",
+ "signals": [
+  {
+   "date": "August 2026",
+   "title": "AMI and smart sensor rollout accelerates",
+   "body": "At the KT Dialogue Smart Grid forum, Deputy Governor Pongsakorn Yuthagovit described the grid invisibility challenge from rooftop solar and EV charging and said PEA is accelerating Advanced Metering Infrastructure nationwide, with time-of-use pricing to follow.",
+   "angle": "Track rollout regions, vendors and field milestones in one shared programme view.",
+   "src": "Nation Thailand, 29 Aug 2026"
+  },
+  {
+   "date": "August 2026",
+   "title": "Direct PPAs opened to all industries",
+   "body": "Thailand opened Direct PPAs to all industrial sectors with a regulated wheeling charge on state-owned networks, and the draft PDP 2026 targets at least 65 percent clean energy.",
+   "angle": "Coordinate third-party access applications, approvals and connection work across teams in one place.",
+   "src": "Nation Thailand, 28 to 29 Aug 2026"
+  },
+  {
+   "date": "June 2026",
+   "title": "New rules for data centres and large users",
+   "body": "A PEA notification effective 5 June 2026 introduced change-of-control and PPA transfer restrictions for data centre operators and large industrial power users, including a three-year lock-up.",
+   "angle": "Keep a clear, auditable record of large-load customers, obligations and review dates.",
+   "src": "Baker McKenzie, Jun 2026"
+  }
+ ]
+}

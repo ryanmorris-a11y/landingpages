@@ -1,0 +1,41 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Ryman Healthcare",
+ "slug": "ryman",
+ "eyebrow": "Airtable for Ryman Healthcare",
+ "h1": "Disciplined growth, <span class=\"grad\">with every initiative in view</span>",
+ "lede": "Ryman is focused on care-centred living, recurring earnings and a $150m cash-flow improvement target by FY29. Airtable gives operations, development and finance teams one connected view of the work behind those goals.",
+ "why_h2": "A refreshed strategy with clear targets to track",
+ "why_p": "A new capital management framework, a cash-flow programme and an active build pipeline all depend on visibility across many workstreams.",
+ "signals": [
+  {
+   "date": "Feb 2026",
+   "title": "Refreshed strategy and capital management framework",
+   "body": "Ryman set out a refreshed strategy focused on recurring earnings from its existing portfolio, with a path to sustainable dividends in FY28.",
+   "angle": "Strategy refreshes land faster when every initiative, owner and milestone sits in one place.",
+   "src": "NZX announcement, 3 Feb 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "First positive free cash flow in over a decade",
+   "body": "FY26 free cash flow was $188m, revenue rose 10% to $849m and gearing was 27.8%.",
+   "angle": "Holding these gains means keeping process and cost visibility high across villages.",
+   "src": "Ryman Healthcare investor news, May 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "$150m cash-flow improvement target, $47m delivered",
+   "body": "FY27 guidance includes capex of $150m to $180m and 157 to 168 units and beds, with $47m of the FY29 cash-flow target already delivered and the land divestment target raised to about $250m.",
+   "angle": "Track each efficiency initiative, build and divestment against target in one connected view.",
+   "src": "Ryman Healthcare investor news, May 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "NZ$150m retail bond offer closes",
+   "body": "Ryman allocated NZ$150m of six-year secured bonds after demand of about three times the offer size, with proceeds to repay bank debt and refinance existing bonds.",
+   "angle": "Lender and investor reporting is easier with connected, current programme data.",
+   "src": "NZX announcement, 11 Jun 2026"
+  }
+ ]
+}

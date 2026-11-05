@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Ramsay Health Care",
+ "slug": "ramsay-health-care",
+ "eyebrow": "Airtable for Ramsay Health Care",
+ "h1": "Transformation across the network, <span class=\"grad\">delivered faster</span>",
+ "lede": "Ramsay's Group-wide transformation is focused on improved execution and faster delivery of strategic and operational initiatives across its Australian hospital network. Airtable gives those initiatives one connected place to run.",
+ "why_h2": "Transformation, capital projects and a demerger at once",
+ "why_p": "Ramsay is lifting performance, opening theatres and separating Ramsay Santé in the same year, and each runs across Property, Clinical and Finance teams.",
+ "signals": [
+  {
+   "date": "February 2026",
+   "title": "Transformation under strengthened leadership",
+   "body": "1H FY26 group revenue was A$9.38 billion, up 9.3 percent, with a strengthened Group leadership team tasked with faster delivery of strategic and operational initiatives and a new Research and Development Network across 21 sites.",
+   "angle": "Replace fragmented trackers with one portfolio view of transformation initiatives, owners and status.",
+   "src": "Ramsay Health Care 1H FY26 results, 26 Feb 2026"
+  },
+  {
+   "date": "August 2026",
+   "title": "FY26 results: momentum and new theatres",
+   "body": "Ramsay reported FY26 group underlying NPAT up 23 percent in constant currency, with all regions growing EBIT and 22 new theatres opened as theatre utilisation rose to 70 percent.",
+   "angle": "Run capital projects and theatre openings as connected programmes across Property, Clinical and Finance.",
+   "src": "Ramsay Health Care ASX announcement, 27 Aug 2026"
+  },
+  {
+   "date": "October 2026",
+   "title": "Ramsay Santé demerger moves to a vote",
+   "body": "After first announcing the plan in February, Ramsay confirmed the demerger of its 52.79 percent stake in Ramsay Santé, with shareholder meetings on 24 November 2026 and completion expected in December 2026.",
+   "angle": "Keep separation workstreams, dependencies and sign-offs visible in one programme base.",
+   "src": "Ramsay Health Care ASX announcement, 16 Oct 2026"
+  }
+ ]
+}

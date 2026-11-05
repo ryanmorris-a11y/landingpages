@@ -1,0 +1,41 @@
+{
+ "name": "Japan Airlines",
+ "slug": "japan-airlines",
+ "eyebrow": "Airtable for JAL",
+ "h1": "Deliver Vision 2035 on <span class=\"grad\">one connected layer</span>",
+ "lede": "JAL's Management Vision 2035 and its enterprise DX investments span IT, operations and the business. Airtable gives those programmes one shared source of truth.",
+ "why_h2": "A decade-long vision with DX moving fast",
+ "why_p": "JAL has set long-range growth targets while investing in DX, digital identity pilots and renewed customer services, all of which cross team boundaries.",
+ "signals": [
+  {
+   "date": "March 2026",
+   "title": "Management Vision 2035 announced",
+   "body": "JAL set out a ten-year growth vision targeting EBIT of JPY 300 billion by FY2030 and over JPY 350 billion by FY2035.",
+   "angle": "Long-running portfolios need programme visibility that survives spreadsheet handovers.",
+   "src": "JAL investor relations, Mar 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Investment in A*Quantum for enterprise DX",
+   "body": "JAL invested in A Star Quantum through its corporate venture capital fund to accelerate enterprise DX and business transformation.",
+   "angle": "DX portfolios span IT, operations and business units; Airtable connects them.",
+   "src": "JAL Group press release, May 2026"
+  },
+  {
+   "date": "June 2026",
+   "title": "Digital identity transfer trial",
+   "body": "JAL and Tokyo International Air Terminal tested digital identity for transfer passengers from Haneda to London via Hong Kong under IATA's proof-of-concept programme.",
+   "angle": "Cross-partner pilots need shared trackers across airports, IT and operations.",
+   "src": "TTG Asia, Jun 2026"
+  },
+  {
+   "date": "April 2026",
+   "title": "Domestic services and JAL App renewed",
+   "body": "JAL renewed services across its domestic network from 1 April 2026, including a redesigned JAL App.",
+   "angle": "Service launches touch product, marketing and airport operations at once; one system keeps them coordinated.",
+   "src": "JAL Group press release, Mar 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

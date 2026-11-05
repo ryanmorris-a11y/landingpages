@@ -1,0 +1,41 @@
+{
+ "name": "SCG",
+ "slug": "scg",
+ "eyebrow": "Airtable for SCG",
+ "h1": "From agentic AI plans to <span class=\"grad\">connected operations</span>",
+ "lede": "SCG is building agentic AI with FPT, optimising Thai and Vietnamese operations together and holding firm on financial discipline. Airtable gives those programmes one connected operating layer.",
+ "why_h2": "Building strength across a regional portfolio",
+ "why_p": "SCG's 2026 agenda pairs cost discipline with new AI and regional programmes, each spanning several businesses.",
+ "signals": [
+  {
+   "date": "Jun 2026",
+   "title": "SCG and FPT sign an agentic AI MOU",
+   "body": "SCG and FPT agreed to work on AI transformation, agentic AI, intelligent operations and ERP consulting across chemicals, cement and building materials, packaging and logistics.",
+   "angle": "AI agents need structured, permissioned workflow data to act on. Airtable gives teams that layer without waiting on a full ERP change.",
+   "src": "Business Wire, Jun 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Vietnam revenue up 99 per cent in Q1",
+   "body": "SCG's Q1 2026 Vietnam revenue reached about US$597 million, driven by Long Son Petrochemicals restarting, while the plant was set to pause from mid-May due to the Middle East crisis.",
+   "angle": "Fast swings in plant status ripple into sales, supply and finance plans. One shared tracker keeps every team on the same version.",
+   "src": "Viet Nam News, May 2026"
+  },
+  {
+   "date": "Feb 2026",
+   "title": "2025 results: EBITDA up, debt down",
+   "body": "SCG reported adjusted EBITDA up six per cent and debt reduced by US$428 million, despite revenue down three per cent amid global headwinds and volatile energy prices.",
+   "angle": "Cost programmes stick when initiatives, owners and savings are tracked in one place rather than in separate spreadsheets.",
+   "src": "CemNet, Feb 2026"
+  },
+  {
+   "date": "Jan 2026",
+   "title": "A 2026 target above 500 billion baht",
+   "body": "CEO Thammasak Sethaudom set a goal of 1 to 3 per cent revenue growth in 2026, surpassing 500 billion baht, with adjusted EBITDA expected to exceed the 2025 level.",
+   "angle": "Group targets break down into many business-unit initiatives. Airtable connects them so progress rolls up without manual reporting.",
+   "src": "Thairath, 29 Jan 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

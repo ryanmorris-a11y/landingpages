@@ -1,0 +1,41 @@
+{
+ "name": "LG Electronics",
+ "slug": "lg-electronics",
+ "eyebrow": "Airtable for LG Electronics",
+ "h1": "AX that connects the work <span class=\"grad\">end to end</span>",
+ "lede": "LG's AX agenda aims to integrate tasks and processes end to end, from the new AX Center to the NVIDIA cooling push. Airtable gives cross-functional teams the connected, structured workflows that AI agents can act on.",
+ "why_h2": "Record results, a new AX Center and a fast-growing B2B pipeline",
+ "why_p": "LG's 2026 pillars put AI transformation and B2B growth at the centre, and both cross team boundaries.",
+ "signals": [
+  {
+   "date": "Sep 2026",
+   "title": "NVIDIA Partner Network for power and cooling",
+   "body": "LG joined the NVIDIA Partner Network as a Power and Cooling Solution Preferred Partner, with its 2.6MW CDU qualified as NVIDIA DSX Ready and a 4.0MW model targeted by year end.",
+   "angle": "Qualifications, deployments and partner SLAs can sit in one tracker shared by engineering, sales and service.",
+   "src": "UPI, Sep 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "Record Q2 with B2B at 36 per cent",
+   "body": "LG posted Q2 2026 revenue of KRW 23.83 trillion and operating profit of KRW 1.58 trillion, both second-quarter records, with B2B revenue at KRW 6.50 trillion.",
+   "angle": "B2B growth brings longer, multi-team project cycles that benefit from one shared view of every account programme.",
+   "src": "LG Newsroom, Jul 2026"
+  },
+  {
+   "date": "Jan 2026",
+   "title": "Three pillars for 2026, with AX at the core",
+   "body": "CEO Lyu Jae-cheol set QCD fundamentals, a high-performance B2B and subscription portfolio, and AI transformation as the 2026 pillars.",
+   "angle": "AX integrates processes rather than optimising them one by one. Airtable is the layer where those handoffs connect.",
+   "src": "LG Newsroom, Jan 2026"
+  },
+  {
+   "date": "Nov 2025",
+   "title": "AX Center replaces DX and process innovation",
+   "body": "LG's 2026 reorganisation merged the DX Center and Business Process Innovation Division into the AX Center and created new engines for HVAC, webOS and robotics.",
+   "angle": "New centres need to prioritise which workflows connect first. A shared intake and roadmap base makes that visible.",
+   "src": "LG Newsroom, Nov 2025"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

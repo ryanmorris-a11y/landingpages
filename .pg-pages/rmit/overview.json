@@ -1,0 +1,41 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "RMIT University",
+ "slug": "rmit",
+ "eyebrow": "Airtable for RMIT",
+ "h1": "Knowledge with Action, <span class=\"grad\">connected across every campus</span>",
+ "lede": "RMIT is expanding in Vietnam, building partnerships in Indonesia and harnessing AI across education, research and operations under Horizon 2. Airtable gives the teams running those programs one shared, structured view of the work.",
+ "why_h2": "More countries, more programs, more partners to coordinate",
+ "why_p": "Campus expansion, regional partnerships and new institutes each bring plans, approvals and vendor registers that need to stay connected.",
+ "signals": [
+  {
+   "date": "Aug 2026",
+   "title": "Vietnam expansion approved",
+   "body": "A new Hanoi campus and the redevelopment of the Saigon South campus were approved after endorsement from the Vietnamese government.",
+   "angle": "Multi-campus build and fit-out programs run better on one connected register of workstreams, approvals and suppliers.",
+   "src": "RMIT News, Aug 2026"
+  },
+  {
+   "date": "Aug 2026",
+   "title": "Digital Leadership Academy launched with Komdigi",
+   "body": "RMIT opened the Digital Leadership Academy for Indonesia's public broadcaster at Komdigi and met government leaders on leadership development, AI and regional transformation.",
+   "angle": "Partner programs across countries need shared tracking of commitments, cohorts and stakeholders.",
+   "src": "RMIT News, 7 Aug 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Regenerative Futures Institute established",
+   "body": "RMIT committed to a regenerative future with the launch of the Regenerative Futures Institute.",
+   "angle": "New institutes can start on a connected operating layer instead of inheriting spreadsheets.",
+   "src": "RMIT News, May 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "Horizon Europe MICRO-NEST project begins",
+   "body": "A five-year Horizon Europe project on autism detection for children born preterm starts in September 2026.",
+   "angle": "Multi-partner research grants need milestones, deliverables and reporting held in one place.",
+   "src": "RMIT News, Jun 2026"
+  }
+ ]
+}

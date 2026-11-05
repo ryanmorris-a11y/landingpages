@@ -1,0 +1,34 @@
+{
+ "name": "Paytm",
+ "slug": "paytm",
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "eyebrow": "Airtable for Paytm",
+ "h1": "From turnaround to <span class=\"grad\">disciplined, profitable growth</span>",
+ "lede": "Paytm has posted its first full-year profit and record EBITDA, with Payment Services and Financial Services Distribution both growing fast. A connected layer helps keep more partners, products and launches under control.",
+ "why_h2": "The numbers behind the moment",
+ "why_p": "Three reporting milestones in five months show a business scaling profitably. Growth brings more merchant programmes, partner launches and approvals to coordinate.",
+ "signals": [
+  {
+   "date": "Sep 2026",
+   "title": "First full-year profit",
+   "body": "At its 26th AGM, Paytm reported FY26 profit of Rs 552 crore, against a Rs 663 crore loss the prior year, on revenue of Rs 8,437 crore.",
+   "angle": "Consolidating point tools and spreadsheets is a cost and control win that protects margin.",
+   "src": "One97 Communications 26th AGM, 15 Sep 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "Record EBITDA in Q1 FY27",
+   "body": "Q1 FY27 revenue rose 28 percent to Rs 2,448 crore and profit after tax rose 79 percent to Rs 220 crore. Payment Services revenue grew 33 percent and Financial Services Distribution 45 percent.",
+   "angle": "More lending partners and payment programmes to coordinate, from onboarding to servicing, on one system.",
+   "src": "Business Standard, 20 Jul 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Q4 FY26 results",
+   "body": "Revenue from operations was Rs 2,264 crore, up 18 percent year on year, with net profit of Rs 183 crore.",
+   "angle": "Steady quarterly growth is easier to sustain when cross-team initiatives are visible in one place.",
+   "src": "One97 Communications Q4 FY26 results, 7 May 2026"
+  }
+ ]
+}

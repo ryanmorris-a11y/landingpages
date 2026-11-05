@@ -1,0 +1,41 @@
+{
+ "name": "Max Life Insurance",
+ "slug": "max-life-insurance",
+ "eyebrow": "Airtable for Axis Max Life",
+ "h1": "Scale partnerships and digital growth <span class=\"grad\">without the spreadsheets</span>",
+ "lede": "Axis Max Life is adding partners, scaling its digital business and applying AI across the sales lifecycle. Airtable gives partnership, product and people teams one connected way to run that work.",
+ "why_h2": "Growth across every channel at once",
+ "why_p": "New partnerships, AI programmes and leadership changes are landing in the same year, each adding coordination work across teams.",
+ "signals": [
+  {
+   "date": "October 2026",
+   "title": "Group Credit Life partnership with SK Finance",
+   "body": "Axis Max Life partnered with SK Finance to offer Group Credit Life Insurance across India's emerging markets.",
+   "angle": "Track partner onboarding, SLAs and launch milestones for every new partner in one place.",
+   "src": "The Wire (PTI), Oct 2026"
+  },
+  {
+   "date": "July 2026",
+   "title": "Voice AI across telesales",
+   "body": "Axis Max Life deployed GreyLabs AI's Voice AI Suite to assess meaningful telesales calls across 700-plus agents.",
+   "angle": "Turn call insights into tracked follow-up work owned by the right team.",
+   "src": "The Wire (PTI), Jul 2026"
+  },
+  {
+   "date": "June 2026",
+   "title": "New Chief People Officer",
+   "body": "Mrinal Sinha was appointed Chief People Officer effective 1 July 2026, with a mandate for an agile, technology-enabled culture.",
+   "angle": "Run HR, L&D and transformation programmes from one connected workspace.",
+   "src": "HRKatha, Jun 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "FY26 growth ahead of the private industry",
+   "body": "Individual Adjusted First Year Premium rose 19 percent to Rs 9,885 crore in FY26, with 60 new business partnerships secured.",
+   "angle": "Keep operations scaling with volume so growth does not erode margin.",
+   "src": "Business Standard (ANI), May 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

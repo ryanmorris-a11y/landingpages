@@ -1,0 +1,34 @@
+{
+ "name": "Otsuka Holdings",
+ "slug": "otsuka",
+ "eyebrow": "Airtable for Otsuka",
+ "h1": "Integrating growth while <span class=\"grad\">reprioritising the work</span>",
+ "lede": "Otsuka is integrating Transcend Therapeutics and maintaining NEXT8 investment through a lower-profit FY2026. Airtable helps teams reprioritise and track cross-functional programmes in one place.",
+ "why_h2": "Investment held steady through a transition year",
+ "why_p": "Record FY2025 results, a guided dip in FY2026 and a major acquisition all landed in the first half of 2026.",
+ "signals": [
+  {
+   "date": "Mar 2026",
+   "title": "Transcend Therapeutics acquisition",
+   "body": "Otsuka Pharmaceutical agreed to acquire Transcend Therapeutics for US$700 million upfront plus up to US$525 million in milestones, expanding psychiatry and neurology.",
+   "angle": "Integration is cross-functional. A shared integration tracker keeps workstreams, owners and dependencies visible.",
+   "src": "PR Newswire, 27 Mar 2026"
+  },
+  {
+   "date": "Feb 2026",
+   "title": "Record FY2025, lower FY2026 guidance",
+   "body": "Otsuka reported record revenue of JPY 2.47 trillion and guided FY2026 business profit down about 20 per cent on loss of exclusivity, while maintaining NEXT8 investment.",
+   "angle": "When budgets tighten but investment continues, teams that can reprioritise work in one place move faster.",
+   "src": "Otsuka Holdings FY2025 results, 13 Feb 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "Share buyback under way",
+   "body": "Under the buyback announced in February, Otsuka had repurchased 2,798,100 shares worth JPY 29.9 billion by 30 June 2026.",
+   "angle": "Capital discipline puts a premium on efficient operations and clear visibility of programme spend.",
+   "src": "MarketScreener, Jun 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

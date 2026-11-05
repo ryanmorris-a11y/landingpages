@@ -1,0 +1,34 @@
+{
+ "name": "Sina",
+ "slug": "sina",
+ "eyebrow": "Airtable for Sina",
+ "h1": "Connect the work behind <span class=\"grad\">AI-powered media</span>",
+ "lede": "Across the Sina group, Weibo is putting AI at the centre of its products and advertising. Airtable gives product, operations and commercial teams one connected way to run that work.",
+ "why_h2": "AI is reshaping the group's advertising and products",
+ "why_p": "Recent results from Weibo, Sina's listed subsidiary, show AI moving into ad creative and product development while competition for ad budgets stays intense.",
+ "signals": [
+  {
+   "date": "August 2026",
+   "title": "AI now drives half of feed ad creative",
+   "body": "Weibo's Q2 2026 results reported that AI-generated creative accounted for 50 percent of promoted-feed real-time-bidding ad spend in June.",
+   "angle": "Track AI creative pipelines, approvals and client campaigns in one shared system.",
+   "src": "Weibo Form 6-K, 19 Aug 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Q1 2026 advertising revenue up 9 percent",
+   "body": "Weibo's advertising and marketing revenue reached US$369.8 million in Q1 2026, with 562 million monthly active users in March.",
+   "angle": "Give commercial and product teams one view of advertiser programmes and launches.",
+   "src": "Weibo Q1 2026 results, 28 May 2026"
+  },
+  {
+   "date": "March 2026",
+   "title": "FY2025 results and US$150 million dividend",
+   "body": "Weibo reported FY2025 revenue of about US$1.76 billion and approved an annual cash dividend of about US$150 million.",
+   "angle": "Steady revenue with margin pressure rewards operations that run on connected data, not manual reporting.",
+   "src": "Weibo FY2025 results, 18 Mar 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

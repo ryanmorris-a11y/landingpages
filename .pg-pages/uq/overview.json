@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "The University of Queensland",
+ "slug": "uq",
+ "eyebrow": "Airtable for UQ",
+ "h1": "One view of the <span class=\"grad\">Technology Master Plan</span>",
+ "lede": "UQ is delivering its Technology Master Plan across collaboration, identity, security and research computing. Airtable gives IT governance and faculties one connected view of that portfolio.",
+ "why_h2": "Why now for UQ",
+ "why_p": "Several consolidation programs are running at once, each needing service, business, technical and budget owners to stay aligned.",
+ "signals": [
+  {
+   "date": "Jun 2026",
+   "title": "Bunya Phase 4.0 GPU upgrade nears go-live",
+   "body": "UQ's Research Computing Centre said Bunya Phase 4.0, with AMD Instinct MI355X GPUs, was almost complete and expected for research use in July 2026, with the next upgrade already in procurement.",
+   "angle": "Track research infrastructure upgrades, onboarding and demand in one shared register.",
+   "src": "UQ Research Computing Centre, 30 Jun 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "UQ takes over the Queensland Nectar node",
+   "body": "The Research Computing Centre announced it would take operational responsibility for the Queensland node of the ARDC Nectar Research Cloud from QCIF on 1 July 2026.",
+   "angle": "Coordinate service transitions, stakeholders and support commitments without scattered spreadsheets.",
+   "src": "UQ Research Computing Centre, 14 May 2026"
+  },
+  {
+   "date": "Feb 2026",
+   "title": "Okta rollout starts identity unification",
+   "body": "UQ began moving from Duo to Okta Verify, the first step in bringing sign-on and identity services onto one Okta platform over 2026 and 2027.",
+   "angle": "Run staged rollouts by cohort with clear owners, dates and status in one place.",
+   "src": "UQ my.uq.edu.au, Feb 2026"
+  }
+ ]
+}

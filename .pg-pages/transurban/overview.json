@@ -1,0 +1,41 @@
+{
+ "name": "Transurban",
+ "slug": "transurban",
+ "eyebrow": "Airtable for Transurban",
+ "h1": "Three new assets, one <span class=\"grad\">connected way to run them</span>",
+ "lede": "Transurban has opened three major assets in under seven months, is finalising NSW toll reform and is investing in targeted AI for structural efficiency. Airtable gives teams one connected layer across that work.",
+ "why_h2": "A transitional year with a lot in motion",
+ "why_p": "FY27 brings asset integration, toll reform and customer programme change, all while holding cost growth below inflation.",
+ "signals": [
+  {
+   "date": "Aug 2026",
+   "title": "FY26 results and a transitional FY27",
+   "body": "Proportional toll revenue rose 6.7 per cent to $3,982m and the CEO described FY27 as a transitional year as the business adjusts for M5 West ownership changes.",
+   "angle": "Transitions run on many workstreams. One tracker keeps owners, dependencies and milestones visible to every team.",
+   "src": "Transurban ASX release, 13 Aug 2026"
+  },
+  {
+   "date": "Aug 2026",
+   "title": "Targeted AI and below-inflation cost growth",
+   "body": "Transurban is targeting AI investment at customer value, safety and structural efficiency, with operating cost growth held below inflation for a third year.",
+   "angle": "Efficiency gains come from removing re-keying between systems. Airtable bridges them without a large rebuild.",
+   "src": "Transurban, 25 Aug 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "M7-M12 Integration opens",
+   "body": "M7-M12 Integration opened on 14 June 2026, following the 495 Northern Extension in November 2025 and West Gate Tunnel in December 2025.",
+   "angle": "Readiness and handover across Sydney, Melbourne and North America is cross-team work that suits one shared base.",
+   "src": "Transurban ASX release, 13 Aug 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "Digital toll notices in NSW",
+   "body": "Transurban agreed with the NSW Government to send unpaid toll reminders by email and SMS and phase out paper notices from July 2026, subject to final arrangements.",
+   "angle": "Process changes across customer, operations and compliance teams are easier to coordinate in one connected workflow.",
+   "src": "Motley Fool Australia, Jun 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

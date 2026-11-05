@@ -1,0 +1,34 @@
+{
+ "name": "Aura Bangkok Clinic",
+ "slug": "aura-bangkok-clinic",
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "eyebrow": "Airtable for Aura Bangkok Clinic",
+ "h1": "Scaling T-beauty, <span class=\"grad\">branch by branch</span>",
+ "lede": "Aura is opening branches across Bangkok, the provinces and now Suvarnabhumi Airport, with investor-grade governance after the Fullerton investment. A connected layer turns every launch into a repeatable playbook.",
+ "why_h2": "Growth, new investors and a world first",
+ "why_p": "A private equity investment, a high-profile sports partnership and a first-of-its-kind airport clinic all arrived in 2026. Each one adds launches, approvals and reporting to coordinate.",
+ "signals": [
+  {
+   "date": "Sep 2026",
+   "title": "Airport clinic opens at Suvarnabhumi",
+   "body": "Aura opened what it describes as the world's first aesthetic clinic inside an international departure hall, at Suvarnabhumi Airport Concourse G. The network now spans 20 branches with more than 100,000 treatment cases.",
+   "angle": "A repeatable branch-launch checklist across licensing, fit-out, staffing and marketing, tracked in one place.",
+   "src": "Nation Thailand, 10 Sep 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "Rajadamnern Muay Thai partnership",
+   "body": "Aura announced a partnership with Rajadamnern Muay Thai Stadium.",
+   "angle": "Partnership marketing has assets, approvals and deadlines that are easier to run in a shared workspace than in chat threads.",
+   "src": "Khaosod English, 2 Jun 2026"
+  },
+  {
+   "date": "Apr 2026",
+   "title": "Fullerton invests in Aura Wellness",
+   "body": "Fullerton Fund Management invested via the Fullerton Thai Private Equity Fund. Aura reported 2025 revenue of THB 1,746 million and net profit of THB 214 million, with SAP HANA, POS and ERP in place and a workforce of more than 1,000.",
+   "angle": "A connected layer on top of SAP and ERP for investor reporting and cross-team initiatives.",
+   "src": "Newsfile Corp, 23 Apr 2026"
+  }
+ ]
+}

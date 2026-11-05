@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Flipkart",
+ "slug": "flipkart",
+ "eyebrow": "Airtable for Flipkart",
+ "h1": "Scale Minutes and get IPO ready, <span class=\"grad\">on one connected layer</span>",
+ "lede": "Flipkart has moved its holding structure home to India and is expanding Flipkart Minutes at pace while it readies for a listing. Airtable connects the launch, expansion and readiness work behind both.",
+ "why_h2": "Restructured, expanding and preparing to list",
+ "why_p": "A completed re-domiciliation, a fast-growing quick commerce network and a paused but live IPO plan all add programmes that cut across teams.",
+ "signals": [
+  {
+   "date": "March 2026",
+   "title": "Re-domiciliation to India completed",
+   "body": "Flipkart completed the shift of its holding company from Singapore to India after NCLT and Government of India approvals, making Flipkart Internet the group holding entity ahead of a planned listing.",
+   "angle": "Run entity, compliance and readiness workstreams from one tracker with clear owners and evidence.",
+   "src": "Retail Insight Network, Mar 2026"
+  },
+  {
+   "date": "April 2026",
+   "title": "Flipkart Minutes passes 800 dark stores",
+   "body": "TechCrunch reported Flipkart Minutes had crossed 800 dark stores, with UBS expecting the network to double by the end of 2026 as Flipkart and Amazon press quick commerce startups.",
+   "angle": "Give site selection, launch checklists and city rollouts one shared pipeline instead of parallel spreadsheets.",
+   "src": "TechCrunch, 11 Apr 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "IPO placed on hold",
+   "body": "Flipkart reportedly paused its IPO indefinitely citing volatile markets and a crowded listings pipeline, having targeted a SEBI draft filing in late 2026 or early 2027.",
+   "angle": "Keep readiness work warm and visible so the programme can restart quickly when the window reopens.",
+   "src": "Retail Insight Network, 19 May 2026"
+  }
+ ]
+}

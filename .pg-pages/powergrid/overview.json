@@ -1,0 +1,41 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "POWERGRID",
+ "slug": "powergrid",
+ "eyebrow": "Airtable for POWERGRID",
+ "h1": "A record build programme needs <span class=\"grad\">one view of every project</span>",
+ "lede": "POWERGRID is carrying record capex into FY27 while winning new renewable evacuation schemes. Airtable gives project, procurement and commissioning teams one connected view of that portfolio.",
+ "why_h2": "More projects, running in parallel, on tighter timelines",
+ "why_p": "Record capex, a growing order book and new tariff-based wins all add workstreams that have to be tracked, coordinated and reported on at once.",
+ "signals": [
+  {
+   "date": "May 2026",
+   "title": "Record FY26 capex, Rs 37,000 crore guided for FY27",
+   "body": "FY26 capex reached Rs 39,967 crore, above the revised Rs 35,000 crore target and the highest in any fiscal year. Initial FY27 guidance is Rs 37,000 crore of capex and Rs 30,000 crore of capitalisation.",
+   "angle": "Capex and capitalisation targets at this scale depend on a live, shared view of every project's stage, owner and milestone.",
+   "src": "T&D India, May 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Insulated cross-arm monopoles cut right-of-way needs",
+   "body": "An insulated cross-arm monopole design reduced right-of-way requirements by about 20% on a 400kV line in FY26 and is planned for the Jhatikara-Dwarka 400kV line.",
+   "angle": "Rolling a proven design across more lines is a repeatable programme: track sites, approvals and lessons learnt in one place.",
+   "src": "T&D India, May 2026"
+  },
+  {
+   "date": "Apr 2026",
+   "title": "Tumkur-II win to integrate 2.7 GW of renewables",
+   "body": "POWERGRID won a transmission project under tariff-based competitive bidding to integrate 2.7 GW of renewable energy in Karnataka.",
+   "angle": "Each TBCB win starts a new set of land, procurement and construction workstreams that need to be stood up quickly.",
+   "src": "SolarQuarter, 6 Apr 2026"
+  },
+  {
+   "date": "Sep 2026",
+   "title": "6 GW Barmer solar evacuation project awarded",
+   "body": "POWERGRID received a letter of intent on 2 September 2026 for an inter-state scheme to evacuate 6 GW of solar power from Rajasthan's Barmer complex, on a build, own, operate and transfer basis.",
+   "angle": "Large BOOT schemes run for decades: connect bid, build and operations data so nothing is re-keyed between phases.",
+   "src": "Renewable Watch, 4 Sep 2026"
+  }
+ ]
+}

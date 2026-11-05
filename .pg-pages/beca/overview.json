@@ -1,0 +1,34 @@
+{
+ "name": "Beca",
+ "slug": "beca",
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "eyebrow": "Airtable for Beca",
+ "h1": "Growing across Australia, <span class=\"grad\">running as one firm</span>",
+ "lede": "Beca is expanding in Australian water, energy and defence, integrating CQG Consulting and delivering major programmes such as the New Dunedin Hospital. A connected layer gives projects, approvals and resourcing one shared home.",
+ "why_h2": "Integration, AI and major programmes",
+ "why_p": "A completed acquisition, a CEO-led AI story and multi-year health infrastructure delivery all point to the same need: structured, shared operational data.",
+ "signals": [
+  {
+   "date": "Jun 2026",
+   "title": "CQG Consulting acquisition completed",
+   "body": "Beca completed the acquisition of CQG Consulting, a Rockhampton-based environmental and planning consultancy with more than 45 specialists. Beca Australia now has more than 1,000 people.",
+   "angle": "One shared register for projects, approvals and resourcing across the merged Australian team, instead of re-keyed spreadsheets.",
+   "src": "Beca news, 1 Jun 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "A 15-year AI journey",
+   "body": "Group Chief Executive Amelia Linzey spoke at the New Zealand-Singapore leadership forum about Beca's 15-year AI journey and New Zealand's infrastructure deficit.",
+   "angle": "AI initiatives need structured data first; Airtable is the connected operating layer they sit on.",
+   "src": "interest.co.nz, May 2026"
+  },
+  {
+   "date": "Aug 2026",
+   "title": "New Dunedin Hospital milestone",
+   "body": "Beca marked the blessing of the New Dunedin Hospital Outpatient Building, one of New Zealand's largest health infrastructure investments. The Inpatient Building is due in 2031.",
+   "angle": "Multi-year programmes stay aligned when milestones, risks and owners live in one place.",
+   "src": "Beca news, Aug 2026"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "name": "CARS24",
+ "slug": "cars24",
+ "eyebrow": "Airtable for CARS24",
+ "h1": "Built by Builders, ready for <span class=\"grad\">listing day</span>",
+ "lede": "CARS24 is moving through its reverse flip towards DRHP eligibility while running as a title-less, AI-first organisation. Airtable gives Builders shared, visible ownership of every workstream on the road to listing.",
+ "why_h2": "IPO readiness meets a new way of working",
+ "why_p": "Four moves since June 2026 that all depend on clear ownership, controls and cross-team handoffs.",
+ "signals": [
+  {
+   "date": "Sep 2026",
+   "title": "DRHP eligibility targeted by April",
+   "body": "India CFO Shivanshu Makkar said CARS24 expects to be eligible to file its DRHP by April once the reverse flip from Singapore to India completes.",
+   "angle": "Finance, legal and audit workstreams need one tracker with owners, evidence and approvals before filing.",
+   "src": "Business Standard, Sep 2026"
+  },
+  {
+   "date": "Sep 2026",
+   "title": "From 25 to around 200 cities",
+   "body": "Coverage of the CFO's remarks noted CARS24 could expand its retail presence from 25 to around 200 Indian cities.",
+   "angle": "City launches repeat the same playbook many times. Airtable turns it into a shared template every team can run.",
+   "src": "Retail Intel, Sep 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "Every employee becomes a Builder",
+   "body": "CARS24 removed all job titles, grades and bands under its Flatland operating philosophy.",
+   "angle": "Without titles, contribution needs to be visible. Shared bases show who owns which outcome and where it stands.",
+   "src": "Business Today, Jul 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "AI Labs launched with US$20 million",
+   "body": "CARS24 launched AI Labs with a US$20 million commitment to AI startups and AI-first products, partnering with OpenAI, AWS and ElevenLabs.",
+   "angle": "AI workflows still need human review steps. Airtable coordinates the data and approvals around them across teams.",
+   "src": "Business Standard, Jun 2026"
+  }
+ ],
+ "final_h2": "Twenty minutes on IPO-readiness tracking",
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

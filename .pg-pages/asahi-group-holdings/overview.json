@@ -1,0 +1,34 @@
+{
+ "name": "Asahi Group Holdings",
+ "slug": "asahi-group-holdings",
+ "eyebrow": "Airtable for Asahi Group",
+ "h1": "Rebuild and expand on <span class=\"grad\">one connected layer</span>",
+ "lede": "As Asahi restores its Japanese systems and prepares to integrate East African Breweries, Airtable gives teams one standard way to run cross-functional work.",
+ "why_h2": "Recovery and expansion in the same year",
+ "why_p": "Asahi is restoring operations after the September 2025 cyberattack while taking on a major acquisition, both of which call for clear, shared coordination.",
+ "signals": [
+  {
+   "date": "February 2026",
+   "title": "Systems restoration after the cyberattack",
+   "body": "FY2025 results were delayed after the 29 September 2025 cyberattack, and the company aims to fully restore its Japanese systems in 2026.",
+   "angle": "A rebuild is a natural moment to standardise how teams plan and track cross-functional work.",
+   "src": "Asahi Group Holdings newsroom, Feb 2026"
+  },
+  {
+   "date": "March 2026",
+   "title": "Asahi Breweries resumes full shipments",
+   "body": "Asahi Breweries was reported to be fully resuming shipments following the cyberattack.",
+   "angle": "Coordinate supply, sales and customer recovery plans in one shared view.",
+   "src": "The Drinks Business, Mar 2026"
+  },
+  {
+   "date": "December 2025",
+   "title": "Agreement to acquire Diageo's EABL stake",
+   "body": "Asahi agreed to acquire Diageo's 65 percent stake in East African Breweries, with completion expected in the second half of 2026 subject to approvals.",
+   "angle": "Run integration workstreams, approvals and brand plans across regions from one system.",
+   "src": "Nippon.com (Jiji Press), 17 Dec 2025"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

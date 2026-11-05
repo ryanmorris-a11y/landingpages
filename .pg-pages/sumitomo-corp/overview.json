@@ -1,0 +1,34 @@
+{
+ "name": "Sumitomo Corporation",
+ "slug": "sumitomo-corp",
+ "eyebrow": "Airtable for Sumitomo Corporation",
+ "h1": "Closing out the plan, <span class=\"grad\">No. 1 in each field</span>",
+ "lede": "FY2026 is the final year of Medium-Term Management Plan 2026, with a record-profit target and eight growth businesses to deliver. Airtable gives business groups one connected way to track initiatives to the finish.",
+ "why_h2": "The final year of a growth plan",
+ "why_p": "Record results, a higher target and a capital-efficiency agenda make initiative tracking live work right now.",
+ "signals": [
+  {
+   "date": "May 2026",
+   "title": "Record profit and a JPY 630 billion target",
+   "body": "Sumitomo Corporation reported record profit attributable to owners of JPY 600.3 billion for FY2025 and targets JPY 630 billion in FY2026, the plan's final year.",
+   "angle": "Final-year delivery depends on seeing every initiative, owner and risk across business groups in one place.",
+   "src": "Sumitomo Corporation FY2025 results, 1 May 2026"
+  },
+  {
+   "date": "Jul 2025",
+   "title": "Cost of capital action plan",
+   "body": "Sumitomo Corporation updated its action plan for management conscious of cost of capital and stock price.",
+   "angle": "Capital-efficiency programmes need shared tracking of initiatives and outcomes that finance and business units both trust.",
+   "src": "Sumitomo Corporation IR, Jul 2025"
+  },
+  {
+   "date": "May 2024",
+   "title": "Medium-Term Management Plan 2026",
+   "body": "The 'No. 1 in Each Field' plan set JPY 1.8 trillion of planned investment and eight growth businesses including Digital, Healthcare and Energy Solutions.",
+   "angle": "Eight growth businesses and hundreds of group companies need a common layer for initiative and investment tracking.",
+   "src": "Sumitomo Corporation, May 2024"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

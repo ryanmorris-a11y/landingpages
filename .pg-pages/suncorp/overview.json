@@ -1,0 +1,41 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Suncorp Group",
+ "slug": "suncorp",
+ "eyebrow": "Airtable for Suncorp Group",
+ "h1": "Digital Insurer delivery, <span class=\"grad\">on one connected layer</span>",
+ "lede": "Suncorp is rolling its Duck Creek based Digital Insurer platform into AAMI and scaling AI across the business. Airtable helps the teams running those programs work from one shared view.",
+ "why_h2": "Why now for Suncorp",
+ "why_p": "A core platform rollout into the flagship brand, a new customer, brand and digital function, and a strong bottom-up build culture make this a natural moment to connect how programs run.",
+ "signals": [
+  {
+   "date": "Aug 2026",
+   "title": "FY26 results fund continued Digital Insurer investment",
+   "body": "Suncorp reported net profit after tax of $1.027bn. Operating expenses rose 3.4%, mainly from investment in the Digital Insurer program and AI.",
+   "angle": "Give program leaders one view of transformation workstreams, dependencies and spend.",
+   "src": "Suncorp Group ASX announcement, 12 Aug 2026"
+  },
+  {
+   "date": "Aug 2026",
+   "title": "New Customer, Brand and Digital function",
+   "body": "Executive changes announced with the FY26 results created a unified customer, brand and digital role led by Bridget Messer.",
+   "angle": "A new function benefits from a shared operating system for campaigns, launches and digital work from day one.",
+   "src": "Suncorp Group ASX announcement, 12 Aug 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Duck Creek recognises Digital Insurer delivery",
+   "body": "Suncorp won a Duck Creek Standard of Excellence Customer Award for its Digital Insurer program, now well into delivery for AAMI.",
+   "angle": "Coordinate release planning and business readiness for each brand migration in one place.",
+   "src": "AAP / Cision, 6 May 2026"
+  },
+  {
+   "date": "Feb 2026",
+   "title": "Digital Insurer live in New Zealand",
+   "body": "The Duck Creek platform went live for AA Insurance in New Zealand, with the next release rolling into AAMI.",
+   "angle": "Reuse the playbook from the first release across brands with a connected program tracker.",
+   "src": "Suncorp Group 1H26 results, Feb 2026"
+  }
+ ]
+}

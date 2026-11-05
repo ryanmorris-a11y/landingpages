@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Tata Sons",
+ "slug": "tata",
+ "eyebrow": "Airtable for Tata Sons",
+ "h1": "A holding company reorganisation, <span class=\"grad\">run in one place</span>",
+ "lede": "The proposed merger of TESS and TCE into Tata Sons is a large integration programme with many owners, under close governance scrutiny. Airtable gives it one connected programme layer.",
+ "why_h2": "Reorganisation, governance and succession at once",
+ "why_p": "The structural changes proposed at Tata Sons, and the scrutiny around them, reward programmes that are transparent and easy to report on.",
+ "signals": [
+  {
+   "date": "September 2026",
+   "title": "Proposed reorganisation of Tata Sons",
+   "body": "Tata Trusts proposed merging Tata Electronics Systems Solutions and Tata Consulting Engineers into Tata Sons so it is neither an NBFC nor a core investment company, avoiding a mandatory listing.",
+   "angle": "Track every integration workstream, dependency and approval in one programme base with clear owners.",
+   "src": "Business Standard and Outlook Money, 28 to 29 Sep 2026"
+  },
+  {
+   "date": "October 2026",
+   "title": "What the restructuring means for governance",
+   "body": "Analysis of the proposed restructuring focused on its implications for listing and governance at the group holding company.",
+   "angle": "Connected status reporting gives boards and stakeholders one current view instead of assembled decks.",
+   "src": "Business Today, 2 Oct 2026"
+  },
+  {
+   "date": "August 2026",
+   "title": "Leadership succession under discussion",
+   "body": "Chairman N. Chandrasekaran's current term ends on 20 February 2027, and succession and the relationship with Tata Trusts leadership are under public discussion.",
+   "angle": "A shared record of decisions, actions and timelines keeps continuity through leadership transitions.",
+   "src": "Business Standard, Aug 2026"
+  }
+ ]
+}

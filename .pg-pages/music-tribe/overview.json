@@ -1,0 +1,41 @@
+{
+ "name": "Music Tribe",
+ "slug": "music-tribe",
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "eyebrow": "Airtable for Music Tribe",
+ "h1": "An analyst-led company deserves <span class=\"grad\">connected data</span>",
+ "lede": "Music Tribe runs a flat, analyst-led model on real-time data, sells factory-direct through Super Partners and manages brands from Behringer to Midas and Tannoy. A connected layer turns that data into owned, tracked actions.",
+ "why_h2": "A different operating model, at scale",
+ "why_p": "Music Tribe has rebuilt how it leads, sells and shows up to the market. Each change depends on teams and partners working from the same information.",
+ "signals": [
+  {
+   "date": "Jan 2026",
+   "title": "Back at NAMM for a second year",
+   "body": "Music Tribe brought Behringer, TC Electronic, Aston Microphones, Midas and its other brands to The NAMM Show 2026, its second year running after a decade away.",
+   "angle": "Multi-brand launch calendars, assets and approvals planned in one shared workspace.",
+   "src": "MusicTech, Jan 2026"
+  },
+  {
+   "date": "Apr 2025",
+   "title": "AI-supported leadership model",
+   "body": "Uli Behringer replaced Music Tribe's traditional C-suite with an AI-supported, data-driven leadership model run by business and data analysts working from real-time data.",
+   "angle": "A connected work layer that turns real-time data into owned actions.",
+   "src": "MusicTech, Apr 2025"
+  },
+  {
+   "date": "Feb 2025",
+   "title": "RAD Distribution partnership",
+   "body": "Music Tribe partnered with RAD Distribution to reach more dealers in the United States.",
+   "angle": "Partner onboarding, programmes and performance tracked in one place rather than email threads.",
+   "src": "Music Inc., 17 Feb 2025"
+  },
+  {
+   "date": "Jan 2024",
+   "title": "Super Partnership with Thomann",
+   "body": "Music Tribe and Thomann announced factory-direct shipping, joint product development and marketing, and Thomann-run service, as Music Tribe exits bricks-and-mortar retail.",
+   "angle": "Super Partner programmes span product, marketing and service teams; a shared plan beats inbox coordination.",
+   "src": "guitar.com and Thomann, Jan 2024"
+  }
+ ]
+}

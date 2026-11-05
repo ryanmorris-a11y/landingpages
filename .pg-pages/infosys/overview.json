@@ -1,0 +1,42 @@
+{
+ "name": "Infosys",
+ "slug": "infosys",
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "eyebrow": "Airtable for Infosys",
+ "h1": "Two integrations, one AI agenda, <span class=\"grad\">one view of the work</span>",
+ "lede": "Infosys is integrating Stratus Global and Optimum Healthcare IT while scaling Topaz-led AI programmes with clients such as ABN AMRO. A connected layer keeps every workstream visible without another status deck.",
+ "why_h2": "A year of integration and AI scale-up",
+ "why_p": "Acquisitions, a client collaboration extended around AI and a planned leadership transition all land in the same twelve months. Each one adds trackers, owners and dependencies.",
+ "signals": [
+  {
+   "date": "Sep 2026",
+   "title": "ABN AMRO collaboration extended",
+   "body": "On 30 September 2026 Infosys and ABN AMRO extended their strategic collaboration to accelerate AI-driven transformation.",
+   "angle": "Large AI programmes need programme-level visibility across delivery teams, in one place rather than many spreadsheets.",
+   "src": "Infosys press release, Sep 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "CEO Designate appointed",
+   "body": "Ashiss Kumar Dash was appointed CEO Designate effective 23 July 2026, to become CEO and MD on 1 April 2027.",
+   "angle": "Succession periods surface operating priorities; a connected layer shows progress without decks.",
+   "src": "Infosys regulatory filing (SEC Form 6-K), Jul 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Optimum Healthcare IT acquisition completed",
+   "body": "Infosys completed the acquisition of Optimum Healthcare IT in May 2026, first announced on 25 March 2026.",
+   "angle": "Integration workstreams are cross-functional programmes that Airtable consolidates into one shared plan.",
+   "src": "Infosys press release, May 2026"
+  },
+  {
+   "date": "Apr 2026",
+   "title": "Stratus Global acquired",
+   "body": "Infosys acquired insurance technology partner Stratus Global LLC on 21 April 2026 for USD 74 million including earnouts.",
+   "angle": "Two integrations in two months multiply the trackers; Airtable unifies them.",
+   "src": "Infosys regulatory filing (SEC Form 6-K), Apr 2026"
+  }
+ ],
+ "final_h2": "Twenty minutes on integration and AI programmes"
+}

@@ -1,0 +1,41 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Skyro",
+ "slug": "skyro",
+ "eyebrow": "Airtable for Skyro",
+ "h1": "Taking the playbook to <span class=\"grad\">new markets</span>",
+ "lede": "Skyro is taking its Philippine digital lending playbook to Malaysia first, broadening into a multi-product financial ecosystem and scaling its merchant network responsibly. Airtable gives the teams behind each launch one connected way to run the work.",
+ "why_h2": "A second country, a new brand and a fast-growing network",
+ "why_p": "Market entry, merchant growth and a brand refresh all add cross-team work that has to be tracked consistently.",
+ "signals": [
+  {
+   "date": "Sep 2026",
+   "title": "Malaysian moneylender's licence secured",
+   "body": "Skyro's Malaysian entity obtained a moneylender's licence from the Ministry of Housing and Local Government.",
+   "angle": "A second country implies a repeatable launch checklist: one template, tracked per market.",
+   "src": "Manila Times, 29 Sep 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Merchant network grows more than fivefold",
+   "body": "Loan disbursements in the Philippines more than doubled in 2025 and the online merchant network grew more than fivefold, with products offered through 3,000+ merchants and about 10,000 retail locations.",
+   "angle": "Partner onboarding at this scale needs one connected tracker for merchants, locations and status.",
+   "src": "Manila Times, 28 May 2026"
+  },
+  {
+   "date": "Aug 2026",
+   "title": "Responsible digital lending at ASEAN Tech Summit",
+   "body": "Skyro presented on responsible digital lending at ASEAN Tech Summit Manila 2026.",
+   "angle": "Responsible lending commitments are easier to evidence when controls and actions are tracked in one place.",
+   "src": "Manila Times, 30 Aug 2026"
+  },
+  {
+   "date": "Sep 2026",
+   "title": "Refreshed identity as a multi-product ecosystem",
+   "body": "Skyro refreshed its visual identity as it repositions as an international multi-product financial ecosystem, with 7 million+ users and a credit portfolio above USD 200 million.",
+   "angle": "Brand and product rollouts span design, product and marketing: run them on one shared programme view.",
+   "src": "Pan African Visions, Sep 2026"
+  }
+ ]
+}

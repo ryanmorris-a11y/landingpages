@@ -1,0 +1,41 @@
+{
+ "name": "Foodstuffs",
+ "slug": "foodstuffs",
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "eyebrow": "Airtable for Foodstuffs",
+ "h1": "Big builds, close scrutiny, <span class=\"grad\">one shared picture</span>",
+ "lede": "Foodstuffs is building the Mangere chilled and frozen distribution centre and expanding in Palmerston North while its co-operative structure is under public scrutiny. Clean, shared data across supply chain, property and IT matters more than ever.",
+ "why_h2": "Why the next twelve months matter",
+ "why_p": "Two major supply chain projects are running in parallel, and the co-operative model is at the centre of election debate. Both reward a single, connected view of the work.",
+ "signals": [
+  {
+   "date": "Oct 2026",
+   "title": "Palmerston North expansion and a peer review",
+   "body": "A $340 million Palmerston North warehouse expansion was announced in late September. Foodstuffs also commissioned HoustonKemp to peer review the Government's supermarket break-up modelling.",
+   "angle": "Scope, owners and dependencies across supply chain, property and IT, tracked in one connected system.",
+   "src": "1News, 4 Oct 2026"
+  },
+  {
+   "date": "Oct 2026",
+   "title": "Co-operative structure in the spotlight",
+   "body": "Foodstuffs chief Chris Quin said the 530 store-owning families would be concerned by break-up proposals ahead of the 7 November 2026 general election.",
+   "angle": "Whatever happens next, structural questions depend on clean, shared data across retail and supply operations.",
+   "src": "1News, 4 Oct 2026"
+  },
+  {
+   "date": "Sep 2026",
+   "title": "Proposed separation of banners",
+   "body": "National said it would pursue separating New World and Four Square from Pak'nSave if re-elected, with a Commerce Commission test in its first 100 days. Foodstuffs said this would have significant implications for its co-operatives.",
+   "angle": "Scenario planning across banners and stores is easier with one source of truth for store, supply and project data.",
+   "src": "1News, 16 and 17 Sep 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "Mangere chilled and frozen DC takes shape",
+   "body": "The 24,821 square metre site will hold 27,656 pallets, with handover expected in Q4 2027 and operations from Q1 2028. It is designed for CO2 refrigeration, rooftop solar and future automated material handling.",
+   "angle": "Multi-year build programmes with many contractors and teams run better on one shared plan.",
+   "src": "Foodstuffs North Island news room, 16 Jul 2026"
+  }
+ ]
+}

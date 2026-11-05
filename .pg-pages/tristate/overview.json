@@ -1,0 +1,34 @@
+{
+ "name": "Tristate",
+ "slug": "tristate",
+ "eyebrow": "Airtable for Tristate",
+ "h1": "Keep brands, sourcing and reporting <span class=\"grad\">in step</span>",
+ "lede": "With its brand portfolio reset and a finance leadership transition under way, Airtable gives Tristate one connected place to run sourcing, merchandising and reporting work.",
+ "why_h2": "Portfolio and leadership changes in the same year",
+ "why_p": "Recent changes at Tristate touch brands, finance and half-year reporting at once, which is when connected operations data matters most.",
+ "signals": [
+  {
+   "date": "August 2026",
+   "title": "Interim results board meeting",
+   "body": "The board met on 25 August 2026 to approve interim results for the six months to 30 June 2026 and consider a dividend.",
+   "angle": "Half-year reporting across segments is easier when operations data is already connected.",
+   "src": "TipRanks, Aug 2026"
+  },
+  {
+   "date": "July 2026",
+   "title": "Finance and company secretary changes",
+   "body": "The CFO and company secretary resigned effective 29 July 2026 and a new company secretary was appointed.",
+   "angle": "A connected layer makes processes and handovers visible to new finance and governance leaders.",
+   "src": "TipRanks, Jul 2026"
+  },
+  {
+   "date": "December 2025",
+   "title": "Reebok Greater China licence ended early",
+   "body": "Tristate's Reebok licensing agreement in Greater China was terminated early, effective 31 December 2025.",
+   "angle": "Keep sourcing, merchandising and retail plans aligned as the brand portfolio changes.",
+   "src": "Simply Wall St company announcements, Dec 2025"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

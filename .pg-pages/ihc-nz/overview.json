@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "IHC New Zealand",
+ "slug": "ihc-nz",
+ "eyebrow": "Airtable for IHC New Zealand",
+ "h1": "Evidence, advocacy and services, <span class=\"grad\">connected</span>",
+ "lede": "IHC is turning data on people with intellectual disability into advocacy while disability support funding changes around the families it serves. Airtable gives your teams one connected place to run that work.",
+ "why_h2": "A year of change in disability support",
+ "why_p": "New Zealand's disability support system is being reshaped, and IHC is publishing the evidence that holds it to account. Both depend on clean, shared information.",
+ "signals": [
+  {
+   "date": "February 2026",
+   "title": "From Data to Dignity 2026",
+   "body": "IHC published its health and wellbeing indicators report for New Zealanders with intellectual disability. RNZ reported it found persistent inequity, including students with intellectual disability being nearly three times as likely to be suspended.",
+   "angle": "Keep the indicators, sources and advocacy actions behind each report in one tracked base, ready for the next edition.",
+   "src": "IHC New Zealand, 17 Feb 2026; RNZ, 16 Mar 2026"
+  },
+  {
+   "date": "April 2026",
+   "title": "Flexible funding purchasing rules removed",
+   "body": "From 1 April 2026 the purchasing rules for flexible disability funding no longer apply to new purchases, covering Carer Support, Individualised Funding and Enabling Good Lives personal budgets. Choice in Community Living remains under review.",
+   "angle": "Track policy changes, family enquiries and guidance updates together so staff answer questions from one current view.",
+   "src": "Disability Support Services, Apr 2026"
+  },
+  {
+   "date": "September 2025",
+   "title": "IHC welcomes disability support changes",
+   "body": "IHC welcomed the Government's announced changes to the disability support system, noting more choice and control for flexible funding users and that more detail was still to come on personal plans and purchasing rules.",
+   "angle": "Map each announced change to its effect on the people IHC supports, with owners and follow-ups in one place.",
+   "src": "Scoop, Sep 2025"
+  }
+ ]
+}

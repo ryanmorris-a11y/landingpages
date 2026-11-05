@@ -1,0 +1,34 @@
+{
+ "name": "Nikkei",
+ "slug": "nikkei",
+ "eyebrow": "Airtable for Nikkei",
+ "h1": "One operating layer for <span class=\"grad\">news, data and AI products</span>",
+ "lede": "Nikkei is launching enterprise AI products and expanding its index business alongside its core news operation. Airtable gives editorial, product and commercial teams one shared way to run launches.",
+ "why_h2": "New products across AI and indices",
+ "why_p": "Recent launches add new programmes to track across editorial, product and commercial teams, each with its own deadlines and partners.",
+ "signals": [
+  {
+   "date": "September 2026",
+   "title": "NIKKEI KAI MCP launched",
+   "body": "Nikkei launched NIKKEI KAI MCP, an enterprise AI offering.",
+   "angle": "Enterprise data products need a shared operating layer across editorial, product and commercial teams.",
+   "src": "Nikkei Inc. announcements, Sep 2026"
+  },
+  {
+   "date": "September 2026",
+   "title": "Nikkei 225 constituent changes",
+   "body": "Capcom, Kokusai Electric and JX Advanced Metals join the Nikkei 225 from 1 October 2026 while three names leave.",
+   "angle": "Index operations run on deadlines and approvals that suit a connected workflow, not inboxes.",
+   "src": "Bloomberg, Sep 2026"
+  },
+  {
+   "date": "June 2026",
+   "title": "New entertainment and content index",
+   "body": "Nikkei began calculating a 20-company entertainment and content index on 18 June 2026.",
+   "angle": "Keep launches, partners and content for each new product line in one view.",
+   "src": "Anime News Network, May 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

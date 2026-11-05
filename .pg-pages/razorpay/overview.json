@@ -1,0 +1,34 @@
+{
+ "name": "Razorpay",
+ "slug": "razorpay",
+ "eyebrow": "Airtable for Razorpay",
+ "h1": "Listing-ready and <span class=\"grad\">shipping fast</span>",
+ "lede": "Razorpay is preparing for its IPO while launching agentic banking and new global payment rails. Airtable keeps product, compliance and go-to-market teams working from one source of truth.",
+ "why_h2": "IPO readiness alongside a fast launch cadence",
+ "why_p": "Three moves since April 2026 that each span several teams and need auditable coordination.",
+ "signals": [
+  {
+   "date": "Jun 2026",
+   "title": "Draft prospectus pre-filed",
+   "body": "Razorpay pre-filed its draft prospectus on 12 June 2026 for an IPO expected to raise about US$600 million.",
+   "angle": "Listing readiness means auditable, cross-functional programmes. Airtable keeps owners, status and evidence in one place.",
+   "src": "PYMNTS, Jun 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "RazorpayX agentic connected banking",
+   "body": "RazorpayX launched what it calls India's first agentic connected banking experience, letting businesses initiate payouts through conversational AI.",
+   "angle": "Fast-moving product teams need a shared source of truth for roadmap, launch and GTM work.",
+   "src": "Razorpay newsroom, Jun 2026"
+  },
+  {
+   "date": "Apr 2026",
+   "title": "Google Pay cards and UPI in OpenAI Codex",
+   "body": "Razorpay became the first Indian payment aggregator to enable card payments through Google Pay for businesses worldwide and launched UPI inside OpenAI's Codex.",
+   "angle": "Partner launches span product, compliance and marketing. Airtable bridges them without re-keying.",
+   "src": "Razorpay newsroom, Apr 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

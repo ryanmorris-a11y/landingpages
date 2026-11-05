@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "BNZ",
+ "slug": "bnz",
+ "eyebrow": "Airtable for BNZ",
+ "h1": "When software ages faster, <span class=\"grad\">build tools that change faster</span>",
+ "lede": "BNZ has said AI is making its own software obsolete sooner. Airtable gives engineering, cyber and program teams configurable workflows beside the core platforms, without another large build.",
+ "why_h2": "Faster change, tighter capital, more programs in flight",
+ "why_p": "A software capitalisation reset, a one-off charge and new sustainability models all point to doing more with configurable, fast-to-change tooling.",
+ "signals": [
+  {
+   "date": "Apr 2026",
+   "title": "Software capitalisation policy reset",
+   "body": "BNZ shortened the useful life of capitalised software and raised the capitalisation threshold from $5M to $20M, reducing the balance by NZ$352M. It cited more frequent enhancements and faster obsolescence, including from increased AI adoption.",
+   "angle": "Configurable workflows around the core change as fast as the business does, without adding to the capitalised build list.",
+   "src": "NZX announcement, 20 Apr 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Half-year statutory profit down 37.9%",
+   "body": "Statutory net profit for the half to 31 March 2026 was $494M, down 37.9%, driven by the one-off software adjustment. Excluding it, profit was $747M.",
+   "angle": "Cost discipline favours tools teams can configure themselves over new custom builds.",
+   "src": "BNZ media release, 4 May 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "Native forest carbon removal model with Pamu",
+   "body": "BNZ became first leaseholder on a 600 ha northern Hawke's Bay property under a native forest carbon removal model with Pamu, about 1,100 tCO2e a year.",
+   "angle": "New sustainability programs need a clear record of sites, partners and outcomes from day one.",
+   "src": "BNZ news, 29 Jun 2026"
+  }
+ ]
+}

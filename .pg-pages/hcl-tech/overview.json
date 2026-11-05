@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "HCLTech",
+ "slug": "hcl-tech",
+ "eyebrow": "Airtable for HCLTech",
+ "h1": "AI-led growth needs <span class=\"grad\">connected delivery</span>",
+ "lede": "HCLTech is reorganising around industry verticals and moving toward outcome-based models as it builds out its AI business. Airtable connects the teams and programs behind that shift.",
+ "why_h2": "Why now for HCLTech",
+ "why_p": "A new vertical structure, record bookings and the push to decouple growth from headcount all raise the bar for how programs are coordinated.",
+ "signals": [
+  {
+   "date": "Sep 2026",
+   "title": "CEO on decoupling growth from headcount",
+   "body": "C Vijayakumar wrote that AI has broken the long link between staffing and revenue in IT services.",
+   "angle": "Productivity gains depend on connected workflows that let existing teams do more.",
+   "src": "Harvard Business Review, Sep/Oct 2026 issue"
+  },
+  {
+   "date": "Aug 2026",
+   "title": "Largest leadership reorganisation in three years",
+   "body": "HCLTech moved parts of its geography-led structure to sector-focused businesses to deepen industry expertise as AI reshapes demand.",
+   "angle": "Give newly formed verticals a shared way to run programs instead of each building its own tooling.",
+   "src": "Mint, 4 Aug 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "Record Q1 bookings and AI data centre plans",
+   "body": "HCLTech reported record Q1 net new bookings of $2.4bn, Advanced AI revenue up 62.1%, and plans to invest up to INR 3,500 crore in AI data centres.",
+   "angle": "Track large deal delivery and build-out programs in one connected system with clear accountability.",
+   "src": "HCLTech press release, 13 Jul 2026"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Eagers Automotive",
+ "slug": "eagers-automotive",
+ "eyebrow": "Airtable for Eagers Automotive",
+ "h1": "Next100 growth across <span class=\"grad\">two countries, one view</span>",
+ "lede": "Eagers is scaling through CanadaOne, its Mitsubishi Corporation alliance and easyauto123. Airtable gives the teams integrating that growth one connected view of the work.",
+ "why_h2": "Why now for Eagers Automotive",
+ "why_p": "Record results, a first offshore market and new partners mean more programs to coordinate across a larger dealer network.",
+ "signals": [
+  {
+   "date": "Aug 2026",
+   "title": "Record half-year revenue",
+   "body": "Eagers reported record 1H26 revenue of $8.05bn, up 24%, including the first two months of CanadaOne Auto results.",
+   "angle": "Bring Australian, New Zealand and Canadian reporting and initiatives into one shared operating view.",
+   "src": "Eagers Automotive ASX announcement, 27 Aug 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Mitsubishi Corporation alliance at the AGM",
+   "body": "The AGM outlined the strategic alliance with Mitsubishi Corporation, which invested in both Eagers and a 20% stake in easyauto123.",
+   "angle": "Coordinate joint workstreams with a strategic partner in one place with clear owners and timelines.",
+   "src": "Eagers Automotive AGM, 27 May 2026"
+  },
+  {
+   "date": "Apr 2026",
+   "title": "CanadaOne Auto partnership completed",
+   "body": "Eagers completed its 65% investment in CanadaOne Auto on 30 April 2026, its first expansion outside Australia and New Zealand.",
+   "angle": "Track cross-border integration, franchise compliance and milestones without spreadsheets passed between teams.",
+   "src": "Eagers Automotive ASX announcement, Apr 2026"
+  }
+ ]
+}

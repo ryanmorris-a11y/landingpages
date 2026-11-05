@@ -1,0 +1,41 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Minor Hotels",
+ "slug": "minor-hotels",
+ "eyebrow": "Airtable for Minor Hotels",
+ "h1": "New markets, long runways, <span class=\"grad\">one development tracker</span>",
+ "lede": "Minor Hotels is growing asset-right through management agreements and franchises in Australia, India, the United States and Vietnam. Airtable connects the owners, pre-opening timelines and brand standards behind every signing.",
+ "why_h2": "A signing pipeline across four new frontiers",
+ "why_p": "Each new agreement starts years of pre-opening work shared between owners, design, operations and brand teams.",
+ "signals": [
+  {
+   "date": "February 2026",
+   "title": "Anantara Perth signed",
+   "body": "A 150-key Anantara hotel will anchor the AUD 3.8 billion Burswood Point development, opening in 2032, adding to a 60-plus property Oaks and Avani portfolio in Australia.",
+   "angle": "Hold a decade-long pre-opening timeline in one shared view across owners, design and brand standards.",
+   "src": "Hotel Online, 26 Feb 2026"
+  },
+  {
+   "date": "April 2026",
+   "title": "First Anantara properties in India",
+   "body": "Minor signed Anantara Zanti Coorg for 2028 and Anantara Kolkata for 2032, with a target of 50 properties in India within the decade.",
+   "angle": "Repeatable development trackers per market make the next fifty signings faster to run.",
+   "src": "Minor Hotels newsroom via Hotel Online, 8 Apr 2026"
+  },
+  {
+   "date": "April 2026",
+   "title": "Anantara's first US property",
+   "body": "Anantara Miami Resort and Residences was announced as the brand's first property in the United States.",
+   "angle": "Coordinate residences, resort and brand workstreams for a market entry in one place.",
+   "src": "Hotel Online, 27 Apr 2026"
+  },
+  {
+   "date": "September 2026",
+   "title": "Avani+ Hanoi signed",
+   "body": "A 310-key Avani+ in the Hinode City precinct was signed under a management agreement, opening in 2028.",
+   "angle": "Give owner KPIs and pre-opening budgets one system of record from signing to opening.",
+   "src": "Hotel Online, 21 Sep 2026"
+  }
+ ]
+}

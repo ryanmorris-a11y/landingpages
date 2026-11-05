@@ -1,0 +1,41 @@
+{
+ "name": "Techtronic Industries",
+ "slug": "techtronic",
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "eyebrow": "Airtable for Techtronic Industries",
+ "h1": "Record results, <span class=\"grad\">sharper execution</span>",
+ "lede": "TTI is expanding in EMEA, Latin America and Asia while running cost programmes at RYOBI, Hoover and Vax and adapting its manufacturing footprint to tariffs. A connected layer gives every initiative one shared view.",
+ "why_h2": "Growth and discipline at the same time",
+ "why_p": "Record first-half results, a higher free cash flow target and multi-brand cost programmes all depend on initiatives being tracked consistently across regions and brands.",
+ "signals": [
+  {
+   "date": "Aug 2026",
+   "title": "Record H1 2026",
+   "body": "Revenue rose 5.9 percent to US$8.3 billion and net profit rose 17.5 percent to US$738 million, with an EBIT margin of 9.9 percent and a 20 percent higher interim dividend.",
+   "angle": "Regional expansion initiatives tracked against group targets in one place.",
+   "src": "TTI Group press release, Aug 2026"
+  },
+  {
+   "date": "Aug 2026",
+   "title": "Free cash flow target lifted",
+   "body": "TTI lifted its 2026 free cash flow target to about US$1.3 billion. The Milwaukee-anchored Professional segment reached US$5.9 billion in H1 sales, and cost reduction programmes continue at RYOBI, Hoover and Vax.",
+   "angle": "Initiative status, savings tracking and approvals consolidated across brands and sites for group reporting.",
+   "src": "Investing.com, Aug 2026"
+  },
+  {
+   "date": "Mar 2026",
+   "title": "Board updated",
+   "body": "The board composition was updated from 9 March 2026, with Horst Julius Pudwill as executive chairman, Stephan Horst Pudwill as executive vice chairman and Steven Philip Richman as CEO.",
+   "angle": "Standardised executive reporting cadences and operating reviews across the group.",
+   "src": "TipRanks, Mar 2026"
+  },
+  {
+   "date": "Mar 2026",
+   "title": "Record 2025 despite tariffs",
+   "body": "2025 sales reached a record US$15.3 billion, up 4.4 percent, with Milwaukee up 7.9 percent and RYOBI up 5.4 percent in local currency. Management cites eight years of diversifying its manufacturing footprint.",
+   "angle": "Supplier, SKU and landed-cost changes across factories and brands managed in one connected system.",
+   "src": "TTI Group press release, Mar 2026"
+  }
+ ]
+}

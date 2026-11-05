@@ -1,0 +1,34 @@
+{
+ "name": "Quest Global",
+ "slug": "quest-global",
+ "eyebrow": "Airtable for Quest Global",
+ "h1": "One connected view of <span class=\"grad\">every engineering programme</span>",
+ "lede": "As Quest Global folds BITSILICA into its semiconductor portfolio and takes on multi-year client frameworks, Airtable gives delivery, leadership and the board one shared picture of the work.",
+ "why_h2": "Growth, governance and integration are all moving at once",
+ "why_p": "Three recent moves raise the bar for how Quest Global coordinates programmes across clients, delivery centres and its newly strengthened board.",
+ "signals": [
+  {
+   "date": "April 2026",
+   "title": "BITSILICA acquisition strengthens semiconductors",
+   "body": "Quest Global acquired BITSILICA, an India-based semiconductor design services company, to build out its semiconductor portfolio.",
+   "angle": "Track integration workstreams, people, clients and milestones in one place instead of scattered trackers.",
+   "src": "Quest Global press release, 7 Apr 2026"
+  },
+  {
+   "date": "August 2026",
+   "title": "Four independent directors join the board",
+   "body": "Quest Global appointed four independent directors to its Board, a significant step in its governance build-out.",
+   "angle": "Give leadership connected, live operational reporting rather than decks rebuilt for every board cycle.",
+   "src": "Quest Global press release, 6 Aug 2026"
+  },
+  {
+   "date": "August 2026",
+   "title": "Five-year engineering framework with Babcock",
+   "body": "Quest Global entered a five-year Group Engineering Services Framework with Babcock, alongside an investment in Lavni Ventures Fund II.",
+   "angle": "Run framework call-offs, resourcing and delivery status for long-term clients from one shared system.",
+   "src": "Quest Global and Tracxn, Aug 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

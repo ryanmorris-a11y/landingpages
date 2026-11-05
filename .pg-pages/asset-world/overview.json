@@ -1,0 +1,34 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Asset World Corp",
+ "slug": "asset-world",
+ "eyebrow": "Airtable for Asset World Corp",
+ "h1": "From riverside master plans to a REIT, <span class=\"grad\">one connected platform</span>",
+ "lede": "AWC is building as an integrated real estate platform: developing landmark riverside and hospitality projects, then moving stabilised assets into the new AWR REIT. Airtable connects the work in between.",
+ "why_h2": "Development and capital moves running in parallel",
+ "why_p": "A multi-partner master plan, a new luxury hotel and a THB 50 billion REIT all need asset data and project status to move cleanly between teams.",
+ "signals": [
+  {
+   "date": "July 2026",
+   "title": "8 billion baht Asiatique master plan",
+   "body": "AWC announced a master plan for Asiatique including a mixed-use development across the Chao Phraya, the MONA Bangkok art museum with Australia's MONA, and a cross-river cable car.",
+   "angle": "Give every partner, milestone and approval in a multi-party programme one shared tracker.",
+   "src": "AWC newsroom and Nation Thailand, 11 Jul 2026"
+  },
+  {
+   "date": "August 2026",
+   "title": "New Plaza Athenee on the Chao Phraya",
+   "body": "AWC committed 2.9 billion baht to a new Plaza Athenee hotel on the river.",
+   "angle": "Run pre-opening and development workflows as repeatable templates across the portfolio.",
+   "src": "Nation Thailand, 12 Aug 2026"
+  },
+  {
+   "date": "August 2026",
+   "title": "AWR REIT of up to THB 50 billion",
+   "body": "AWC unveiled a freehold REIT of up to THB 50 billion, to be listed within 2026 and seeded with about five of its 61 projects. Q2 2026 revenue was 5,502 million baht, up 5.6 percent.",
+   "angle": "Keep asset data, valuations and adviser reporting connected as assets move from AWC into AWR.",
+   "src": "Nation Thailand, 14 Aug 2026"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "name": "Suntory",
+ "slug": "suntory",
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "eyebrow": "Airtable for Suntory",
+ "h1": "New structures, new leaders, <span class=\"grad\">one connected way of working</span>",
+ "lede": "Suntory created a President's Office and Sales Management Department in January 2026, alongside leadership changes at Suntory Beverage and Food and Suntory Global Spirits. New units are the best time to avoid inheriting spreadsheet sprawl.",
+ "why_h2": "A year of reorganisation",
+ "why_p": "New coordinating units and new leaders across the group mean plans, metrics and ownership are being re-baselined now.",
+ "signals": [
+  {
+   "date": "Dec 2025",
+   "title": "President's Office and Sales Management Department",
+   "body": "A reorganisation effective 1 January 2026 created a President's Office and a Sales Management Department, bringing Off-Premise Sales Management, Business Planning and Nationwide Wholesale Account Sales under it.",
+   "angle": "Coordinating units starting from a blank operating model can begin on a connected work layer.",
+   "src": "Suntory Group notification, 11 Dec 2025"
+  },
+  {
+   "date": "Jan 2026",
+   "title": "CEO transition at Suntory Beverage and Food",
+   "body": "Josuke Kimura was appointed director and executive vice president of Suntory Holdings from 1 January 2026, to become President and CEO of Suntory Beverage and Food by late March 2026, succeeding Makiko Ono.",
+   "angle": "Leadership transitions are when teams re-baseline plans, metrics and ownership.",
+   "src": "FoodBev and just-drinks, Jan 2026"
+  },
+  {
+   "date": "Apr 2026",
+   "title": "International leadership at Suntory Global Spirits",
+   "body": "Carol Robert was appointed President, International, at Suntory Global Spirits, effective 1 April 2026.",
+   "angle": "Global brand and market plans align faster when every region works from the same shared view.",
+   "src": "Suntory Global Spirits, Apr 2026"
+  }
+ ]
+}

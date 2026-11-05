@@ -1,0 +1,41 @@
+{
+ "name": "TechnoPro Holdings",
+ "slug": "technopro",
+ "eyebrow": "Airtable for TechnoPro",
+ "h1": "Run the AI transformation on <span class=\"grad\">one connected layer</span>",
+ "lede": "TechnoPro is training 10,000 AI implementation engineers and investing in AI-driven development and Delivery DX. Airtable gives the transformation office one view of skills, programmes and integrations across the Group.",
+ "why_h2": "A new owner, a new AI mandate and an active M&A plan",
+ "why_p": "Since privatisation, TechnoPro has set out an AI-first strategy with dedicated leadership, significant investment and acquisitions to integrate.",
+ "signals": [
+  {
+   "date": "July 2026",
+   "title": "Group adopts Claude Enterprise",
+   "body": "TechnoPro named its Claude Enterprise rollout the first major initiative since privatisation, part of a JPY 10bn-plus AI and DX investment covering 30,000-plus engineers.",
+   "angle": "Track engineer skills, training progress and assignments across the Group as the rollout scales.",
+   "src": "TechnoPro Holdings, Jul 2026"
+  },
+  {
+   "date": "March 2026",
+   "title": "AI implementation strategy and M&A plan",
+   "body": "Blackstone outlined a plan to relist TechnoPro as an AI implementation engineering company, with JPY 10bn for AI infrastructure and about JPY 100bn for M&A.",
+   "angle": "Coordinate post-merger integration workstreams across acquired consulting, AI and SI firms in one system.",
+   "src": "ION Analytics (Mergermarket), Mar 2026"
+  },
+  {
+   "date": "January 2026",
+   "title": "Head of AI and CTrO appointed",
+   "body": "Kotatsu Saito became Executive Officer and Head of AI and Yoichi Ouchi Executive Officer and CTrO, effective 1 January 2026.",
+   "angle": "Give the AI and transformation offices one view of programme status across business units.",
+   "src": "TechnoPro Holdings, Jan 2026"
+  },
+  {
+   "date": "December 2025",
+   "title": "Delisted following Blackstone tender offer",
+   "body": "TechnoPro shares were delisted from the Tokyo Stock Exchange on 9 December 2025 after Blackstone's tender offer and share consolidation.",
+   "angle": "Build the operational visibility a future relisting will demand, starting now.",
+   "src": "TechnoPro Holdings and Japan Exchange Group, Dec 2025"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

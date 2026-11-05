@@ -1,0 +1,41 @@
+{
+ "name": "PRAN Group",
+ "slug": "pran",
+ "eyebrow": "Airtable for PRAN Group",
+ "h1": "New factories, new sectors, <span class=\"grad\">one view of the work</span>",
+ "lede": "PRAN-RFL is reviving mills, building solar capacity and expanding export footwear and luggage. Airtable gives operations, procurement and project teams one connected place to run that growth.",
+ "why_h2": "Diversification at a fast pace",
+ "why_p": "Four expansion moves in 2026, each adding sites, suppliers and projects to coordinate.",
+ "signals": [
+  {
+   "date": "Sep 2026",
+   "title": "Solar equipment and 100 per cent solar by FY28",
+   "body": "PRAN-RFL began work on a solar inverter plant at Palash, plans a second facility in Habiganj and aims to lift its own solar generation from 40MW to 100MW by end-2026.",
+   "angle": "Multi-site build programmes need one tracker for milestones, suppliers and approvals.",
+   "src": "The Business Standard, Sep 2026"
+  },
+  {
+   "date": "Aug 2026",
+   "title": "Two state jute mills taken over",
+   "body": "PRAN-RFL signed leases with Bangladesh Jute Mills Corporation for National Jute Mills in Sirajganj and Star Jute Mills in Khulna.",
+   "angle": "Bringing idle sites back online is a repeatable playbook that Airtable can turn into a shared template.",
+   "src": "The Business Standard, Aug 2026"
+  },
+  {
+   "date": "Jun 2026",
+   "title": "Mango season with 12,000 contract farmers",
+   "body": "PRAN opened its mango collection season in Rajshahi, targeting 60,000 tonnes from 12,000 contract farmers across ten districts.",
+   "angle": "Seasonal supplier management across districts and pulping sites fits a connected supplier and intake base.",
+   "src": "The Financial Express, Jun 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Export footwear and luggage scale-up",
+   "body": "PRAN-RFL revived three idle Rajshahi factories for export footwear, luggage, tents and umbrellas, targeting 1.5 crore pairs a month within three years.",
+   "angle": "Order, capacity and procurement visibility across sites helps teams act on supply delays early.",
+   "src": "The Business Standard, May 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}

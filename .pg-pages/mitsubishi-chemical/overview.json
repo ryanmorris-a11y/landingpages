@@ -1,0 +1,41 @@
+{
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "name": "Mitsubishi Chemical Group",
+ "slug": "mitsubishi-chemical",
+ "eyebrow": "Airtable for Mitsubishi Chemical Group",
+ "h1": "Becoming a Green Specialty Company, <span class=\"grad\">with one view of the work</span>",
+ "lede": "Mitsubishi Chemical Group is restructuring petrochemicals, considering a basic chemicals spin-off and reinventing operations with AI through its Accenture joint venture. Airtable gives transformation teams one connected view of every workstream.",
+ "why_h2": "Restructuring, carve-outs and AI reinvention at once",
+ "why_p": "Each of these programs generates cross-functional tasks, owners and milestones that need to be coordinated across the group.",
+ "signals": [
+  {
+   "date": "Aug 2026",
+   "title": "Green Specialty Company transformation",
+   "body": "CEO Manabu Chikumoto described the transformation into a Green Specialty Company, with accelerated petrochemicals restructuring and five specialty growth areas.",
+   "angle": "Transformation offices need one view of every workstream, owner and milestone.",
+   "src": "ICIS, Aug 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Basic chemicals spin-off under consideration",
+   "body": "The group began considering a spin-off of its basic chemicals business into a wholly owned subsidiary, with separation within FY2027.",
+   "angle": "Carve-outs generate hundreds of cross-functional tasks that belong in one connected tracker.",
+   "src": "C&EN, May 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Joint venture with Accenture",
+   "body": "Mitsubishi Chemical and Accenture established a joint venture to drive AI-enabled business reinvention and operational transformation.",
+   "angle": "AI operating programs need a connected system of record for the work itself.",
+   "src": "Mitsubishi Chemical Group news release, May 2026"
+  },
+  {
+   "date": "Mar 2026",
+   "title": "Green chemicals department reports to the President",
+   "body": "A new department reporting directly to the President was established to speed the commercialisation of green chemicals.",
+   "angle": "New departments can start on a connected layer instead of inheriting spreadsheets.",
+   "src": "Mitsubishi Chemical news release, Mar 2026"
+  }
+ ]
+}

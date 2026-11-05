@@ -1,0 +1,41 @@
+{
+ "name": "Wipro",
+ "slug": "wipro",
+ "eyebrow": "Airtable for Wipro",
+ "h1": "Turning AI-native ambition into <span class=\"grad\">connected delivery</span>",
+ "lede": "Wipro has stood up an AI-Native Business and Platforms Unit and is working to convert a large-deal pipeline. Airtable gives delivery, sales and platform teams one shared way to run that work.",
+ "why_h2": "An AI-first pivot with deals to land",
+ "why_p": "2026 has brought a new AI-native unit, steady results and a sharp swing in large-deal bookings.",
+ "signals": [
+  {
+   "date": "Oct 2026",
+   "title": "Large-deal bookings drop in Q2 FY27",
+   "body": "Large-deal bookings fell 58.6 per cent sequentially to US$674 million, with two major contracts not signed before quarter end and expected in Q3.",
+   "angle": "When conversion timing matters, one view of every pursuit, owner and approval step helps deals close on schedule.",
+   "src": "Kotak Neo, Oct 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "Q1 FY27: 13 large deals worth US$1.6 billion",
+   "body": "Wipro reported large-deal bookings of US$1.6 billion in Q1 FY27, up 12.9 per cent quarter on quarter, across 13 large deals.",
+   "angle": "Each large deal becomes a transition programme. Airtable keeps onboarding, staffing and client milestones in one connected tracker.",
+   "src": "Wipro press release, 16 Jul 2026"
+  },
+  {
+   "date": "Apr 2026",
+   "title": "AI-Native Business and Platforms Unit",
+   "body": "Wipro formed a unit to own and scale assets from the Wipro Intelligence suite, including the WINGS and WEGA delivery platforms, and to incubate AI-led businesses.",
+   "angle": "Platform portfolios need a shared record of assets, roadmaps and client deployments that sales and delivery can both use.",
+   "src": "Wipro press release, 1 Apr 2026"
+  },
+  {
+   "date": "Apr 2026",
+   "title": "FY26 results and a ₹150 billion buyback",
+   "body": "Wipro reported FY26 net profit of ₹13,265.5 crore, up 0.4 per cent, and announced a ₹150 billion share buyback.",
+   "angle": "Flat-growth years reward operational efficiency. Consolidating internal trackers onto one layer removes manual reporting effort.",
+   "src": "Wipro press release, Apr 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026"
+}
