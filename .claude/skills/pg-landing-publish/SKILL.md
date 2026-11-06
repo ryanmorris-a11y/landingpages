@@ -15,7 +15,7 @@ First run: 2026-11-06, 51 pages built and 53 profiles set Live (commit `2dbf535`
 - Read: Domain `fld1ByBfPHJULh1Bp`, FromAccounts `fld2YIBMI3kFldGNl`, Country `fldYHWPRe1DTbz1QD`, Industry `fldVDtWQDQtVWbdCd`, Recent News `fld0bgIz02V5pc2ws`, Strategic Priorities `fldHBlSNFtQH0Bguh`, Named Initiatives `fldtPXCVSYNBC3ePY`, Personalisation Hooks `fld19IhUoiZLiUOkh`, Last Enriched `fldA8Hnvllz1NoELu`.
 - Write: Landing Page URL `fldBvqkhFgqXfRWmw`, Landing Page Status `fldYWtY0ECsKUZUOx`.
 - Status choices: Not Built `selor7BcMs4nFZhV7`, Building `selm017iqMebM4lGx`, Live `selG8xD5dzlYoAvWc`, Needs Refresh `selCJKr2F0PgyZVh7`, Error `selkylBY5HYvUq5bf`, Live & Enhanced `selEjEWCKnRgyTqIV`, Build Complete - Deploy Blocked `selPcHEcojsBEKwPL`.
-- Optional field `Landing Page Views` (multi-select, choices = the view labels below). If it exists, it lists the extra views Ryan wants for that account. If it does not exist, extra views are added only when Ryan asks in chat.
+- `Landing Page Views` `fldJJ5FY38pj0n9wF` (multi-select, created 2026-11-06): the extra views Ryan wants for that account. Choices: Executive `sel3PdhfR5P3OUr4O`, Technology `selsghiXvGTPYMU4g`, Operations `selWOtJC1bSkoJLmK`, Finance `selMxsWhxUjaG4t2N`, Marketing `sel6Hg7s9NcizM2qh`, Customer `sel6cQZj8mNEaUt8C`, People `sellcEILmeCpW2UkL`. The Overview is always built and is not a choice. Ryan can also ask for a view in chat.
 - Public URL: `https://ryanmorris-a11y.github.io/landingpages/<slug>/` (overview), `.../<slug>/<view>/` (each extra view).
 
 ## Repository layout
@@ -62,7 +62,7 @@ Removing a view: only when Ryan asks. Delete `.pg-pages/<slug>/<key>.json` and `
 
 Compute today with `TZ=Australia/Sydney date +%F`. Work from the repo root on an up-to-date `main` (`git fetch origin main && git checkout -B pg-publish origin/main`).
 
-**1. Sweep.** List Account Profiles where Landing Page Status is Building, Build Complete - Deploy Blocked, Error or Needs Refresh. Also include any profile whose `Landing Page Views` asks for a view that has no `.pg-pages/<slug>/<key>.json` yet. On demand, the named accounts replace the sweep. Not Built is out of scope (pg-sourcing turns it into Building in the activation window).
+**1. Sweep.** List Account Profiles where Landing Page Status is Building, Build Complete - Deploy Blocked, Error or Needs Refresh. Also list profiles where `Landing Page Views` is not empty, and include each one that asks for a view with no `.pg-pages/<slug>/<key>.json` yet (view key = the choice name in lower case). A view that is unticked is not removed automatically; list it in the report for Ryan. On demand, the named accounts replace the sweep. Not Built is out of scope (pg-sourcing turns it into Building in the activation window).
 
 **2. Slug guard (per account).**
    - If the profile already has a Landing Page URL whose folder exists in the repo, keep that slug.
