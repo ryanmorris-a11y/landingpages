@@ -1,0 +1,42 @@
+{
+ "name": "Ace Radio",
+ "slug": "ace-radio",
+ "eyebrow": "Airtable x Ace Radio",
+ "h1": "One connected view across <span class=\"grad\">21 stations and Create</span>",
+ "lede": "Keep sales, programming and digital delivery in one shared system.",
+ "why_h2": "Why now",
+ "why_p": "A family-owned group spanning metro and regional markets, with a digital agency, a newspaper and programmatic audio, runs many parallel workflows that rarely share one view.",
+ "signals": [
+  {
+   "date": "Nov 2026",
+   "title": "21 stations across 12 markets",
+   "body": "Ace Radio's site describes 21 stations over twelve population centres across Melbourne, Sydney, Brisbane, regional Victoria and Southern NSW, plus The Weekly Advertiser and the Create digital agency.",
+   "angle": "Coordinating campaigns, bookings and programming across 12 markets is a natural fit for one shared base.",
+   "src": "Ace Radio website, accessed 16 Nov 2026"
+  },
+  {
+   "date": "Jan 2025",
+   "title": "New Chief Commercial Officer",
+   "body": "Jim Glennon was named Chief Commercial Officer from 1 February 2025, leading commercial strategy across metro, regional and digital platforms.",
+   "angle": "Aligning commercial strategy across platforms needs one view of pipeline, bookings and delivery.",
+   "src": "NewMedia, 9 Jan 2025"
+  },
+  {
+   "date": "Jan 2023",
+   "title": "Hit Network programming supply",
+   "body": "From 16 January 2023 Ace supplies Southern Cross Austereo Hit Network programs.",
+   "angle": "Content-supply commitments need clear scheduling and ownership across partners.",
+   "src": "Wikipedia, 16 Jan 2023"
+  },
+  {
+   "date": "Jan 2022",
+   "title": "Metro expansion in Melbourne, Sydney and Brisbane",
+   "body": "Magic 1278, 2UE and 4BH came under Ace control in 2022, with the lease takeover dated 14 January 2022.",
+   "angle": "Rapid growth means workflows built for regional stations need to scale to metro operations.",
+   "src": "Wikipedia, 14 Jan 2022"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "team": "Airtable ANZ"
+}

@@ -1,0 +1,35 @@
+{
+ "name": "Atlassian",
+ "slug": "atlassian",
+ "eyebrow": "Airtable x Atlassian",
+ "h1": "One connected layer for the work <span class=\"grad\">around the work</span>",
+ "lede": "As growth guidance resets for FY27, a connected system for planning and operations keeps programs on track.",
+ "why_h2": "Why now for Atlassian",
+ "why_p": "Recent public signals point to a company scaling AI-driven work while managing a more measured growth outlook.",
+ "signals": [
+  {
+   "date": "Nov 2026",
+   "title": "FY27 Q1 beat, but growth guidance slows",
+   "body": "Revenue of $1.772B, up 24%, with cloud revenue up 31%. Subscription ARR growth is guided to slow from 22.5% to about 18.5% by year-end.",
+   "angle": "A tighter growth outlook raises the value of one source of truth for planning, forecasting and cross-team programs.",
+   "src": "SiliconANGLE, 5 Nov 2026"
+  },
+  {
+   "date": "May 2026",
+   "title": "Teamwork Graph opened up for agentic work",
+   "body": "Atlassian says its Teamwork Graph has over 150 billion connections and Rovo is used by over 75% of the Fortune 500.",
+   "angle": "As agents multiply, teams need structured, connected data that people and agents can both work from.",
+   "src": "Nasdaq / Business Wire, 6 May 2026"
+  },
+  {
+   "date": "Aug 2025",
+   "title": "Leadership transition and cost discipline",
+   "body": "President Anu Bharadwaj left at the end of 2025 after 12 years, and about 150 roles were cut around the FY25 results.",
+   "angle": "Leadership and structure changes put a premium on shared, easy-to-maintain operating workflows.",
+   "src": "The Nightly, 8 Aug 2025"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "team": "Airtable ANZ"
+}

@@ -1,0 +1,42 @@
+{
+ "name": "The Browser Company",
+ "slug": "the-browser-company",
+ "eyebrow": "Airtable x The Browser Company",
+ "h1": "One connected layer for the team building <span class=\"grad\">Dia</span>",
+ "lede": "As Dia scales inside Atlassian, keep every workstream in one place.",
+ "why_h2": "Why now",
+ "why_p": "Dia is the focus after Arc moved to maintenance, and the company is now part of Atlassian. Fast product teams need shared visibility across launches, research and go-to-market.",
+ "signals": [
+  {
+   "date": "Jul 2026",
+   "title": "Dia heads to Windows",
+   "body": "The company announced Dia will reach Windows this fall, with a beta waitlist open and no exact release date yet.",
+   "angle": "A second platform multiplies release, support and partner workflows that need one source of truth.",
+   "src": "Digital Trends, 29 Jul 2026"
+  },
+  {
+   "date": "Oct 2025",
+   "title": "Dia launches publicly on Mac",
+   "body": "The AI browser moved from limited access to a public Mac launch, putting real user volume behind the roadmap.",
+   "angle": "Public launch turns feedback, bugs and feature requests into a stream that needs a shared triage view.",
+   "src": "MacRumors, 9 Oct 2025"
+  },
+  {
+   "date": "Sep 2025",
+   "title": "Acquired by Atlassian",
+   "body": "Atlassian agreed to acquire The Browser Company for $610 million in cash, as reported by CNBC and summarised on Wikipedia.",
+   "angle": "Post-acquisition teams juggle two sets of tools; a flexible layer can connect them without a big migration.",
+   "src": "CNBC via Wikipedia, 4 Sep 2025"
+  },
+  {
+   "date": "May 2025",
+   "title": "Focus moves from Arc to Dia",
+   "body": "The company stopped active Arc development to concentrate on Dia.",
+   "angle": "A single plan for the Dia roadmap, launches and feedback keeps a smaller team aligned.",
+   "src": "Wikipedia, 27 May 2025"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "team": "Airtable ANZ"
+}

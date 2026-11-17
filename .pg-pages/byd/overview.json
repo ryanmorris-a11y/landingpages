@@ -1,0 +1,35 @@
+{
+ "name": "BYD",
+ "slug": "byd",
+ "eyebrow": "Airtable x BYD Australia",
+ "h1": "Run a fast-growing network from <span class=\"grad\">one connected layer</span>",
+ "lede": "With dealer and service capacity scaling quickly, operations need one shared view across sales, service and parts.",
+ "why_h2": "Why now for BYD in Australia",
+ "why_p": "Public reporting shows rapid volume growth and a dealer network that is still being built out.",
+ "signals": [
+  {
+   "date": "Sep 2026",
+   "title": "Dealer network heading to about 200 sites",
+   "body": "Around 120 sales and service sites today, with about 30 more planned by end of 2026 and about 50 in early 2027. Service booking waits are around seven days against a four to five day target.",
+   "angle": "Hitting service-wait targets across a growing network takes shared scheduling, parts and capacity visibility.",
+   "src": "NRMA Open Road, 27 Sep 2026"
+  },
+  {
+   "date": "Jul 2026",
+   "title": "Record June deliveries, nearly level with Toyota",
+   "body": "BYD delivered a record 18,881 vehicles in June, 243 behind Toyota, with the range grown from one model to 12 and almost 140,000 sold in four years.",
+   "angle": "Volume at this pace needs connected launch, dealer and customer-experience workflows rather than spreadsheets.",
+   "src": "CarExpert, 28 Jul 2026"
+  },
+  {
+   "date": "Jan 2026",
+   "title": "2025 deliveries up 156% to 52,415",
+   "body": "BYD recorded 52,415 deliveries in 2025, up from 20,458 in 2024, and expects to exceed 150 dealers in 2026.",
+   "angle": "Hypergrowth multiplies handoffs between marketing, sales, service and finance teams.",
+   "src": "Fleet Auto News, 24 Jan 2026"
+  }
+ ],
+ "owner": "Ryan Morris",
+ "prepared": "November 2026",
+ "team": "Airtable ANZ"
+}
