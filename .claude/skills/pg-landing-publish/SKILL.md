@@ -100,6 +100,15 @@ Compute today with `TZ=Australia/Sydney date +%F`. Work from the repo root on an
    - In chat, one line per account: slug, built or skipped, views, signals from profile vs researched, URL, flags such as stale or weak sources or wrong profile data.
    - In scheduled mode, also post a short summary to Slack `C0B2ZBNSZ96`: published n, errors n, views added, accounts needing Ryan.
 
+## Enhance stage (v2, 2026-11-17)
+
+Runs after steps 1 to 8 for pages that are Live, in the same session. It composes the installed `account-brand-kit` and `pg-landing-enhancer` skills; load them with the Skill tool and follow them rather than copying their steps. Each part has an environment gate, and a part whose gate fails is skipped and reported, never faked.
+
+1. **Brand kit.** Run `account-brand-kit` (`brand_kit.py`) on the confirmed domain. Gate: the session must reach the customer domain. In the cloud sandbox it does not (every homepage returned `homepage-unreachable` on 2026-11-17), so run it from a session with open network or on Ryan's machine. WebFetch is not a substitute, because it returns page text without the head metadata or CSS. Save the output as `.pg-pages/<slug>/brandkit.json` and set `brandkit` to that path in each view source. If `gaps` contains `palette-fallback`, keep the locked navy and coral identity.
+2. **Extra views.** Build one view per choice in `Landing Page Views` (or as Ryan asks in chat), using the Multiple views rules above. Never build a view nobody asked for.
+3. **Video.** Follow `pg-landing-enhancer` steps 4 to 8 and 10 (cards, Kore voice-over, verified instrumental bed, assembly, `upload_binary.py` into `<slug>/`). Gate: the session needs GenerateAudio, GenerateVideo, TranscribeAudio, ffmpeg and the Inter font. A cloud session without those tools stops at Live.
+4. **Status.** Set `Live & Enhanced` only when a non-fallback brand kit AND a video are both published for the account. Views alone do not change the status. Re-publish the pages in one commit and re-run `check_deploy.sh`.
+
 ## Rules
 
 1. Push only to `main` of `ryanmorris-a11y/landingpages` (plus the session's own working branch), one commit per run. Never force-push `main`.
